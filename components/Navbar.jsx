@@ -56,7 +56,7 @@ const Navbar = () => {
         <Image 
           src={NavLogo} 
           alt="/" 
-          width="75" 
+          width="125" 
           height="50" 
         />
         </Link>
@@ -97,8 +97,8 @@ const Navbar = () => {
             <div className='flex w-full items-center justify-between' >
               <Link href='/' >
                 <Image 
-                  src='/../public/assets/navLogo.png' 
-                  width='37' 
+                  src={NavLogo} 
+                  width='87' 
                   height='35' 
                   alt='/' 
                   onClick={()=> setNav(false)}
