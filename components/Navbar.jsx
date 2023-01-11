@@ -56,9 +56,8 @@ const Navbar = () => {
         <Image 
           src={NavLogo} 
           alt="/" 
-          width="125" 
+          width="75" 
           height="50" 
-          className='cursor-pointer'
         />
         </Link>
         <div>
@@ -99,7 +98,7 @@ const Navbar = () => {
               <Link href='/' >
                 <Image 
                   src={NavLogo} 
-                  width='87' 
+                  width='37' 
                   height='35' 
                   alt='/' 
                   onClick={()=> setNav(false)}
