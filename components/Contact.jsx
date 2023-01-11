@@ -1,10 +1,11 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import { AiOutlineMail } from 'react-icons/ai'
-import { BsFillPersonLinesFill } from 'react-icons/bs'
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
-import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import { AiOutlineMail } from 'react-icons/ai';
+import { BsFillPersonLinesFill } from 'react-icons/bs';
+import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
+import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
   return (
@@ -17,7 +18,11 @@ const Contact = () => {
                 <div className='col-span-3 lg:col-span-2 w-full h-full shadow-xl shadow-gray-400 rounded-xl p-4' >
                     <div className='lg:p-4 h-full' >
                         <div>
-                            <Image className='w-full rounded-xl hover:scale-105 ease-in duration-300' src="/../public/assets/contact.jpg" alt='/' width='400' height='400' />
+                            <Image
+                                className='rounded-xl hover:scale-105 ease-in duration-300'
+                                src={ContactImg}
+                                alt='/'
+                                />                        
                         </div>
                         <div>
                             <h2 className='py-2' >Name here</h2>
