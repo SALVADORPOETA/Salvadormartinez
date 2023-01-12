@@ -1,34 +1,34 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import propertyImg from '../public/assets/projects/property.jpg'
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
-import ProjectItem from './ProjectItem'
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import portfolioImg from '../public/assets/projects/portfolio.png';
+import restaurantImg from '../public/assets/projects/restaurant.png';
+import gpt3Img from '../public/assets/projects/gpt3.png';
+import twitchImg from '../public/assets/projects/twitch.jpg';
+import ProjectItem from './ProjectItem';
 
 const Projects = () => {
   return (
     <div id='projects' className='w-full' >
-        <div className='max-w-[1240px] mx-auto px-2 py-16' >
+        <div className='max-w-[1240px] mx-auto px-2 py-16 ml-10' >
             <p className='text-xl tracking-widest uppercase text-[#5651e5]' >Projects</p>
             <h2 className='py-4' >What I've built</h2>
             <div className='grid md:grid-cols-2 gap-8' >
 
               <ProjectItem 
-                title='Property Finder' 
-                backgroundImg={propertyImg} 
-                projectUrl='/property' 
+                title='Portfolio' 
+                backgroundImg={portfolioImg} 
+                projectUrl='/portfolio' 
               />
               <ProjectItem 
-                title='Crypto App' 
-                backgroundImg={cryptoImg} 
-                projectUrl='/crypto' 
+                title='Restaurant Site' 
+                backgroundImg={restaurantImg} 
+                projectUrl='/restaurant' 
               />
               <ProjectItem 
-                title='Netflix App' 
-                backgroundImg={netflixImg} 
-                projectUrl='/netflix' 
+                title='Gpt-3 Site' 
+                backgroundImg={gpt3Img} 
+                projectUrl='/gpt3' 
               />
               <ProjectItem 
                 title='Twitch UI' 

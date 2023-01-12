@@ -19,19 +19,27 @@ const Main = () => {
                         I’m focused on building responsive front-end web applications
                         integrating back-end technologies.
                     </p>
-                    <div className='flex items-center justify-between max-w-[330px] m-auto py-4' >
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                            <FaLinkedinIn />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                            <FaGithub />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                            <AiOutlineMail />
-                        </div>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                            <BsFillPersonLinesFill />
-                        </div>
+                    <div className='flex items-center justify-center max-w-[330px] m-auto py-4' >
+                        <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-11211020a' target='_blank' >
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-4' >
+                                <FaLinkedinIn />
+                            </div>
+                        </a>
+                        <a href='https://github.com/SALVADORPOETA' target='_blank' >
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
+                                <FaGithub />
+                            </div>
+                        </a>
+                        {/*<a href='https://www.google.com' target='_blank' >
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
+                                <AiOutlineMail />
+                            </div>
+                        </a>
+                        <a href='https://www.google.com' target='_blank' >
+                            <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
+                                <BsFillPersonLinesFill />
+                            </div>
+                        </a>*/}
                     </div>
             </div>
         </div>
