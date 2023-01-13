@@ -36,7 +36,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Stopwatch' 
                 backgroundImg={stopwatchImg} 
-                technology='HTML'
+                technology='HTML / CSS'
                 projectUrl='/stopwatch' 
               />
 
