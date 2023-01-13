@@ -16,7 +16,7 @@ const About = () => {
                     is more than one way to accomplish a task. Though I am most 
                     proficient in building front-end applications using HTML, CSS, 
                     Javascript, and React, I can also build back-end applications with 
-                    Python and Django.
+                    Python and Django as you can see in my Github repositories.
                 </p>
                 <p className='py-2 text-gray-600'>
                     I am a quick learner and can pick up new tech stacks as needed. I 
