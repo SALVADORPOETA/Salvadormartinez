@@ -4,7 +4,7 @@ import React from 'react';
 import portfolioImg from '../public/assets/projects/portfolio.png';
 import restaurantImg from '../public/assets/projects/restaurant.png';
 import gpt3Img from '../public/assets/projects/gpt3.png';
-import twitchImg from '../public/assets/projects/twitch.jpg';
+import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -17,23 +17,27 @@ const Projects = () => {
 
               <ProjectItem 
                 title='Portfolio' 
-                backgroundImg={portfolioImg} 
+                backgroundImg={portfolioImg}
+                technology='ReactJS / Tailwind / NextJS' 
                 projectUrl='/portfolio' 
               />
               <ProjectItem 
                 title='Restaurant Site' 
-                backgroundImg={restaurantImg} 
+                backgroundImg={restaurantImg}
+                technology='ReactJS / Tailwind' 
                 projectUrl='/restaurant' 
               />
               <ProjectItem 
                 title='Gpt-3 Site' 
                 backgroundImg={gpt3Img} 
+                technology='ReactJS / Tailwind'
                 projectUrl='/gpt3' 
               />
               <ProjectItem 
-                title='Twitch UI' 
-                backgroundImg={twitchImg} 
-                projectUrl='/twitch' 
+                title='Stopwatch' 
+                backgroundImg={stopwatchImg} 
+                technology='HTML'
+                projectUrl='/stopwatch' 
               />
 
             </div>
