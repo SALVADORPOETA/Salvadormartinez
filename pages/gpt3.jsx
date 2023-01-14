@@ -26,7 +26,7 @@ const gpt3 = () => {
             JavaScript and HTML. The project was deployed on Netlify.
             It is responsive for mobile and tablet.
           </p>
-          <a href='https://gpt3-salvadormartinez.netlify.app' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://gpt3-sm.netlify.app' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/gpt3-frontend' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
