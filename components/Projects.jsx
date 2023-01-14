@@ -6,6 +6,7 @@ import restaurantImg from '../public/assets/projects/restaurant.png';
 import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import clockImg from '../public/assets/projects/clock.png';
+import filterImg from '../public/assets/projects/filter.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -33,6 +34,12 @@ const Projects = () => {
                 backgroundImg={gpt3Img} 
                 technology='ReactJS / Tailwind'
                 projectUrl='/gpt3' 
+              />
+              <ProjectItem 
+                title='Search Filter' 
+                backgroundImg={filterImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/filter' 
               />
               <ProjectItem 
                 title='Stopwatch' 
