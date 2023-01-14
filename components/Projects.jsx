@@ -5,6 +5,7 @@ import portfolioImg from '../public/assets/projects/portfolio.png';
 import restaurantImg from '../public/assets/projects/restaurant.png';
 import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
+import clockImg from '../public/assets/projects/clock.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -38,6 +39,12 @@ const Projects = () => {
                 backgroundImg={stopwatchImg} 
                 technology='HTML / CSS'
                 projectUrl='/stopwatch' 
+              />
+              <ProjectItem 
+                title='Clock' 
+                backgroundImg={clockImg} 
+                technology='HTML / CSS'
+                projectUrl='/clock' 
               />
 
             </div>

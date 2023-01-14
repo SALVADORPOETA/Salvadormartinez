@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
-import stopwatchImg from '../public/assets/projects/stopwatch.png';
+import clockImg from '../public/assets/projects/clock.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const stopwatch = () => {
+const clock = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={stopwatchImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={clockImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Stopwatch</h2>
+          <h2 className='py-2' >Clock</h2>
           <h3>HTML / CSS</h3>
         </div>
       </div>
@@ -24,8 +24,8 @@ const stopwatch = () => {
             This is a simple application in HTML with CSS and JavaScript. 
             It is deployed in Github Pages.
           </p>
-          <a href='https://salvadorpoeta.github.io/stopwatch' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/stopwatch' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://salvadorpoeta.github.io/JS-Clock' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/JS-Clock' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -51,4 +51,4 @@ const stopwatch = () => {
   )
 }
 
-export default stopwatch
+export default clock
