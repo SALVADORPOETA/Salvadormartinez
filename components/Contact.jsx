@@ -8,9 +8,6 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
-    const Reset = () => {
-        reset();
-    }
     return (
     <div id='contact' className='w-full lg:h-screen' >
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full' >
@@ -107,7 +104,12 @@ const Contact = () => {
                                     rows='10'
                                     name='message' />
                             </div>
-                            <button className='w-full p-4 text-gray-100 mt-4' >Send Message</button>
+                            <button 
+                                className='w-full p-4 text-gray-100 mt-4' 
+                                onSubmit={() => {
+                                    reset();
+                                }}
+                                >Send Message</button>
                         </form>
                     </div>
                 </div>
