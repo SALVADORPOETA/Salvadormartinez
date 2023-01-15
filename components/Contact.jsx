@@ -52,7 +52,7 @@ const Contact = () => {
                     <div className='p-4'>
                         <form
                             id='form1'
-                            action='process.env.CONTACT' 
+                            action={process.env.CONTACT} 
                             method="POST"
                             enctype="multipart/form-data"
                             >
