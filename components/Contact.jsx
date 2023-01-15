@@ -23,7 +23,6 @@ const Contact = () => {
                                 alt='/'
                                 />                        
                         </div>
-                            {/*
                         <div>
                             <h2 className='py-2' >Salvador Martínez</h2>
                             <p>Front-End Developer</p>
@@ -41,52 +40,41 @@ const Contact = () => {
                                     <FaGithub />
                                 </div>
                             </a>
+                            {/* 
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
                                 <AiOutlineMail />
                             </div>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
                                 <BsFillPersonLinesFill />
                             </div>
-                        </div>
                             */}
+                        </div>
                 </div>
             
                 {/* right */}
-
+ 
                 <div className='col-span-3 h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 ' >
                     <div className='p-4'>
-                    <div>
-                            <h2 className='py-2' >Salvador Martínez</h2>
-                            <p>Front-End Developer</p>
-                            <p className='py-4' >I am available for freelance or full-time positions. Contact me and let's talk.</p>
-                        </div>
-                        <p className='uppercase pt-8' >Connect With Me</p>
-                        <div className='flex items-center justify-center py-4'>
-                            <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-11211020a' target='_blank'>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-4'>
-                                    <FaLinkedinIn />
-                                </div>
-                            </a>
-                            <a href='https://github.com/SALVADORPOETA' target='_blank' >
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                                    <FaGithub />
-                                </div>
-                            </a>
-                        </div>
-{/*                        <form>
+                        <form
+                            action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
+                            method="POST"
+                            enctype="multipart/form-data"
+                            >
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
                                 <div className='flex flex-col' >
                                     <label className='uppercase text-sm py-2' >Name</label>
                                     <input 
                                         className='border-2 rounded-lg p-3 flex border-gray-300' 
                                         type="text" 
+                                        name='name'
                                     />
                                 </div>
                                 <div className='flex flex-col' >
                                     <label className='uppercase text-sm py-2' >Phone Number</label>
                                     <input 
                                         className='border-2 rounded-lg p-3 flex border-gray-300' 
-                                        type="text" 
+                                        type="text"
+                                        name='phone' 
                                     />
                                 </div>
                             </div>
@@ -95,22 +83,27 @@ const Contact = () => {
                             <input 
                                 className='border-2 rounded-lg p-3 flex border-gray-300' 
                                 type="email" 
+                                name='email'
                             />
                             </div>
                             <div className='flex flex-col py-2' >
                             <label className='uppercase text-sm py-2' >Subject</label>
                             <input 
                                 className='border-2 rounded-lg p-3 flex border-gray-300' 
-                                type="text" 
+                                type="text"
+                                name='subject' 
                             />
                             </div>
                             <div className='flex flex-col py-2' >
                             <label className='uppercase text-sm py-2' >Message</label>
-                            <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10' ></textarea>
+                            <textarea 
+                                className='border-2 rounded-lg p-3 border-gray-300' 
+                                rows='10'
+                                name='message' />
                             </div>
                             <button className='w-full p-4 text-gray-100 mt-4' >Send Message</button>
                         </form>
-*/}
+
                     </div>
                 </div>
             </div>
@@ -125,5 +118,18 @@ const Contact = () => {
     </div>
   )
 }
+
+{/*<form
+        action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
+        method="POST"
+        enctype="multipart/form-data"
+        >
+        <input type='text' name='name' placeholder='Name' />
+        <input type='email' name='email' placeholder='Email' />
+        <input type='subject' name='subject' placeholder='Subject' />
+        <textarea name='message' cols='30' rows='10' placeholder='Message' />
+        <input type='file' name='resume[]' />
+        <button type='submit'>Submit</button>
+      </form> */}
 
 export default Contact
