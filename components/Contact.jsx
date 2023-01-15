@@ -52,7 +52,7 @@ const Contact = () => {
                     <div className='p-4'>
                         <form
                             id='form1'
-                            action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
+                            action='process.env.CONTACT' 
                             method="POST"
                             enctype="multipart/form-data"
                             >
