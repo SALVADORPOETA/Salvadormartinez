@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react';
+import React, { useRef } from 'react';
 import { AiOutlineMail } from 'react-icons/ai';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
@@ -31,7 +31,7 @@ const Contact = () => {
                         </div>
                         <div>
                             <p className='uppercase pt-8' >Connect With Me</p>
-                            <div className='flex items-center justify-center py-4'>
+                            <div className='flex items-center justify-center py-4 mt-5'>
                                 <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-11211020a' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-4'>
                                         <FaLinkedinIn />
@@ -42,14 +42,6 @@ const Contact = () => {
                                         <FaGithub />
                                     </div>
                                 </a>
-                                {/* 
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                                    <AiOutlineMail />
-                                </div>
-                                <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
-                                    <BsFillPersonLinesFill />
-                                </div>
-                                */}
                             </div>
                         </div>
                     </div>
@@ -59,6 +51,7 @@ const Contact = () => {
                  <div className='col-span-3 h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 ' >
                     <div className='p-4'>
                         <form
+                            id='form1'
                             action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
                             method="POST"
                             enctype="multipart/form-data"
@@ -104,12 +97,17 @@ const Contact = () => {
                                     rows='10'
                                     name='message' />
                             </div>
+                            <div className='grid lg:grid-cols-2 gap-8' >
                             <button 
-                                className='w-full p-4 text-gray-100 mt-4' 
-                                onSubmit={() => {
-                                    reset();
-                                }}
-                                >Send Message</button>
+                                className='w-full flex-auto p-4 text-gray-100 mt-4' 
+                                >Send Message
+                            </button>
+                            <button 
+                                className='w-full p-4 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white' 
+                                type='reset'
+                                >Reset
+                            </button>
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -125,6 +123,8 @@ const Contact = () => {
     </div>
   );
 }
+
+
 
 export default Contact
 
