@@ -7,6 +7,7 @@ import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import clockImg from '../public/assets/projects/clock.png';
 import filterImg from '../public/assets/projects/filter.png';
+import bootstrapImg from '../public/assets/projects/bootstrap.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -34,6 +35,12 @@ const Projects = () => {
                 backgroundImg={gpt3Img} 
                 technology='ReactJS / Tailwind'
                 projectUrl='/gpt3' 
+              />
+              <ProjectItem 
+                title='Bootstrap Slider' 
+                backgroundImg={bootstrapImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/bootstrap' 
               />
               <ProjectItem 
                 title='Search Filter' 
