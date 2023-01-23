@@ -24,8 +24,8 @@ const clock = () => {
             This is a simple clock in HTML with CSS and JavaScript. 
             It is deployed on Github Pages.
           </p>
-          <a href='https://salvadorpoeta.github.io/JS-Clock' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/JS-Clock' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://clock-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Clock' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 

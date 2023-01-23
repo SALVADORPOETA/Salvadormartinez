@@ -24,7 +24,7 @@ const bootstrap = () => {
             This is a slider built in ReactJS. It uses Bootstrap, CSS and HTML. It is deployed on Vercel.
           </p>
           <a href='https://bootstrap-slider-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/Bootstrap-Slider' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://github.com/SALVADORPOETA/Bootstrap-slider' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 

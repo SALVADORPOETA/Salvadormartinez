@@ -24,8 +24,8 @@ const bmi = () => {
             This is a BMI Calculator built with HTML, CSS and JavaScript. 
             It is deployed on Github pages.
           </p>
-          <a href='https://salvadorpoeta.github.io/BMI-Calculator/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/BMI-Calculator' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://bmi-calculator-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/BMI-calculator' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
