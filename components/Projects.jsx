@@ -13,6 +13,10 @@ import parallaxImg from '../public/assets/projects/parallax.png';
 import popupImg from '../public/assets/projects/popup.png';
 import videoImg from '../public/assets/projects/video.png';
 import bmiImg from '../public/assets/projects/bmi.png';
+import billImg from '../public/assets/projects/bill.png';
+import colorImg from '../public/assets/projects/color.png';
+import whiteboardImg from '../public/assets/projects/whiteboard.png';
+import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -94,6 +98,30 @@ const Projects = () => {
                 backgroundImg={bmiImg} 
                 technology='HTML / CSS'
                 projectUrl='/bmi' 
+              />
+              <ProjectItem 
+                title='Bill Management' 
+                backgroundImg={billImg} 
+                technology='Python / Tkinter'
+                projectUrl='/bill' 
+              />
+              <ProjectItem 
+                title='Color Finder' 
+                backgroundImg={colorImg} 
+                technology='Python / Tkinter'
+                projectUrl='/color' 
+              />
+              <ProjectItem 
+                title='Whiteboard' 
+                backgroundImg={whiteboardImg} 
+                technology='Python / Tkinter'
+                projectUrl='/whiteboard' 
+              />
+              <ProjectItem 
+                title='Python Exercises' 
+                backgroundImg={pythonImg} 
+                technology='Python'
+                projectUrl='/python' 
               />
             </div>
         </div>
