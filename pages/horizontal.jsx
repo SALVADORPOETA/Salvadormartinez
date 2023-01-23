@@ -1,18 +1,18 @@
-import Image from 'next/image'
-import React from 'react'
-import gpt3Img from '../public/assets/projects/gpt3.png'
-import { RiRadioButtonFill } from 'react-icons/ri'
-import Link from 'next/link'
+import Image from 'next/image';
+import React from 'react';
+import horizontalImg from '../public/assets/projects/horizontal.png';
+import { RiRadioButtonFill } from 'react-icons/ri';
+import Link from 'next/link';
 
-const gpt3 = () => {
+const horizontal = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={gpt3Img} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={horizontalImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Gpt-3 Site</h2>
-          <h3>ReactJS / Tailwind</h3>
+          <h2 className='py-2' >Horizontal Scroll</h2>
+          <h3>ReactJS / Bootstrap</h3>
         </div>
       </div>
 
@@ -21,13 +21,10 @@ const gpt3 = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This front-end site was built using ReactJS and a Figma design. The
-            styles were made with Tailwind and CSS, the code was written in 
-            JavaScript and HTML. The project was deployed on Vercel.
-            It is responsive for mobile and tablet.
+            This is a horizontal scroll built in ReactJS. It uses Tailwind, CSS and HTML. It is deployed on Vercel.
           </p>
-          <a href='https://gpt3-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/gpt3-frontend' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://horizontal-scroll-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Horizontal-scroll' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -37,19 +34,19 @@ const gpt3 = () => {
             <p className='text-center font-bold pb-2' >Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />ReactJS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Tailwind
+                <RiRadioButtonFill className='pr-1' />HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />JavaScript
+                <RiRadioButtonFill className='pr-1' />Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />HTML
+                <RiRadioButtonFill className='pr-1' />ReactJS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />Tailwind
               </p>
             </div>
           </div>
@@ -59,4 +56,4 @@ const gpt3 = () => {
   )
 }
 
-export default gpt3
+export default horizontal

@@ -8,6 +8,7 @@ import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import clockImg from '../public/assets/projects/clock.png';
 import filterImg from '../public/assets/projects/filter.png';
 import bootstrapImg from '../public/assets/projects/bootstrap.png';
+import horizontalImg from '../public/assets/projects/horizontal.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -37,6 +38,12 @@ const Projects = () => {
                 projectUrl='/gpt3' 
               />
               <ProjectItem 
+                title='Horizontal Scroll' 
+                backgroundImg={horizontalImg} 
+                technology='ReactJS / Tailwind'
+                projectUrl='/horizontal' 
+              />
+              <ProjectItem 
                 title='Bootstrap Slider' 
                 backgroundImg={bootstrapImg} 
                 technology='ReactJS / Bootstrap'
@@ -60,7 +67,6 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/clock' 
               />
-
             </div>
         </div>
     </div>

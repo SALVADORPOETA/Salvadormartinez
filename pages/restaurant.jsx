@@ -23,10 +23,10 @@ const restaurant = () => {
           <p>
             This front-end site was built using ReactJS and a Figma design. The
             styles were made with Tailwind and CSS, the code was written in 
-            JavaScript and HTML. The project was deployed on Netlify.
+            JavaScript and HTML. The project was deployed on Vercel.
             It is responsive for mobile and tablet.
           </p>
-          <a href='https://gericht-restaurant-sm.netlify.app' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://gericht-restaurant-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/gericht-restaurant-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>

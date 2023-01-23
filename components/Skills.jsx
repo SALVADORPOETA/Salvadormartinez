@@ -5,11 +5,13 @@ import Css from '../public/assets/skills/css.png';
 import Javascript from '../public/assets/skills/javascript.png';
 import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
-import Github from '../public/assets/skills/github1.png';
+import Github from '../public/assets/skills/github.png';
 import Python from '../public/assets/skills/python.png';
 import Django from '../public/assets/skills/django.jpg';
-import NextJS from '../public/assets/skills/nextjs.png'
-import Linux from '../public/assets/skills/linux.png'
+import NextJS from '../public/assets/skills/nextjs.png';
+import Linux from '../public/assets/skills/linux.png';
+import Bootstrap from '../public/assets/skills/bootstrap.png';
+import Git from '../public/assets/skills/git.png';
 
 //import Firebase from '../public/assets/skills/firebase.png';
 //import Shopify from '../public/assets/skills/shopify.png';
@@ -79,7 +81,22 @@ const Skills = () => {
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>React</h3>
+                            <h3>ReactJS</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+                        <div className='m-auto' >
+                            <Image 
+                                src={Bootstrap} 
+                                width='64' 
+                                height='64' 
+                                alt='/' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Bootstrap</h3>
                         </div>
                     </div>
                 </div>
@@ -132,6 +149,21 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
+                                src={Git} 
+                                width='64' 
+                                height='64' 
+                                alt='/' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Git</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+                        <div className='m-auto' >
+                            <Image 
                                 src={Github} 
                                 width='64' 
                                 height='64' 
@@ -173,7 +205,6 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-            
             </div>
         </div>
     </div>
