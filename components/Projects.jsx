@@ -9,6 +9,10 @@ import clockImg from '../public/assets/projects/clock.png';
 import filterImg from '../public/assets/projects/filter.png';
 import bootstrapImg from '../public/assets/projects/bootstrap.png';
 import horizontalImg from '../public/assets/projects/horizontal.png';
+import parallaxImg from '../public/assets/projects/parallax.png';
+import popupImg from '../public/assets/projects/popup.png';
+import videoImg from '../public/assets/projects/video.png';
+import bmiImg from '../public/assets/projects/bmi.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
@@ -56,6 +60,24 @@ const Projects = () => {
                 projectUrl='/filter' 
               />
               <ProjectItem 
+                title='Video Background' 
+                backgroundImg={videoImg} 
+                technology='ReactJS'
+                projectUrl='/video' 
+              />
+              <ProjectItem 
+                title='Pop-Up Window' 
+                backgroundImg={popupImg} 
+                technology='ReactJS'
+                projectUrl='/popup' 
+              />
+              <ProjectItem 
+                title='Parallax Scrolling' 
+                backgroundImg={parallaxImg} 
+                technology='ReactJS'
+                projectUrl='/parallax' 
+              />
+              <ProjectItem 
                 title='Stopwatch' 
                 backgroundImg={stopwatchImg} 
                 technology='HTML / CSS'
@@ -66,6 +88,12 @@ const Projects = () => {
                 backgroundImg={clockImg} 
                 technology='HTML / CSS'
                 projectUrl='/clock' 
+              />
+              <ProjectItem 
+                title='BMI Calculator' 
+                backgroundImg={bmiImg} 
+                technology='HTML / CSS'
+                projectUrl='/bmi' 
               />
             </div>
         </div>
