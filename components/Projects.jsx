@@ -120,7 +120,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Python Exercises' 
                 backgroundImg={pythonImg} 
-                technology='Python'
+                technology='Python / Tkinter'
                 projectUrl='/python' 
               />
             </div>
