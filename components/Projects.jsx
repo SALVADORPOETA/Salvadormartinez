@@ -60,16 +60,16 @@ const Projects = () => {
                 projectUrl='/filter' 
               />
               <ProjectItem 
+                title='Pop-Up Window' 
+                backgroundImg={popupImg} 
+                technology='ReactJS / Hooks'
+                projectUrl='/popup' 
+              />
+              <ProjectItem 
                 title='Video Background' 
                 backgroundImg={videoImg} 
                 technology='ReactJS'
                 projectUrl='/video' 
-              />
-              <ProjectItem 
-                title='Pop-Up Window' 
-                backgroundImg={popupImg} 
-                technology='ReactJS'
-                projectUrl='/popup' 
               />
               <ProjectItem 
                 title='Parallax Scrolling' 
