@@ -23,7 +23,7 @@ const About = () => {
                     believe that being a great developer is not using one specific 
                     language, but choosing the best tool for the job.
                 </p>
-                <p className='py-2 text-gray-600'>Check out my skills and some of my latest projects.</p>
+                <a href='#skills' ><p className='py-2 text-gray-600 underline cursor-pointer'>Check out my skills and some of my latest projects.</p></a>
             </div>
             <div className='w-fit h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300' >
                 <Image src={AboutImg} className='rounded-xl' width={250} alt='/' />
