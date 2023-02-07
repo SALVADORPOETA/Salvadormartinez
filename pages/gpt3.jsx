@@ -12,7 +12,7 @@ const gpt3 = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={gpt3Img} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
           <h2 className='py-2' >Gpt-3 Site</h2>
-          <h3>ReactJS / Tailwind</h3>
+          <h3>ReactJS / TailwindCSS</h3>
         </div>
       </div>
 
@@ -22,8 +22,8 @@ const gpt3 = () => {
           <h2>Overview</h2>
           <p>
             This front-end site was built using ReactJS and a Figma design. The
-            styles were made with Tailwind and CSS, the code was written in 
-            JavaScript and HTML. The project was deployed on Vercel.
+            styles were made with TailwindCSS and the code was written in 
+            JavaScript. The project was deployed on Vercel.
             It is responsive for mobile and tablet.
           </p>
           <a href='https://gpt3-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
@@ -37,19 +37,16 @@ const gpt3 = () => {
             <p className='text-center font-bold pb-2' >Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />ReactJS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Tailwind
-              </p>
-              <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />CSS
+                <RiRadioButtonFill className='pr-1' />HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />JavaScript
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />HTML
+                <RiRadioButtonFill className='pr-1' />ReactJS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />TailwindCSS
               </p>
             </div>
           </div>

@@ -12,7 +12,7 @@ const horizontal = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={horizontalImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
           <h2 className='py-2' >Horizontal Scroll</h2>
-          <h3>ReactJS / Bootstrap</h3>
+          <h3>ReactJS / TailwindCSS</h3>
         </div>
       </div>
 
@@ -21,7 +21,10 @@ const horizontal = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a horizontal scroll built in ReactJS. It uses Tailwind, CSS and HTML. It is deployed on Vercel.
+            This is a horizontal scroll built in ReactJS. The
+            styles were made with TailwindCSS and the code was written in 
+            JavaScript. The project was deployed on Vercel.
+            It is responsive for mobile and tablet.
           </p>
           <a href='https://horizontal-scroll-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Horizontal-scroll' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
@@ -37,16 +40,13 @@ const horizontal = () => {
                 <RiRadioButtonFill className='pr-1' />HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />CSS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />Javascript
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />ReactJS
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Tailwind
+                <RiRadioButtonFill className='pr-1' />TailwindCSS
               </p>
             </div>
           </div>
