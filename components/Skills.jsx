@@ -7,7 +7,7 @@ import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github.png';
 import Python from '../public/assets/skills/python.png';
-import Tkinter from '../public/assets/skills/tkinter.png';
+import Tkinter from '../public/assets/skills/tkinter1.jpg';
 import NextJS from '../public/assets/skills/nextjs.png';
 import Linux from '../public/assets/skills/linux.png';
 import Bootstrap from '../public/assets/skills/bootstrap.png';
