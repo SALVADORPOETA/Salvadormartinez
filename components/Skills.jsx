@@ -7,7 +7,7 @@ import ReactImg from '../public/assets/skills/react.png';
 import Tailwind from '../public/assets/skills/tailwind.png';
 import Github from '../public/assets/skills/github.png';
 import Python from '../public/assets/skills/python.png';
-import Django from '../public/assets/skills/django.jpg';
+import Tkinter from '../public/assets/skills/tkinter.png';
 import NextJS from '../public/assets/skills/nextjs.png';
 import Linux from '../public/assets/skills/linux.png';
 import Bootstrap from '../public/assets/skills/bootstrap.png';
@@ -134,14 +134,14 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
-                                src={Django} 
+                                src={Tkinter} 
                                 width='64' 
                                 height='64' 
                                 alt='/' 
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Django</h3>
+                            <h3>Tkinter</h3>
                         </div>
                     </div>
                 </div>
