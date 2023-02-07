@@ -9,7 +9,7 @@ const About = () => {
             <div className='col-span-2 ml-10' >
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]' >About</p>
                 <h2 className='py-4' >Who I Am</h2>
-                <p className='py-2 text-gray-600' >//I am relentless and resourceful.</p>
+                <p className='py-2 text-gray-600' >I am relentless and resourceful.</p>
                 <p className='py-2 text-gray-600'>
                     I specialize in building mobile responsive front-end UI websites. 
                     I’m passionate about learning new technologies and understand there 
@@ -23,7 +23,7 @@ const About = () => {
                     believe that being a great developer is not using one specific 
                     language, but choosing the best tool for the job.
                 </p>
-                <a href='#projects' ><p className='py-2 text-gray-600 underline cursor-pointer'>Check out some of my latest projects.</p></a>
+                <p className='py-2 text-gray-600'>Check out my skills and some of my latest projects.</p>
             </div>
             <div className='w-fit h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300' >
                 <Image src={AboutImg} className='rounded-xl' width={250} alt='/' />
