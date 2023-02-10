@@ -44,7 +44,7 @@ const Projects = () => {
                 backgroundImg={gpt3Img} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/gpt3' 
-  />*/}
+              />*/}
               <ProjectItem 
                 title='Horizontal Scroll' 
                 backgroundImg={horizontalImg} 
@@ -93,7 +93,7 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/clock' 
               />
-              <ProjectItem 
+              {/*<ProjectItem 
                 title='BMI Calculator' 
                 backgroundImg={bmiImg} 
                 technology='HTML / CSS'
@@ -116,7 +116,7 @@ const Projects = () => {
                 backgroundImg={whiteboardImg} 
                 technology='Python / Tkinter'
                 projectUrl='/whiteboard' 
-              />
+              />*/}              
               <ProjectItem 
                 title='Python Exercises' 
                 backgroundImg={pythonImg} 
