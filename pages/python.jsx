@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import pythonImg from '../public/assets/projects/python.png';
+import pythonImg from '../public/assets/projects/tkinter1.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -21,12 +21,10 @@ const python = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This folder contains all of my exercises with python. 
-            It has some projects in Tkinter too: /Parvat/'2. Projects'.
-            It is not possible to deploy it online but you can clone the code from my Github.
+            This repository contains all of my desktop projects with Python and Tkinter. 
           </p>
           
-          <a href='https://github.com/SALVADORPOETA/Python-exercises' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://github.com/SALVADORPOETA/Python-projects-sm/tree/main' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
