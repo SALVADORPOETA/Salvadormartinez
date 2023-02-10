@@ -16,7 +16,7 @@ const Main = () => {
                         A Front-End Web Developer
                     </h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>
-                        I’m focused on building responsive front-end web applications.
+                        I’m focused on building front-end web applications and desktop applications.
                     </p>
                     <div className='flex items-center justify-center max-w-[330px] m-auto py-4' >
                         <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-11211020a' target='_blank' >
