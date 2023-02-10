@@ -24,7 +24,7 @@ const python = () => {
             This repository contains all of my desktop projects with Python and Tkinter. 
           </p>
           
-          <a href='https://github.com/SALVADORPOETA/Python-projects-sm/tree/main' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://github.com/SALVADORPOETA/Python-projects-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 

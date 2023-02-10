@@ -93,13 +93,13 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/clock' 
               />
-              {/*<ProjectItem 
+              <ProjectItem 
                 title='BMI Calculator' 
                 backgroundImg={bmiImg} 
                 technology='HTML / CSS'
                 projectUrl='/bmi' 
               />
-              <ProjectItem 
+              {/*<ProjectItem 
                 title='Bill Management' 
                 backgroundImg={billImg} 
                 technology='Python / Tkinter'
