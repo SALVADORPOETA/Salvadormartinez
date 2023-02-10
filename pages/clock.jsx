@@ -22,7 +22,7 @@ const clock = () => {
           <h2>Overview</h2>
           <p>
             This is a simple clock in HTML with CSS and JavaScript. 
-            It is deployed on Github Pages.
+            It is deployed on Vercel.
           </p>
           <a href='https://clock-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Clock' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>

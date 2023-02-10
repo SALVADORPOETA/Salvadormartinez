@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import AboutImg from '../public/assets/about.jpg';
+import AboutImg from '../public/assets/aztec5.jpg';
 
 const About = () => {
   return (
@@ -19,9 +19,10 @@ const About = () => {
                     Python and Tkinter as you can see in my Github repositories.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    I am a quick learner and can pick up new tech stacks as needed. I 
-                    believe that being a great developer is not using one specific 
-                    language, but choosing the best tool for the job.
+                    I always use good practices and write the cleanest code possible.
+                    I believe in companionship and team work and I am willing to help my 
+                    coworkers with anything they need if I can do it. I am autodidact 
+                    and self disciplined so I need very little supervision.
                 </p>
                 <a href='#skills' ><p className='py-2 text-gray-600 underline cursor-pointer'>Check out my skills and some of my latest projects.</p></a>
             </div>

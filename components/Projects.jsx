@@ -33,7 +33,7 @@ const Projects = () => {
                 technology='ReactJS / TailwindCSS / NextJS' 
                 projectUrl='/portfolio' 
               />
-              <ProjectItem 
+              {/*<ProjectItem 
                 title='Restaurant Site' 
                 backgroundImg={restaurantImg}
                 technology='ReactJS / TailwindCSS' 
@@ -44,7 +44,7 @@ const Projects = () => {
                 backgroundImg={gpt3Img} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/gpt3' 
-              />
+  />*/}
               <ProjectItem 
                 title='Horizontal Scroll' 
                 backgroundImg={horizontalImg} 

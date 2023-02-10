@@ -22,7 +22,7 @@ const popup = () => {
           <h2>Overview</h2>
           <p>
             This pop-up window was built with HTML, CSS, JavaScript, ReactJS and Hooks.
-            It is deployed on Vercel.
+            It is deployed on Vercel. You can see it using the 'Click Here!' button.
           </p>
           <a href='https://pop-up-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Pop-up' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
