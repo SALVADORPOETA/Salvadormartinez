@@ -25,7 +25,7 @@ const stopwatch = () => {
             It is deployed on Vercel.
           </p>
           <a href='https://stopwatch-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/stopwatch' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://github.com/SALVADORPOETA/Stopwatch-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
