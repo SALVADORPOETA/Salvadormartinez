@@ -64,6 +64,18 @@ const Projects = () => {
                 projectUrl='/filter' 
               />
               <ProjectItem 
+                title='Stopwatch' 
+                backgroundImg={stopwatchImg} 
+                technology='HTML / CSS'
+                projectUrl='/stopwatch' 
+              />
+              <ProjectItem 
+                title='BMI Calculator' 
+                backgroundImg={bmiImg} 
+                technology='HTML / CSS'
+                projectUrl='/bmi' 
+              />
+              <ProjectItem 
                 title='Bootstrap Slider' 
                 backgroundImg={bootstrapImg} 
                 technology='ReactJS / Bootstrap'
@@ -82,22 +94,10 @@ const Projects = () => {
                 projectUrl='/video' 
               />
               <ProjectItem 
-                title='Stopwatch' 
-                backgroundImg={stopwatchImg} 
-                technology='HTML / CSS'
-                projectUrl='/stopwatch' 
-              />
-              <ProjectItem 
                 title='Clock' 
                 backgroundImg={clockImg} 
                 technology='HTML / CSS'
                 projectUrl='/clock' 
-              />
-              <ProjectItem 
-                title='BMI Calculator' 
-                backgroundImg={bmiImg} 
-                technology='HTML / CSS'
-                projectUrl='/bmi' 
               />
               {/*<ProjectItem 
                 title='Bill Management' 
