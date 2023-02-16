@@ -64,6 +64,12 @@ const Projects = () => {
                 projectUrl='/filter' 
               />
               <ProjectItem 
+                title='Bootstrap Slider' 
+                backgroundImg={bootstrapImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/bootstrap' 
+              />              
+              <ProjectItem 
                 title='Stopwatch' 
                 backgroundImg={stopwatchImg} 
                 technology='HTML / CSS'
@@ -74,12 +80,6 @@ const Projects = () => {
                 backgroundImg={bmiImg} 
                 technology='HTML / CSS'
                 projectUrl='/bmi' 
-              />
-              <ProjectItem 
-                title='Bootstrap Slider' 
-                backgroundImg={bootstrapImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/bootstrap' 
               />
               <ProjectItem 
                 title='Pop-Up Window' 
