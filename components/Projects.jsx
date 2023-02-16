@@ -52,16 +52,22 @@ const Projects = () => {
                 projectUrl='/horizontal' 
               />
               <ProjectItem 
-                title='Bootstrap Slider' 
-                backgroundImg={bootstrapImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/bootstrap' 
+                title='Parallax Scrolling' 
+                backgroundImg={parallaxImg} 
+                technology='ReactJS'
+                projectUrl='/parallax' 
               />
               <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
                 technology='ReactJS / Bootstrap'
                 projectUrl='/filter' 
+              />
+              <ProjectItem 
+                title='Bootstrap Slider' 
+                backgroundImg={bootstrapImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/bootstrap' 
               />
               <ProjectItem 
                 title='Pop-Up Window' 
@@ -74,12 +80,6 @@ const Projects = () => {
                 backgroundImg={videoImg} 
                 technology='ReactJS'
                 projectUrl='/video' 
-              />
-              <ProjectItem 
-                title='Parallax Scrolling' 
-                backgroundImg={parallaxImg} 
-                technology='ReactJS'
-                projectUrl='/parallax' 
               />
               <ProjectItem 
                 title='Stopwatch' 
