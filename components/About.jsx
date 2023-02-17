@@ -14,7 +14,7 @@ const About = () => {
                     I specialize in building front-end UI websites. 
                     I’m passionate about learning new technologies and understand there 
                     is more than one way to accomplish a task. Though I am most 
-                    proficient in building front-end applications using HTML, CSS, 
+                    proficient in building responsive front-end applications using HTML, CSS, 
                     Javascript, and React, I can also build desktop applications with 
                     Python and Tkinter as you can see in my Github repositories.
                 </p>
