@@ -23,7 +23,8 @@ const horizontal = () => {
           <p>
             This is a horizontal scroll built in ReactJS. The
             styles were made with TailwindCSS and the code was written in 
-            JavaScript. The project was deployed on Vercel.
+            JavaScript. I added a video background, a clock and pop-up windows.
+            The project was deployed on Vercel.
             It is responsive for mobile and tablet.
           </p>
           <a href='https://horizontal-scroll-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
