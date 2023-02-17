@@ -4,7 +4,7 @@ import bmiImg from '../public/assets/projects/bmi.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const bootstrap = () => {
+const bmi = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
@@ -58,4 +58,4 @@ const bootstrap = () => {
   )
 }
 
-export default bootstrap
+export default bmi

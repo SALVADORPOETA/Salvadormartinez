@@ -75,13 +75,13 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/stopwatch' 
               />
-              {/*<ProjectItem 
-                title='BMI Calculator' 
-                backgroundImg={bmiImg} 
-                technology='HTML / CSS'
-                projectUrl='/bmi' 
-              />
               <ProjectItem 
+                title='CSS Shapes' 
+                backgroundImg={shapesImg} 
+                technology='HTML / CSS'
+                projectUrl='/shapes' 
+              />
+              {/*<ProjectItem 
                 title='Pop-Up Window' 
                 backgroundImg={popupImg} 
                 technology='ReactJS / Hooks'
