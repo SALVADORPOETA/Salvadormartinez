@@ -55,7 +55,7 @@ const Projects = () => {
                 title='BMI Calculator' 
                 backgroundImg={bmiImg} 
                 technology='ReactJS / Bootstrap'
-                projectUrl='/bootstrap' 
+                projectUrl='/bmi' 
               />              
               <ProjectItem 
                 title='Search Filter' 

@@ -4,7 +4,7 @@ import bmiImg from '../public/assets/projects/bmi.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const bmi = () => {
+const bootstrap = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
@@ -12,7 +12,7 @@ const bmi = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={bmiImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
           <h2 className='py-2' >BMI Calculator</h2>
-          <h3>HTML / CSS</h3>
+          <h3>ReactJS / Bootstrap</h3>
         </div>
       </div>
 
@@ -21,11 +21,11 @@ const bmi = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a BMI Calculator built with HTML, CSS and JavaScript. 
-            It is deployed on Vercel.
+            This is a BMI Calculator built in ReactJS. It uses Bootstrap, CSS and HTML. 
+            It is deployed on Vercel. I added a slider and a simple navbar where you can find the BMI Calculator button.
           </p>
-          <a href='https://bmi-calculator-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/BMI-calculator' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://bootstrap-slider-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Bootstrap-slider-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -43,6 +43,12 @@ const bmi = () => {
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />Javascript
               </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />ReactJS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />Bootstrap
+              </p>
             </div>
           </div>
         </div>
@@ -51,4 +57,4 @@ const bmi = () => {
   )
 }
 
-export default bmi
+export default bootstrap
