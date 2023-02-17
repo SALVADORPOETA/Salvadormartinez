@@ -115,7 +115,7 @@ const Projects = () => {
                 title='Whiteboard' 
                 backgroundImg={whiteboardImg} 
                 technology='Python / Tkinter'
-                projectUrl='/whiteboard' 
+                projectUrl='/whiteboard' //hellooo
               />*/}              
               <ProjectItem 
                 title='Python Projects' 
