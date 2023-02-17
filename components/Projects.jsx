@@ -52,11 +52,11 @@ const Projects = () => {
                 projectUrl='/horizontal' 
               />
               <ProjectItem 
-                title='Parallax Scrolling' 
-                backgroundImg={parallaxImg} 
-                technology='ReactJS'
-                projectUrl='/parallax' 
-              />
+                title='BMI Calculator' 
+                backgroundImg={bmiImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/bootstrap' 
+              />              
               <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
@@ -64,11 +64,11 @@ const Projects = () => {
                 projectUrl='/filter' 
               />
               <ProjectItem 
-                title='BMI Calculator' 
-                backgroundImg={bmiImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/bootstrap' 
-              />              
+                title='Parallax Scrolling' 
+                backgroundImg={parallaxImg} 
+                technology='ReactJS'
+                projectUrl='/parallax' 
+              />
               <ProjectItem 
                 title='Stopwatch' 
                 backgroundImg={stopwatchImg} 
