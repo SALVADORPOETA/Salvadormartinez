@@ -16,7 +16,7 @@ import bmiImg from '../public/assets/projects/bmi.png';
 import billImg from '../public/assets/projects/bill.png';
 import colorImg from '../public/assets/projects/color.png';
 import whiteboardImg from '../public/assets/projects/whiteboard.png';
-import pythonImg from '../public/assets/projects/tkinter1.png';
+import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
 
 const Projects = () => {
