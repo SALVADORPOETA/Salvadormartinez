@@ -23,6 +23,7 @@ const bootstrap = () => {
           <p>
             This is a BMI Calculator built in ReactJS. It uses Bootstrap, CSS and HTML. 
             It is deployed on Vercel. I added a slider and a simple navbar where you can find the BMI Calculator button.
+            It is responsive for mobile and tablet.
           </p>
           <a href='https://bootstrap-slider-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Bootstrap-slider-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
