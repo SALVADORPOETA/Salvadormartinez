@@ -64,8 +64,8 @@ const Projects = () => {
                 projectUrl='/filter' 
               />
               <ProjectItem 
-                title='Bootstrap Slider' 
-                backgroundImg={bootstrapImg} 
+                title='BMI Calculator' 
+                backgroundImg={bmiImg} 
                 technology='ReactJS / Bootstrap'
                 projectUrl='/bootstrap' 
               />              
@@ -75,7 +75,7 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/stopwatch' 
               />
-              <ProjectItem 
+              {/*<ProjectItem 
                 title='BMI Calculator' 
                 backgroundImg={bmiImg} 
                 technology='HTML / CSS'
@@ -99,7 +99,7 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/clock' 
               />
-              {/*<ProjectItem 
+              <ProjectItem 
                 title='Bill Management' 
                 backgroundImg={billImg} 
                 technology='Python / Tkinter'
