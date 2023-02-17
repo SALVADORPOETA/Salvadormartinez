@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import bootstrapImg from '../public/assets/projects/bootstrap.png';
+import bmiImg from '../public/assets/projects/bmi.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,9 +9,9 @@ const bootstrap = () => {
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={bootstrapImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={bmiImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Bootstrap Slider</h2>
+          <h2 className='py-2' >BMI Calculator</h2>
           <h3>ReactJS / Bootstrap</h3>
         </div>
       </div>
@@ -21,7 +21,8 @@ const bootstrap = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a slider built in ReactJS. It uses Bootstrap, CSS and HTML. It is deployed on Vercel. I added a simple navbar.
+            This is a BMI Calculator built in ReactJS. It uses Bootstrap, CSS and HTML. 
+            It is deployed on Vercel. I added a slider and a simple navbar where you can find the BMI Calculator button.
           </p>
           <a href='https://bootstrap-slider-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Bootstrap-slider-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
