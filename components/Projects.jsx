@@ -7,7 +7,7 @@ import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import clockImg from '../public/assets/projects/clock.png';
 import filterImg from '../public/assets/projects/filter.png';
-import bootstrapImg from '../public/assets/projects/bootstrap.png';
+import shapesImg from '../public/assets/projects/shapes.png';
 import horizontalImg from '../public/assets/projects/horizontal.png';
 import parallaxImg from '../public/assets/projects/parallax.png';
 import popupImg from '../public/assets/projects/popup.png';
