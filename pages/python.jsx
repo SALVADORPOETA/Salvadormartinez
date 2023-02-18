@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import pythonImg from '../public/assets/projects/tkinter1.png';
+import pythonImg from '../public/assets/projects/python.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
