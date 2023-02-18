@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import whiteboardImg from '../public/assets/projects/whiteboard.png';
+import whiteboardImg from '../public/assets/projects/python.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 

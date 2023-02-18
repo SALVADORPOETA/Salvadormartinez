@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import colorImg from '../public/assets/projects/color.png';
+import colorImg from '../public/assets/projects/python.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
