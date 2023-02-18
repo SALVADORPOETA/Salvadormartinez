@@ -5,17 +5,12 @@ import portfolioImg from '../public/assets/projects/portfolio.png';
 import restaurantImg from '../public/assets/projects/restaurant.png';
 import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
-import clockImg from '../public/assets/projects/clock.png';
 import filterImg from '../public/assets/projects/filter.png';
 import shapesImg from '../public/assets/projects/shapes.png';
 import horizontalImg from '../public/assets/projects/horizontal.png';
 import parallaxImg from '../public/assets/projects/parallax.png';
-import popupImg from '../public/assets/projects/popup.png';
-import videoImg from '../public/assets/projects/video.png';
 import bmiImg from '../public/assets/projects/bmi.png';
 import animationImg from '../public/assets/projects/animation.png';
-import colorImg from '../public/assets/projects/color.png';
-import whiteboardImg from '../public/assets/projects/whiteboard.png';
 import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
 
