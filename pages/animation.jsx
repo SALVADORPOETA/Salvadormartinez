@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import billImg from '../public/assets/projects/bill.png';
+import animationImg from '../public/assets/projects/animation.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const bill = () => {
+const animation = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={billImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={animationImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Bill Management</h2>
-          <h3>Python / Tkinter</h3>
+          <h2 className='py-2' >CSS Animations</h2>
+          <h3>HTML / CSS</h3>
         </div>
       </div>
 
@@ -21,12 +21,11 @@ const bill = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This desktop app was built with Python and Tkinter. 
-            It helps you to calculate the bill of a coffee shop.
-            It is not possible to deploy it online but you can clone the code from my Github.
+            This is a web page with animations that I built only with HTML and CSS. 
+            It was deployed on Vercel. It is responsive for mobile and tablet.
           </p>
-          
-          <a href='https://github.com/SALVADORPOETA/Bill-management' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://animation-css-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Animation-css-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -36,10 +35,10 @@ const bill = () => {
             <p className='text-center font-bold pb-2' >Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Python
+                    <RiRadioButtonFill className='pr-1' />HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tkinter
+                    <RiRadioButtonFill className='pr-1' />CSS
                 </p>
             </div>
           </div>
@@ -49,4 +48,4 @@ const bill = () => {
   )
 }
 
-export default bill
+export default animation

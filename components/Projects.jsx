@@ -13,7 +13,7 @@ import parallaxImg from '../public/assets/projects/parallax.png';
 import popupImg from '../public/assets/projects/popup.png';
 import videoImg from '../public/assets/projects/video.png';
 import bmiImg from '../public/assets/projects/bmi.png';
-import billImg from '../public/assets/projects/bill.png';
+import animationImg from '../public/assets/projects/animation.png';
 import colorImg from '../public/assets/projects/color.png';
 import whiteboardImg from '../public/assets/projects/whiteboard.png';
 import pythonImg from '../public/assets/projects/python.png';
@@ -76,6 +76,12 @@ const Projects = () => {
                 projectUrl='/stopwatch' 
               />
               <ProjectItem 
+                title='CSS Animations' 
+                backgroundImg={animationImg} 
+                technology='HTML / CSS'
+                projectUrl='/animation' 
+              />
+              <ProjectItem 
                 title='CSS Shapes' 
                 backgroundImg={shapesImg} 
                 technology='HTML / CSS'
@@ -98,12 +104,6 @@ const Projects = () => {
                 backgroundImg={clockImg} 
                 technology='HTML / CSS'
                 projectUrl='/clock' 
-              />
-              <ProjectItem 
-                title='Bill Management' 
-                backgroundImg={billImg} 
-                technology='Python / Tkinter'
-                projectUrl='/bill' 
               />
               <ProjectItem 
                 title='Color Finder' 
