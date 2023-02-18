@@ -10,7 +10,8 @@ import shapesImg from '../public/assets/projects/shapes.png';
 import horizontalImg from '../public/assets/projects/horizontal.png';
 import parallaxImg from '../public/assets/projects/parallax.png';
 import bmiImg from '../public/assets/projects/bmi.png';
-import animationImg from '../public/assets/projects/animation.png';
+import animationsImg from '../public/assets/projects/animations.png';
+import elementsImg from '../public/assets/projects/elements.png';
 import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
 
@@ -72,9 +73,9 @@ const Projects = () => {
               />
               <ProjectItem 
                 title='CSS Animations' 
-                backgroundImg={animationImg} 
+                backgroundImg={animationsImg} 
                 technology='HTML / CSS'
-                projectUrl='/animation' 
+                projectUrl='/animations' 
               />
               <ProjectItem 
                 title='CSS Shapes' 
@@ -82,13 +83,13 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/shapes' 
               />
-              {/*<ProjectItem 
-                title='Pop-Up Window' 
-                backgroundImg={popupImg} 
-                technology='ReactJS / Hooks'
-                projectUrl='/popup' 
-              />
               <ProjectItem 
+                title='CSS Elements' 
+                backgroundImg={elementsImg} 
+                technology='HTML / CSS'
+                projectUrl='/elements' 
+              />
+              {/*<ProjectItem 
                 title='Video Background' 
                 backgroundImg={videoImg} 
                 technology='ReactJS'

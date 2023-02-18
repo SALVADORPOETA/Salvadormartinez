@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import popupImg from '../public/assets/projects/python.png';
+import elementsImg from '../public/assets/projects/elements.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const popup = () => {
+const elements = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={popupImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={elementsImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Pop-Up Window</h2>
-          <h3>ReactJS / Hooks</h3>
+          <h2 className='py-2' >CSS Elements</h2>
+          <h3>HTML / CSS</h3>
         </div>
       </div>
 
@@ -21,11 +21,11 @@ const popup = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This pop-up window was built with HTML, CSS, JavaScript, ReactJS and Hooks.
-            It is deployed on Vercel. You can see it using the 'Click Here!' button.
+            This is a web page with elements that I built only with HTML and CSS. 
+            It was deployed on Vercel. It is better displayed on desktop.
           </p>
-          <a href='https://pop-up-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/Pop-up-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://elements-css-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Elements-css-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -40,12 +40,6 @@ const popup = () => {
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />CSS
               </p>
-              <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Javascript
-              </p>
-              <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />ReactJS
-              </p>
             </div>
           </div>
         </div>
@@ -54,4 +48,4 @@ const popup = () => {
   )
 }
 
-export default popup
+export default elements
