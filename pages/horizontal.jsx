@@ -41,7 +41,7 @@ const horizontal = () => {
                 <RiRadioButtonFill className='pr-1' />HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Javascript
+                <RiRadioButtonFill className='pr-1' />JavaScript
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />ReactJS

@@ -12,7 +12,7 @@ const stopwatch = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={stopwatchImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
           <h2 className='py-2' >Stopwatch</h2>
-          <h3>HTML / CSS</h3>
+          <h3>JavaScript</h3>
         </div>
       </div>
 
@@ -41,7 +41,7 @@ const stopwatch = () => {
                 <RiRadioButtonFill className='pr-1' />CSS
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Javascript
+                <RiRadioButtonFill className='pr-1' />JavaScript
               </p>
             </div>
           </div>
