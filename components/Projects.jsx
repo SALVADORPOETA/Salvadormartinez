@@ -68,7 +68,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Stopwatch' 
                 backgroundImg={stopwatchImg} 
-                technology='HTML / CSS'
+                technology='JavaScript'
                 projectUrl='/stopwatch' 
               />
               <ProjectItem 
