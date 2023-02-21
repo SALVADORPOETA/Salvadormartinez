@@ -132,7 +132,7 @@ const Navbar = () => {
                 <li onClick={()=> setNav(false)} className='py-4 text-sm' >Contact</li>
               </Link>
             </ul>
-            <div className='pt-20' >
+            <div className='pt-10' >
               <p className='uppercase tracking-widest text-[#5651e5]' >Let's connect</p>
                 <div className='flex items-center justify-center py-4 mt-5 w-full sm:w-[80%]' >
                 <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-sm/' target='_blank'>
