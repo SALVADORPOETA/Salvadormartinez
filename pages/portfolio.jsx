@@ -50,7 +50,7 @@ const portfolio = () => {
                 <RiRadioButtonFill className='pr-1' />NextJS
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />TailwindCSS
+                <RiRadioButtonFill className='pr-1' />Tailwind
               </p>
             </div>
           </div>
