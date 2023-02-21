@@ -9,7 +9,6 @@ const About = () => {
             <div className='col-span-2 ml-10' >
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]' >About</p>
                 <h2 className='py-4' >Who I Am</h2>
-                <p className='py-2 text-gray-600' >I specialize in building front-end UI websites.</p>
                 <p className='py-2 text-gray-600'>
                     Though I am most proficient in building responsive front-end 
                     applications using HTML, CSS, Javascript, and React, 
