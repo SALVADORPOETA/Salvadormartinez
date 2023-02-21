@@ -9,14 +9,12 @@ const About = () => {
             <div className='col-span-2 ml-10' >
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]' >About</p>
                 <h2 className='py-4' >Who I Am</h2>
-                <p className='py-2 text-gray-600' >I am relentless and resourceful.</p>
+                <p className='py-2 text-gray-600' >I specialize in building front-end UI websites.</p>
                 <p className='py-2 text-gray-600'>
-                    I specialize in building front-end UI websites. 
-                    I’m passionate about learning new technologies and understand there 
-                    is more than one way to accomplish a task. Though I am most 
-                    proficient in building responsive front-end applications using HTML, CSS, 
-                    Javascript, and React, I can also build desktop applications with 
-                    Python and Tkinter as you can see in my Github repositories.
+                    Though I am most proficient in building responsive front-end 
+                    applications using HTML, CSS, Javascript, and React, 
+                    I can also build desktop applications with Python and Tkinter 
+                    as you can see in my Github repositories.
                 </p>
                 <p className='py-2 text-gray-600'>
                     I always use good practices and write the cleanest code possible.
@@ -27,10 +25,10 @@ const About = () => {
                 <p className='py-2 text-gray-600'>    
                     I am willing to work with people from anywhere in the world and be respectful 
                     with their religions, ideologies, sexual preferences, identities, etc.
-                    I believe in the love for the entire humankind and I am optimist about our future as an specie.    
+                    I believe in the love for the entire humankind and I am optimist about our future as species.    
                 </p>
                 <p className='py-2 text-gray-600'>    
-                    I am very good at public speaking in spanish and english.
+                    BTW... I am very good at public speaking in spanish and english.
                 </p>
                 <a href='#skills' ><p className='py-2 text-gray-600 underline cursor-pointer'>Check out my skills and some of my latest projects.</p></a>
             </div>
