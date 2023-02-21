@@ -22,7 +22,15 @@ const About = () => {
                     I always use good practices and write the cleanest code possible.
                     I believe in companionship and team work and I am willing to help my 
                     coworkers with anything they need if I can do it. I am autodidact 
-                    and self disciplined so I need very little supervision.
+                    and self disciplined so I need very little supervision. 
+                </p> 
+                <p className='py-2 text-gray-600'>    
+                    I am willing to work with people from anywhere in the world and be respectful 
+                    with their religions, ideologies, sexual preferences, identities, etc.
+                    I believe in the love for the entire humankind and I am optimist about our future as an specie.    
+                </p>
+                <p className='py-2 text-gray-600'>    
+                    I am very good at public speaking in spanish and english.
                 </p>
                 <a href='#skills' ><p className='py-2 text-gray-600 underline cursor-pointer'>Check out my skills and some of my latest projects.</p></a>
             </div>
