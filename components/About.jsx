@@ -16,7 +16,6 @@ const About = () => {
                     as you can see in my Github repositories.
                 </p>
                 <p className='py-2 text-gray-600'>
-                    I always use good practices and write the cleanest code possible.
                     I believe in companionship and team work and I am willing to help my 
                     coworkers with anything they need if I can do it. I am autodidact 
                     and self disciplined so I need very little supervision. 
