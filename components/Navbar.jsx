@@ -17,11 +17,18 @@ const Navbar = () => {
 
   useEffect(()=>{
     if (
-      router.asPath === '/property' ||
-      router.asPath === '/crypto' ||
-      router.asPath === '/netflix' ||
-      router.asPath === '/twitch' 
-      ) {
+      router.asPath === '/animations' ||
+      router.asPath === '/bmi' ||
+      router.asPath === '/python' ||
+      router.asPath === '/shapes' ||
+      router.asPath === '/elements' ||
+      router.asPath === '/filter' ||
+      router.asPath === '/stopwatch' ||
+      router.asPath === '/horizontal' ||
+      router.asPath === '/parallax' ||
+      router.asPath === '/portfolio'
+      ) 
+      {
         setNavBg('transparent')
         setLinkColor('#ecf0f3')
       } else {
