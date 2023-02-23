@@ -28,7 +28,7 @@ export default function Home() {
         {/*META AUTHOR */}
         <meta name='author' content='Salvador Martinez' />
         {/*ICON */}
-        <link rel="icon" href={"/SM.ico"} style="border-radius:10px" />
+        <link rel="icon" href={"/SM.ico"} />
       </Head>
       <Main />
       <About />
