@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import portfolioImg from '../public/assets/projects/portfolio.png';
-import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import filterImg from '../public/assets/projects/filter.png';
 import shapesImg from '../public/assets/projects/shapes.png';
