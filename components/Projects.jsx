@@ -2,7 +2,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import portfolioImg from '../public/assets/projects/portfolio.png';
-import restaurantImg from '../public/assets/projects/restaurant.png';
 import gpt3Img from '../public/assets/projects/gpt3.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import filterImg from '../public/assets/projects/filter.png';
@@ -14,6 +13,7 @@ import animationsImg from '../public/assets/projects/animations.png';
 import elementsImg from '../public/assets/projects/elements.png';
 import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
+import bmireactImg from '../public/assets/projects/bmi-react.png';
 
 const Projects = () => {
   return (
@@ -30,12 +30,6 @@ const Projects = () => {
                 projectUrl='/portfolio' 
               />
               {/*<ProjectItem 
-                title='Restaurant Site' 
-                backgroundImg={restaurantImg}
-                technology='ReactJS / TailwindCSS' 
-                projectUrl='/restaurant' 
-              />
-              <ProjectItem 
                 title='Gpt-3 Site' 
                 backgroundImg={gpt3Img} 
                 technology='ReactJS / TailwindCSS'
@@ -118,6 +112,12 @@ const Projects = () => {
                 backgroundImg={pythonImg} 
                 technology='Python / Tkinter'
                 projectUrl='/python' 
+              />
+              <ProjectItem 
+                title='BMI React' 
+                backgroundImg={bmireactImg}
+                technology='ReactJS' 
+                projectUrl='/bmireact' 
               />
             </div>
         </div>

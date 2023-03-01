@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import colorImg from '../public/assets/projects/python.png';
+import pythonImg from '../public/assets/projects/python.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -9,9 +9,9 @@ const color = () => {
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={colorImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={pythonImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Color Finder</h2>
+          <h2 className='py-2' >Python</h2>
           <h3>Python / Tkinter</h3>
         </div>
       </div>
@@ -26,7 +26,7 @@ const color = () => {
             It is not possible to deploy it online but you can clone the code from my Github.
           </p>
           
-          <a href='https://github.com/SALVADORPOETA/Color-finder' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://github.com/SALVADORPOETA/Python' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 

@@ -26,6 +26,7 @@ const Navbar = () => {
       router.asPath === '/stopwatch' ||
       router.asPath === '/horizontal' ||
       router.asPath === '/parallax' ||
+      router.asPath === '/bmireact' ||
       router.asPath === '/portfolio'
       ) 
       {
