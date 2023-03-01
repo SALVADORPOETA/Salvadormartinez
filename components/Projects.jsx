@@ -13,7 +13,7 @@ import animationsImg from '../public/assets/projects/animations.png';
 import elementsImg from '../public/assets/projects/elements.png';
 import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
-import bmireactImg from '../public/assets/projects/bmi-react.png';
+import bmireactImg from '../public/assets/projects/bmireact.png';
 
 const Projects = () => {
   return (
