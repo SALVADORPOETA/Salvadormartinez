@@ -14,6 +14,7 @@ import elementsImg from '../public/assets/projects/elements.png';
 import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
 import bmireactImg from '../public/assets/projects/bmireact.png';
+import darkthemeImg from '../public/assets/projects/darktheme';
 
 const Projects = () => {
   return (
@@ -29,12 +30,6 @@ const Projects = () => {
                 technology='ReactJS / TailwindCSS / NextJS' 
                 projectUrl='/portfolio' 
               />
-              {/*<ProjectItem 
-                title='Gpt-3 Site' 
-                backgroundImg={gpt3Img} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/gpt3' 
-              />*/}
               <ProjectItem 
                 title='Horizontal Scroll' 
                 backgroundImg={horizontalImg} 
@@ -118,6 +113,12 @@ const Projects = () => {
                 backgroundImg={bmireactImg}
                 technology='ReactJS' 
                 projectUrl='/bmireact' 
+              />
+              <ProjectItem 
+                title='Dark Theme Toggle' 
+                backgroundImg={darkthemeImg} 
+                technology='ReactJS'
+                projectUrl='/darktheme' 
               />
             </div>
         </div>
