@@ -18,6 +18,7 @@ import dropdownImg from '../public/assets/projects/dropdown.png';
 import sliderImg from '../public/assets/projects/slider.png';
 import navbarImg from '../public/assets/projects/navbar.png';
 import githubauthImg from '../public/assets/projects/githubauth.png';
+import googleauthImg from '../public/assets/projects/googleauth.png';
 
 const Projects = () => {
   return (
@@ -122,6 +123,12 @@ const Projects = () => {
                 backgroundImg={githubauthImg} 
                 technology='ReactJS / NextJS / API'
                 projectUrl='/githubauth' 
+              />
+              <ProjectItem 
+                title='Google Authentication' 
+                backgroundImg={googleauthImg} 
+                technology='ReactJS / NextJS / API'
+                projectUrl='/googleauth' 
               />
             </div>
         </div>

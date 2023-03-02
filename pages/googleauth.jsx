@@ -1,17 +1,17 @@
 import Image from 'next/image';
 import React from 'react';
-import githubauthImg from '../public/assets/projects/githubauth.png';
+import googleauthImg from '../public/assets/projects/googleauth.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const githubauth = () => {
+const googleauth = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={githubauthImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={googleauthImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Github Authentication</h2>
+          <h2 className='py-2' >Google Authentication</h2>
           <h3>ReactJS / NextJS / API</h3>
         </div>
       </div>
@@ -22,10 +22,10 @@ const githubauth = () => {
           <h2>Overview</h2>
           <p>
             This is an authentication page in ReactJS and NextJS. 
-            It is tied to one specific Github account, so I can't show a demo
+            It is tied to one specific Google account, so I can't show a demo
             but you can see the code in its repository.
           </p>
-          <a href='https://github.com/SALVADORPOETA/Github-auth-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://github.com/SALVADORPOETA/Google-auth-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -60,4 +60,4 @@ const githubauth = () => {
   )
 }
 
-export default githubauth
+export default googleauth
