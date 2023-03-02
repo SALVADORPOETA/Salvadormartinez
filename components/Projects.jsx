@@ -125,7 +125,7 @@ const Projects = () => {
                 projectUrl='/githubauth' 
               />
               <ProjectItem 
-                title='Google Authentication1' 
+                title='Google Authentication' 
                 backgroundImg={googleauthImg} 
                 technology='ReactJS / NextJS / API'
                 projectUrl='/googleauth' 
