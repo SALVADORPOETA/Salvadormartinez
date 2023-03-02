@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import pythonImg from '../public/assets/projects/python.png';
+import sliderImg from '../public/assets/projects/slider.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const color = () => {
+const slider = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={pythonImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={sliderImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Python</h2>
-          <h3>Python / Tkinter</h3>
+          <h2 className='py-2' >Slider</h2>
+          <h3>ReactJS / TailwindCSS</h3>
         </div>
       </div>
 
@@ -21,12 +21,12 @@ const color = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This desktop app was built with Python and Tkinter. 
-            It allows you to find the colors of an specific image.
-            It is not possible to deploy it online but you can clone the code from my Github.
+            This image slider was built with ReactJS and TailwindCSS. 
+            It is deployed on Vercel.
           </p>
           
-          <a href='https://github.com/SALVADORPOETA/Python' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://image-slider-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Image-slider-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -36,10 +36,16 @@ const color = () => {
             <p className='text-center font-bold pb-2' >Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Python
+                    <RiRadioButtonFill className='pr-1' />HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tkinter
+                    <RiRadioButtonFill className='pr-1' />JavaScript
+                </p>
+                <p className='text-gray-600 py-2 flex items-center' >
+                    <RiRadioButtonFill className='pr-1' />ReactJS
+                </p>
+                <p className='text-gray-600 py-2 flex items-center' >
+                    <RiRadioButtonFill className='pr-1' />Tailwind
                 </p>
             </div>
           </div>
@@ -49,4 +55,4 @@ const color = () => {
   )
 }
 
-export default color
+export default slider

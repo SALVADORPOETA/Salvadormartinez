@@ -15,6 +15,7 @@ import ProjectItem from './ProjectItem';
 import bmireactImg from '../public/assets/projects/bmireact.png';
 import darkthemeImg from '../public/assets/projects/darktheme.png';
 import dropdownImg from '../public/assets/projects/dropdown.png';
+import sliderImg from '../public/assets/projects/slider.png';
 
 const Projects = () => {
   return (
@@ -89,12 +90,6 @@ const Projects = () => {
                 backgroundImg={clockImg} 
                 technology='HTML / CSS'
                 projectUrl='/clock' 
-              />
-              <ProjectItem 
-                title='Color Finder' 
-                backgroundImg={colorImg} 
-                technology='Python / Tkinter'
-                projectUrl='/color' 
               />*/}
               <ProjectItem 
                 title='Python Projects' 
@@ -113,6 +108,12 @@ const Projects = () => {
                 backgroundImg={darkthemeImg} 
                 technology='ReactJS'
                 projectUrl='/darktheme' 
+              />
+              <ProjectItem 
+                title='Image Slider' 
+                backgroundImg={sliderImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/slider' 
               />
               <ProjectItem 
                 title='BMI React' 

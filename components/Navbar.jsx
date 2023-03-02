@@ -29,6 +29,7 @@ const Navbar = () => {
       router.asPath === '/bmireact' ||
       router.asPath === '/dropdown' ||
       router.asPath === '/darktheme' ||
+      router.asPath === '/slider' ||
       router.asPath === '/portfolio'
       ) 
       {
