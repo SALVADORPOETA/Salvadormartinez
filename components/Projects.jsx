@@ -17,6 +17,7 @@ import darkthemeImg from '../public/assets/projects/darktheme.png';
 import dropdownImg from '../public/assets/projects/dropdown.png';
 import sliderImg from '../public/assets/projects/slider.png';
 import navbarImg from '../public/assets/projects/navbar.png';
+import githubauthImg from '../public/assets/projects/githubauth.png';
 
 const Projects = () => {
   return (
@@ -80,12 +81,6 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/elements' 
               />
-              {/*<ProjectItem 
-                title='Clock' 
-                backgroundImg={clockImg} 
-                technology='HTML / CSS'
-                projectUrl='/clock' 
-              />*/}
               <ProjectItem 
                 title='Python Projects' 
                 backgroundImg={pythonImg} 
@@ -121,6 +116,12 @@ const Projects = () => {
                 backgroundImg={bmireactImg}
                 technology='ReactJS' 
                 projectUrl='/bmireact' 
+              />
+              <ProjectItem 
+                title='Github Authentication' 
+                backgroundImg={githubauthImg} 
+                technology='ReactJS / NextJS'
+                projectUrl='/githubauth' 
               />
             </div>
         </div>
