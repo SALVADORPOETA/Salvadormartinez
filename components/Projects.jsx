@@ -16,6 +16,7 @@ import bmireactImg from '../public/assets/projects/bmireact.png';
 import darkthemeImg from '../public/assets/projects/darktheme.png';
 import dropdownImg from '../public/assets/projects/dropdown.png';
 import sliderImg from '../public/assets/projects/slider.png';
+import navbarImg from '../public/assets/projects/navbar.png';
 
 const Projects = () => {
   return (
@@ -80,12 +81,6 @@ const Projects = () => {
                 projectUrl='/elements' 
               />
               {/*<ProjectItem 
-                title='Video Background' 
-                backgroundImg={videoImg} 
-                technology='ReactJS'
-                projectUrl='/video' 
-              />
-              <ProjectItem 
                 title='Clock' 
                 backgroundImg={clockImg} 
                 technology='HTML / CSS'
@@ -96,6 +91,12 @@ const Projects = () => {
                 backgroundImg={pythonImg} 
                 technology='Python / Tkinter'
                 projectUrl='/python' 
+              />
+              <ProjectItem 
+                title='Navbar' 
+                backgroundImg={navbarImg} 
+                technology='JavaScript'
+                projectUrl='/navbar' 
               />
               <ProjectItem 
                 title='Dropdown Menu' 

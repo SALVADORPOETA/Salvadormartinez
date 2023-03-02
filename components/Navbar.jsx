@@ -30,6 +30,7 @@ const Navbar = () => {
       router.asPath === '/dropdown' ||
       router.asPath === '/darktheme' ||
       router.asPath === '/slider' ||
+      router.asPath === '/navbar' ||
       router.asPath === '/portfolio'
       ) 
       {
