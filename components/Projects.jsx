@@ -14,6 +14,7 @@ import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
 import bmireactImg from '../public/assets/projects/bmireact.png';
 import darkthemeImg from '../public/assets/projects/darktheme.png';
+import dropdownImg from '../public/assets/projects/dropdown.png';
 
 const Projects = () => {
   return (
@@ -94,13 +95,7 @@ const Projects = () => {
                 backgroundImg={colorImg} 
                 technology='Python / Tkinter'
                 projectUrl='/color' 
-              />
-              <ProjectItem 
-                title='Whiteboard' 
-                backgroundImg={whiteboardImg} 
-                technology='Python / Tkinter'
-                projectUrl='/whiteboard' //hellooo
-              />*/}              
+              />*/}
               <ProjectItem 
                 title='Python Projects' 
                 backgroundImg={pythonImg} 
@@ -119,6 +114,12 @@ const Projects = () => {
                 technology='ReactJS'
                 projectUrl='/darktheme' 
               />
+              <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />              
             </div>
         </div>
     </div>

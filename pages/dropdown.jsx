@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import whiteboardImg from '../public/assets/projects/python.png';
+import dropdownImg from '../public/assets/projects/dropdown.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const whiteboard = () => {
+const dropdown = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={whiteboardImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={dropdownImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Whiteboard</h2>
-          <h3>Python / Tkinter</h3>
+          <h2 className='py-2' >Dropdown</h2>
+          <h3>ReactJS / TailwindCSS</h3>
         </div>
       </div>
 
@@ -21,13 +21,12 @@ const whiteboard = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This desktop app was built with Python and Tkinter. 
-            It is a whiteboard where you can draw using different colors, 
-            change the width of the lines and erase your draws.
-            It is not possible to deploy it online but you can clone the code from my Github.
+            This is a dropdown menu built with ReactJS. 
+            The styles were made with TailwindCSS. 
+            It is deployed on Vercel.
           </p>
-          
-          <a href='https://github.com/SALVADORPOETA/White-board' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://dropdown-menu-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Dropdown-menu-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -37,10 +36,16 @@ const whiteboard = () => {
             <p className='text-center font-bold pb-2' >Technologies</p>
             <div className='grid grid-cols-3 md:grid-cols-1'>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Python
+                    <RiRadioButtonFill className='pr-1' />HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tkinter
+                    <RiRadioButtonFill className='pr-1' />JavaScript
+                </p>
+                <p className='text-gray-600 py-2 flex items-center' >
+                    <RiRadioButtonFill className='pr-1' />ReactJS
+                </p>
+                <p className='text-gray-600 py-2 flex items-center' >
+                    <RiRadioButtonFill className='pr-1' />Tailwind
                 </p>
             </div>
           </div>
@@ -50,4 +55,4 @@ const whiteboard = () => {
   )
 }
 
-export default whiteboard
+export default dropdown
