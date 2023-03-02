@@ -120,7 +120,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Github Authentication' 
                 backgroundImg={githubauthImg} 
-                technology='ReactJS / NextJS'
+                technology='ReactJS / NextJS / API'
                 projectUrl='/githubauth' 
               />
             </div>
