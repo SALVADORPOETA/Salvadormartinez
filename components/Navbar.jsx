@@ -31,7 +31,8 @@ const Navbar = () => {
       router.asPath === '/darktheme' ||
       router.asPath === '/slider' ||
       router.asPath === '/navbar' ||
-      router.asPath === 'googleauth' ||
+      router.asPath === '/githubauth' ||
+      router.asPath === '/googleauth' ||
       router.asPath === '/portfolio'
       ) 
       {
