@@ -109,17 +109,17 @@ const Projects = () => {
                 projectUrl='/bmireact' 
               />
               <ProjectItem 
-                title='Dark Theme Toggle' 
-                backgroundImg={darkthemeImg} 
-                technology='ReactJS'
-                projectUrl='/darktheme' 
-              />
-              <ProjectItem 
                 title='Dropdown Menu' 
                 backgroundImg={dropdownImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/dropdown'
               />              
+              <ProjectItem 
+                title='Dark Theme Toggle' 
+                backgroundImg={darkthemeImg} 
+                technology='ReactJS'
+                projectUrl='/darktheme' 
+              />
             </div>
         </div>
     </div>
