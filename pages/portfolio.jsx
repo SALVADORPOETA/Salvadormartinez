@@ -26,7 +26,7 @@ const portfolio = () => {
             JavaScript. The project was deployed on Vercel. It is responsive for mobile and tablet.
             You will be able to find my recent projects and my contact information.
           </p>
-          <a href='https://salvador-martinez.vercel.app' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://salvadormartinez.vercel.app' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Salvador-martinez' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
