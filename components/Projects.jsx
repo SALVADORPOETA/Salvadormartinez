@@ -89,10 +89,10 @@ const Projects = () => {
                 projectUrl='/python' 
               />
               <ProjectItem 
-                title='Navbar' 
-                backgroundImg={navbarImg} 
-                technology='JavaScript'
-                projectUrl='/navbar' 
+                title='Image Slider' 
+                backgroundImg={sliderImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/slider' 
               />
               <ProjectItem 
                 title='Dropdown Menu' 
@@ -107,10 +107,10 @@ const Projects = () => {
                 projectUrl='/darktheme' 
               />
               <ProjectItem 
-                title='Image Slider' 
-                backgroundImg={sliderImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/slider' 
+                title='Navbar' 
+                backgroundImg={navbarImg} 
+                technology='JavaScript'
+                projectUrl='/navbar' 
               />
               {/* <ProjectItem 
                 title='BMI React' 
