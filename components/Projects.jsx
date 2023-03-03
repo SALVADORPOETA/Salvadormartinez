@@ -112,12 +112,12 @@ const Projects = () => {
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/slider' 
               />
-              <ProjectItem 
+              {/* <ProjectItem 
                 title='BMI React' 
                 backgroundImg={bmireactImg}
                 technology='ReactJS' 
                 projectUrl='/bmireact' 
-              />
+              /> */}
               <ProjectItem 
                 title='Github Authentication' 
                 backgroundImg={githubauthImg} 
