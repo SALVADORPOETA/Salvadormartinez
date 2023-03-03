@@ -47,12 +47,6 @@ const Projects = () => {
                 projectUrl='/bmi' 
               />              
               <ProjectItem 
-                title='Search Filter' 
-                backgroundImg={filterImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/filter' 
-              />
-              <ProjectItem 
                 title='Parallax Scrolling' 
                 backgroundImg={parallaxImg} 
                 technology='ReactJS'
@@ -63,6 +57,12 @@ const Projects = () => {
                 backgroundImg={stopwatchImg} 
                 technology='JavaScript'
                 projectUrl='/stopwatch' 
+              />
+              <ProjectItem 
+                title='Search Filter' 
+                backgroundImg={filterImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/filter' 
               />
               <ProjectItem 
                 title='CSS Animations' 
