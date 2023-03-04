@@ -59,10 +59,7 @@ const Contact = () => {
                             action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
                             method="POST"
                             encType="multipart/form-data"
-                            onSubmit={function(){
-                                document.getElementById('form1').submit()
-                                document.getElementById('form1').reset();
-                            }}
+
                         >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
                                 <div className='flex flex-col' >
@@ -108,6 +105,10 @@ const Contact = () => {
                             <div className='grid lg:grid-cols-1 gap-8' >
                                 <button 
                                     className='w-full flex-auto p-4 text-gray-100 mt-4' 
+                                    onClick={function(){
+                                        document.getElementById('form1').submit()
+                                        document.getElementById('form1').reset();
+                                    }}
                                     >Send Message
                                 </button>
                             </div>
