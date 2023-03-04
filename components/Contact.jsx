@@ -61,7 +61,6 @@ const Contact = () => {
                             enctype="multipart/form-data"
                             onSubmit={function(){
                                 document.getElementById('form1').submit()
-                                document.getElementById('form1').reset();
                             }}
                         >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
