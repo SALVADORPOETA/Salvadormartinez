@@ -58,9 +58,10 @@ const Contact = () => {
                             id='form1'
                             action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
                             method="POST"
-                            enctype="multipart/form-data"
+                            encType="multipart/form-data"
                             onSubmit={function(){
                                 document.getElementById('form1').submit()
+                                document.getElementById('form1').reset();
                             }}
                         >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
