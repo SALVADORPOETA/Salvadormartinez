@@ -111,7 +111,7 @@ const Contact = () => {
                                     >Send Message
                                 </button>
                                 <button 
-                                    className='w-full flex-auto p-4 text-gray-100 mt-4' 
+                                    className='w-full flex-auto p-4 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white' 
                                     type='reset'
                                     >Reset
                                 </button>
