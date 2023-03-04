@@ -55,13 +55,14 @@ const Contact = () => {
                  <div className='col-span-3 h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4 ' >
                     <div className='p-4'>
                         <form
-                            ref={formRef}                            
                             id='form1'
                             action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
                             method="POST"
-                            encType="multipart/form-data"
-                            // onSubmit={handleSubmit}
-                            >
+                            enctype="multipart/form-data"
+                            onSubmit={function(){
+                                document.getElementById('form1').reset();
+                            }}
+                        >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
                                 <div className='flex flex-col' >
                                     <label className='uppercase text-sm py-2' >Name</label>
