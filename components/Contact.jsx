@@ -60,6 +60,7 @@ const Contact = () => {
                             method="POST"
                             enctype="multipart/form-data"
                             onSubmit={function(){
+                                document.getElementById('form1').submit()
                                 document.getElementById('form1').reset();
                             }}
                         >                        
