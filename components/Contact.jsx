@@ -107,10 +107,17 @@ const Contact = () => {
                                     className='w-full flex-auto p-4 text-gray-100 mt-4' 
                                     onClick={function(){
                                         document.getElementById('form1').submit()
-                                        window.location.reload();
                                     }}
                                     >Send Message
                                 </button>
+                                <button 
+                                    className='w-full flex-auto p-4 text-gray-100 mt-4' 
+                                    onClick={function(){
+                                        document.getElementById('form1').reset()
+                                    }}
+                                    >Reset
+                                </button>
+
                             </div>
                         </form>
                     </div>
