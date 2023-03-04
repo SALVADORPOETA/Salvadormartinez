@@ -6,12 +6,13 @@ import { HiOutlineChevronDoubleUp } from 'react-icons/hi';
 import ContactImg from '../public/assets/contact.jpg';
 
 const Contact = () => {
-    // const formRef = useRef();
+    const formRef = useRef();
 
-    // const handleSubmit = (e) => {
-    //     e.preventDefault();
-    //     formRef.current.reset();
-    // }
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        formRef.current.submit();
+        formRef.current.reset();
+    }
     return (
     <div id='contact' className='w-full lg:h-screen' >
         <div className='max-w-[1240px] m-auto px-2 py-16 w-full' >
@@ -59,7 +60,7 @@ const Contact = () => {
                             action='https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e' 
                             method="POST"
                             encType="multipart/form-data"
-
+                            onSubmit={handleSubmit}
                         >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
                                 <div className='flex flex-col' >
