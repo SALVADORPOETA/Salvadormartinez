@@ -250,7 +250,7 @@ const Skills = () => {
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>API</h3>
+                            <h3>APIs</h3>
                         </div>
                     </div>
                 </div>
