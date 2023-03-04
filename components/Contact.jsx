@@ -102,7 +102,7 @@ const Contact = () => {
                                     rows='10'
                                     name='message' />
                             </div>
-                            <div className='grid lg:grid-cols-1 gap-8' >
+                            <div className='grid lg:grid-cols-2 gap-8' >
                                 <button 
                                     className='w-full flex-auto p-4 text-gray-100 mt-4' 
                                     onClick={function(){
