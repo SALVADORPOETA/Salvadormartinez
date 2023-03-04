@@ -113,7 +113,9 @@ const Contact = () => {
                                 <button 
                                     className='w-full flex-auto p-4 text-gray-100 mt-4' 
                                     onClick={
-                                        document.getElementById('form1').reset()
+                                        function myFunction() {
+                                            document.getElementById("myForm").reset();
+                                        }
                                     }
                                     >Reset
                                 </button>
