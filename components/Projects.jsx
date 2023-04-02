@@ -41,6 +41,12 @@ const Projects = () => {
                 projectUrl='/horizontal' 
               />
               <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />              
+              <ProjectItem 
                 title='BMI Calculator' 
                 backgroundImg={bmiImg} 
                 technology='ReactJS / Bootstrap'
@@ -51,6 +57,12 @@ const Projects = () => {
                 backgroundImg={parallaxImg} 
                 technology='ReactJS'
                 projectUrl='/parallax' 
+              />
+              <ProjectItem 
+                title='Dark Theme Toggle' 
+                backgroundImg={darkthemeImg} 
+                technology='ReactJS'
+                projectUrl='/darktheme' 
               />
               <ProjectItem 
                 title='Stopwatch' 
@@ -94,18 +106,6 @@ const Projects = () => {
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/slider' 
               /> */}
-              <ProjectItem 
-                title='Dropdown Menu' 
-                backgroundImg={dropdownImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/dropdown'
-              />              
-              <ProjectItem 
-                title='Dark Theme Toggle' 
-                backgroundImg={darkthemeImg} 
-                technology='ReactJS'
-                projectUrl='/darktheme' 
-              />
               {/* <ProjectItem 
                 title='Navbar' 
                 backgroundImg={navbarImg} 
