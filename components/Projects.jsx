@@ -88,12 +88,12 @@ const Projects = () => {
                 technology='Python / Tkinter'
                 projectUrl='/python' 
               />
-              <ProjectItem 
+              {/* <ProjectItem 
                 title='Image Slider' 
                 backgroundImg={sliderImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/slider' 
-              />
+              /> */}
               <ProjectItem 
                 title='Dropdown Menu' 
                 backgroundImg={dropdownImg} 
@@ -106,12 +106,12 @@ const Projects = () => {
                 technology='ReactJS'
                 projectUrl='/darktheme' 
               />
-              <ProjectItem 
+              {/* <ProjectItem 
                 title='Navbar' 
                 backgroundImg={navbarImg} 
                 technology='JavaScript'
                 projectUrl='/navbar' 
-              />
+              /> */}
               {/* <ProjectItem 
                 title='BMI React' 
                 backgroundImg={bmireactImg}
