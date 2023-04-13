@@ -21,6 +21,7 @@ import loginImg from '../public/assets/projects/login.png';
 import powerlistImg from '../public/assets/projects/powerlist.png';
 import weatherImg from '../public/assets/projects/weather.png';
 import sidebarImg from '../public/assets/projects/sidebar.png';
+import calculatorImg from '../public/assets/projects/calculator.png';
 
 const Projects = () => {
   return (
@@ -91,6 +92,18 @@ const Projects = () => {
                 projectUrl='/powerlist' 
               />
               <ProjectItem 
+                title='Search Filter' 
+                backgroundImg={filterImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/filter' 
+              />
+              <ProjectItem 
+                title='Simple Calculator' 
+                backgroundImg={calculatorImg} 
+                technology='JavaScript'
+                projectUrl='/calculator' 
+              />
+              <ProjectItem 
                 title='Sidebar Menu' 
                 backgroundImg={sidebarImg}
                 technology='JavaScript' 
@@ -137,12 +150,6 @@ const Projects = () => {
                 backgroundImg={googleauthImg} 
                 technology='ReactJS / NextJS / API'
                 projectUrl='/googleauth' 
-              />
-              <ProjectItem 
-                title='Search Filter' 
-                backgroundImg={filterImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/filter' 
               />
               <ProjectItem 
                 title='CSS Elements' 
