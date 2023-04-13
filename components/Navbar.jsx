@@ -33,6 +33,12 @@ const Navbar = () => {
       router.asPath === '/navbar' ||
       router.asPath === '/githubauth' ||
       router.asPath === '/googleauth' ||
+      router.asPath === '/amazon' ||
+      router.asPath === '/gif' ||
+      router.asPath === '/firebaseauth' ||
+      router.asPath === '/login' ||
+      router.asPath === '/powerlist' ||
+      router.asPath === '/weather' ||
       router.asPath === '/portfolio'
       ) 
       {

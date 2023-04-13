@@ -1,18 +1,18 @@
 import Image from 'next/image';
 import React from 'react';
-import sliderImg from '../public/assets/projects/python.png';
+import sidebarImg from '../public/assets/projects/sidebar.png';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
-const slider = () => {
+const sidebar = () => {
   return (
     <div className='w-full' >
       <div className='w-screen h-[30vh] lg:h-[40vh] relative' >
         <div className='absolute top-0 left-0 w-full h-[30vh] lg:h-[40vh] bg-black/80 z-10' />
-        <Image className='absolute z-1' layout='fill' objectFit='cover' src={sliderImg} alt='/' />
+        <Image className='absolute z-1' layout='fill' objectFit='cover' src={sidebarImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
-          <h2 className='py-2' >Slider</h2>
-          <h3>ReactJS / TailwindCSS</h3>
+          <h2 className='py-2' >Sidebar Menu</h2>
+          <h3>JavaScript</h3>
         </div>
       </div>
 
@@ -21,12 +21,12 @@ const slider = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This image slider was built with ReactJS and TailwindCSS. 
+            This is a sidebar Menu built with HTML, CSS and JavaScript.
             It is deployed on Vercel.
           </p>
           
-          <a href='https://image-slider-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
-          <a href='https://github.com/SALVADORPOETA/Image-slider-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
+          <a href='https://sidebar-menu-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
+          <a href='https://github.com/SALVADORPOETA/Sidebar-menu-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
           <Link href='/#projects' >
             <p className='underline cursor-pointer mt-20' >Back</p>
           </Link> 
@@ -39,15 +39,12 @@ const slider = () => {
                     <RiRadioButtonFill className='pr-1' />HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
+                    <RiRadioButtonFill className='pr-1' />CSS
+                </p>
+                <p className='text-gray-600 py-2 flex items-center' >
                     <RiRadioButtonFill className='pr-1' />JavaScript
                 </p>
-                <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />ReactJS
-                </p>
-                <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tailwind
-                </p>
-            </div>
+           </div>
           </div>
         </div>
       </div>
@@ -55,4 +52,4 @@ const slider = () => {
   )
 }
 
-export default slider
+export default sidebar

@@ -14,6 +14,13 @@ import darkthemeImg from '../public/assets/projects/darktheme.png';
 import dropdownImg from '../public/assets/projects/dropdown.png';
 import githubauthImg from '../public/assets/projects/githubauth.png';
 import googleauthImg from '../public/assets/projects/googleauth.png';
+import amazonImg from '../public/assets/projects/amazon.png';
+import gifImg from '../public/assets/projects/gif.png';
+import firebaseauthImg from '../public/assets/projects/firebaseauth.png';
+import loginImg from '../public/assets/projects/login.png';
+import powerlistImg from '../public/assets/projects/powerlist.png';
+import weatherImg from '../public/assets/projects/weather.png';
+import sidebarImg from '../public/assets/projects/sidebar.png';
 
 const Projects = () => {
   return (
@@ -28,6 +35,24 @@ const Projects = () => {
                 backgroundImg={portfolioImg}
                 technology='ReactJS / TailwindCSS / NextJS' 
                 projectUrl='/portfolio' 
+              />
+              <ProjectItem 
+                title='Random Gif App' 
+                backgroundImg={gifImg} 
+                technology='ReactJS / Axios / API'
+                projectUrl='/gif' 
+              />
+              <ProjectItem 
+                title='Weather App' 
+                backgroundImg={weatherImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/weather' 
+              />
+              <ProjectItem 
+                title='3 Login Forms' 
+                backgroundImg={loginImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/login' 
               />
               <ProjectItem 
                 title='Horizontal Scroll' 
@@ -60,16 +85,22 @@ const Projects = () => {
                 projectUrl='/darktheme' 
               />
               <ProjectItem 
+                title='Powerlist' 
+                backgroundImg={powerlistImg} 
+                technology='ReactJS'
+                projectUrl='/powerlist' 
+              />
+              <ProjectItem 
+                title='Sidebar Menu' 
+                backgroundImg={sidebarImg}
+                technology='JavaScript' 
+                projectUrl='/sidebar' 
+              />
+              <ProjectItem 
                 title='Stopwatch' 
                 backgroundImg={stopwatchImg} 
                 technology='JavaScript'
                 projectUrl='/stopwatch' 
-              />
-              <ProjectItem 
-                title='Search Filter' 
-                backgroundImg={filterImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/filter' 
               />
               <ProjectItem 
                 title='CSS Animations' 
@@ -84,35 +115,17 @@ const Projects = () => {
                 projectUrl='/shapes' 
               />
               <ProjectItem 
-                title='CSS Elements' 
-                backgroundImg={elementsImg} 
-                technology='HTML / CSS'
-                projectUrl='/elements' 
+                title='Amazon Scraper' 
+                backgroundImg={amazonImg} 
+                technology='JavaScript / RapidAPI'
+                projectUrl='/amazon' 
               />
               <ProjectItem 
-                title='Python Projects' 
-                backgroundImg={pythonImg} 
-                technology='Python / Tkinter'
-                projectUrl='/python' 
+                title='Firebase Google Authentication' 
+                backgroundImg={firebaseauthImg}
+                technology='ReactJS / Firebase / API' 
+                projectUrl='/firebaseauth' 
               />
-              {/* <ProjectItem 
-                title='Image Slider' 
-                backgroundImg={sliderImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/slider' 
-              /> */}
-              {/* <ProjectItem 
-                title='Navbar' 
-                backgroundImg={navbarImg} 
-                technology='JavaScript'
-                projectUrl='/navbar' 
-              /> */}
-              {/* <ProjectItem 
-                title='BMI React' 
-                backgroundImg={bmireactImg}
-                technology='ReactJS' 
-                projectUrl='/bmireact' 
-              /> */}
               <ProjectItem 
                 title='Github Authentication' 
                 backgroundImg={githubauthImg} 
@@ -124,6 +137,24 @@ const Projects = () => {
                 backgroundImg={googleauthImg} 
                 technology='ReactJS / NextJS / API'
                 projectUrl='/googleauth' 
+              />
+              <ProjectItem 
+                title='Search Filter' 
+                backgroundImg={filterImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/filter' 
+              />
+              <ProjectItem 
+                title='CSS Elements' 
+                backgroundImg={elementsImg} 
+                technology='HTML / CSS'
+                projectUrl='/elements' 
+              />
+              <ProjectItem 
+                title='Python Projects' 
+                backgroundImg={pythonImg} 
+                technology='Python / Tkinter'
+                projectUrl='/python' 
               />
             </div>
         </div>
