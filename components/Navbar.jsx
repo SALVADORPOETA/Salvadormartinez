@@ -33,7 +33,6 @@ const Navbar = () => {
       router.asPath === '/navbar' ||
       router.asPath === '/githubauth' ||
       router.asPath === '/googleauth' ||
-      // router.asPath === '/googleauth' ||
       router.asPath === '/portfolio'
       ) 
       {
