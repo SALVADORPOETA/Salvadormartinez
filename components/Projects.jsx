@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import React from 'react';
 import portfolioImg from '../public/assets/projects/portfolio.png';
 import stopwatchImg from '../public/assets/projects/stopwatch.png';
@@ -12,11 +10,8 @@ import animationsImg from '../public/assets/projects/animations.png';
 import elementsImg from '../public/assets/projects/elements.png';
 import pythonImg from '../public/assets/projects/python.png';
 import ProjectItem from './ProjectItem';
-import bmireactImg from '../public/assets/projects/bmireact.png';
 import darkthemeImg from '../public/assets/projects/darktheme.png';
 import dropdownImg from '../public/assets/projects/dropdown.png';
-import sliderImg from '../public/assets/projects/slider.png';
-import navbarImg from '../public/assets/projects/navbar.png';
 import githubauthImg from '../public/assets/projects/githubauth.png';
 import googleauthImg from '../public/assets/projects/googleauth.png';
 
