@@ -92,22 +92,10 @@ const Projects = () => {
                 projectUrl='/powerlist' 
               />
               <ProjectItem 
-                title='Search Filter' 
-                backgroundImg={filterImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/filter' 
-              />
-              <ProjectItem 
                 title='Simple Calculator' 
                 backgroundImg={calculatorImg} 
                 technology='JavaScript'
                 projectUrl='/calculator' 
-              />
-              <ProjectItem 
-                title='Sidebar Menu' 
-                backgroundImg={sidebarImg}
-                technology='JavaScript' 
-                projectUrl='/sidebar' 
               />
               <ProjectItem 
                 title='Stopwatch' 
@@ -150,6 +138,18 @@ const Projects = () => {
                 backgroundImg={googleauthImg} 
                 technology='ReactJS / NextJS / API'
                 projectUrl='/googleauth' 
+              />
+              <ProjectItem 
+                title='Search Filter' 
+                backgroundImg={filterImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/filter' 
+              />
+              <ProjectItem 
+                title='Sidebar Menu' 
+                backgroundImg={sidebarImg}
+                technology='JavaScript' 
+                projectUrl='/sidebar' 
               />
               <ProjectItem 
                 title='CSS Elements' 
