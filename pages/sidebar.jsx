@@ -22,7 +22,7 @@ const sidebar = () => {
           <h2>Overview</h2>
           <p>
             This is a sidebar Menu built with HTML, CSS and JavaScript.
-            It is deployed on Vercel.
+            It is deployed on Vercel. It is better displayed on desktop.
           </p>
           
           <a href='https://sidebar-menu-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

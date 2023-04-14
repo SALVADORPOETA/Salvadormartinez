@@ -21,7 +21,9 @@ const calculator = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a simple calculator built with HTML, CSS and JavaScript. It is deployed on Vercel.
+            This is a simple calculator built with HTML, CSS and JavaScript. 
+            It is deployed on Vercel. 
+            It is responsive for mobile and tablet.
           </p>
           
           <a href='https://calculator-js-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

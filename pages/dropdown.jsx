@@ -24,8 +24,8 @@ const dropdown = () => {
             This is a simple page with a dropdown menu, 
             an image slider and a navbar built with ReactJS. 
             The styles were made with TailwindCSS. 
-            It is responsive for mobile and tablet.
             It is deployed on Vercel.
+            It is responsive for mobile and tablet.
           </p>
           <a href='https://dropdown-menu-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Dropdown-menu-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
