@@ -48,22 +48,28 @@ const Projects = () => {
                 projectUrl='/momentum' 
               />
               <ProjectItem 
-                title='Weather App' 
-                backgroundImg={weatherImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/weather' 
-              />
-              <ProjectItem 
                 title='Random Gif App' 
                 backgroundImg={gifImg} 
                 technology='ReactJS / Axios / API'
                 projectUrl='/gif' 
               />
               <ProjectItem 
+                title='Weather App' 
+                backgroundImg={weatherImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/weather' 
+              />
+              <ProjectItem 
                 title='Quotes App' 
                 backgroundImg={quotesImg}
                 technology='ReactJS / Axios / API' 
                 projectUrl='/quotes' 
+              />              
+              <ProjectItem 
+                title='Food Website' 
+                backgroundImg={foodImg} 
+                technology='ReactJS'
+                projectUrl='/food' 
               />
             </div>
             <h2 className='py-4 mt-10' >Tailwind & Bootstrap Projects</h2>
@@ -100,12 +106,6 @@ const Projects = () => {
                 backgroundImg={navbarImg} 
                 technology='ReactJS'
                 projectUrl='/navbar' 
-              />              
-              <ProjectItem 
-                title='Food Website' 
-                backgroundImg={foodImg} 
-                technology='ReactJS'
-                projectUrl='/food' 
               />       
               <ProjectItem 
                 title='Parallax Scrolling' 
