@@ -26,10 +26,8 @@ const Navbar = () => {
       router.asPath === '/stopwatch' ||
       router.asPath === '/horizontal' ||
       router.asPath === '/parallax' ||
-      router.asPath === '/bmireact' ||
       router.asPath === '/dropdown' ||
       router.asPath === '/darktheme' ||
-      router.asPath === '/slider' ||
       router.asPath === '/navbar' ||
       router.asPath === '/githubauth' ||
       router.asPath === '/googleauth' ||
@@ -39,6 +37,11 @@ const Navbar = () => {
       router.asPath === '/login' ||
       router.asPath === '/powerlist' ||
       router.asPath === '/weather' ||
+      router.asPath === '/sidebar' ||
+      router.asPath === '/calculator' ||
+      router.asPath === '/quotes' ||
+      router.asPath === '/momentum' ||
+      router.asPath === '/food' ||
       router.asPath === '/portfolio'
       ) 
       {
