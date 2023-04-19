@@ -29,9 +29,9 @@ import navbarImg from '../public/assets/projects/navbar.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full mt-20' >
-        <div className='max-w-[1240px] mx-auto px-2' >
-            <p className='text-xl tracking-widest uppercase text-[#5651e5]' >Projects</p>
+    <div id='projects' className='w-full md:mt-60' >
+        <div className='max-w-[1240px] mx-auto px-2 py-16' >
+            <p className='text-xl tracking-widest uppercase text-[#5651e5] pt-8' >Projects</p>
             <h2 className='py-4' >Main Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
 
