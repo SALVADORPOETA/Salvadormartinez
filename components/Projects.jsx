@@ -22,6 +22,10 @@ import powerlistImg from '../public/assets/projects/powerlist.png';
 import weatherImg from '../public/assets/projects/weather.png';
 import sidebarImg from '../public/assets/projects/sidebar.png';
 import calculatorImg from '../public/assets/projects/calculator.png';
+import quotesImg from '../public/assets/projects/quotes.png';
+import momentumImg from '../public/assets/projects/momentum.png';
+import foodImg from '../public/assets/projects/food.png';
+import navbarImg from '../public/assets/projects/navbar.png';
 
 const Projects = () => {
   return (
@@ -38,16 +42,28 @@ const Projects = () => {
                 projectUrl='/portfolio' 
               />
               <ProjectItem 
-                title='Random Gif App' 
-                backgroundImg={gifImg} 
+                title='Momentum App' 
+                backgroundImg={momentumImg} 
                 technology='ReactJS / Axios / API'
-                projectUrl='/gif' 
+                projectUrl='/momentum' 
               />
               <ProjectItem 
                 title='Weather App' 
                 backgroundImg={weatherImg}
                 technology='ReactJS / Axios / API' 
                 projectUrl='/weather' 
+              />
+              <ProjectItem 
+                title='Random Gif App' 
+                backgroundImg={gifImg} 
+                technology='ReactJS / Axios / API'
+                projectUrl='/gif' 
+              />
+              <ProjectItem 
+                title='Quotes App' 
+                backgroundImg={quotesImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/quotes' 
               />
               <ProjectItem 
                 title='3 Login Forms' 
@@ -73,6 +89,18 @@ const Projects = () => {
                 technology='ReactJS / Bootstrap'
                 projectUrl='/bmi' 
               />              
+              <ProjectItem 
+                title='Navbar' 
+                backgroundImg={navbarImg} 
+                technology='ReactJS'
+                projectUrl='/navbar' 
+              />              
+              <ProjectItem 
+                title='Food Website' 
+                backgroundImg={foodImg} 
+                technology='ReactJS'
+                projectUrl='/food' 
+              />       
               <ProjectItem 
                 title='Parallax Scrolling' 
                 backgroundImg={parallaxImg} 
