@@ -29,10 +29,10 @@ import navbarImg from '../public/assets/projects/navbar.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full' >
+    <div id='projects' className='w-full mt-40' >
         <div className='max-w-[1240px] mx-auto px-2 py-16' >
             <p className='text-xl tracking-widest uppercase text-[#5651e5]' >Projects</p>
-            <h2 className='py-4' >What I've built</h2>
+            <h2 className='py-4' >Main Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
 
               <ProjectItem 
@@ -65,6 +65,9 @@ const Projects = () => {
                 technology='ReactJS / Axios / API' 
                 projectUrl='/quotes' 
               />
+            </div>
+            <h2 className='py-4 mt-10' >Tailwind & Bootstrap Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='3 Login Forms' 
                 backgroundImg={loginImg} 
@@ -89,6 +92,9 @@ const Projects = () => {
                 technology='ReactJS / Bootstrap'
                 projectUrl='/bmi' 
               />              
+            </div>
+            <h2 className='py-4 mt-10' >React Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Navbar' 
                 backgroundImg={navbarImg} 
@@ -119,6 +125,9 @@ const Projects = () => {
                 technology='ReactJS'
                 projectUrl='/powerlist' 
               />
+            </div>
+            <h2 className='py-4 mt-10' >HTML, CSS & JavaScript Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Simple Calculator' 
                 backgroundImg={calculatorImg} 
@@ -143,6 +152,9 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/shapes' 
               />
+            </div>
+            <h2 className='py-4 mt-10' >API Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Amazon Scraper' 
                 backgroundImg={amazonImg} 
@@ -167,6 +179,9 @@ const Projects = () => {
                 technology='ReactJS / NextJS / API'
                 projectUrl='/googleauth' 
               />
+            </div>
+            <h2 className='py-4 mt-10' >Desktop Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
