@@ -16,7 +16,7 @@ import githubauthImg from '../public/assets/projects/githubauth.png';
 import googleauthImg from '../public/assets/projects/googleauth.png';
 import amazonImg from '../public/assets/projects/amazon.png';
 import gifImg from '../public/assets/projects/gif.png';
-import firebaseauthImg from '../public/assets/projects/firebaseauth.png';
+import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png';
 import loginImg from '../public/assets/projects/login.png';
 import powerlistImg from '../public/assets/projects/powerlist.png';
 import weatherImg from '../public/assets/projects/weather.png';
@@ -26,6 +26,7 @@ import quotesImg from '../public/assets/projects/quotes.png';
 import momentumImg from '../public/assets/projects/momentum.png';
 import foodImg from '../public/assets/projects/food.png';
 import navbarImg from '../public/assets/projects/navbar.png';
+import firebaseemailImg from '../public/assets/projects/firebaseemail.png';
 
 const Projects = () => {
   return (
@@ -161,11 +162,20 @@ const Projects = () => {
                 technology='JavaScript / RapidAPI'
                 projectUrl='/amazon' 
               />
+            </div>
+            <h2 className='py-4 mt-10' >Authentication Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Firebase Google Authentication' 
-                backgroundImg={firebaseauthImg}
+                backgroundImg={firebasegoogleImg}
                 technology='ReactJS / Firebase / API' 
-                projectUrl='/firebaseauth' 
+                projectUrl='/firebasegoogle' 
+              />
+              <ProjectItem 
+                title='Firebase Email Authentication' 
+                backgroundImg={firebaseemailImg}
+                technology='ReactJS / Firebase / API' 
+                projectUrl='/firebaseemail' 
               />
               <ProjectItem 
                 title='Github Authentication' 
