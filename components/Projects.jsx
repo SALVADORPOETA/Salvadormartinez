@@ -62,7 +62,7 @@ const Projects = () => {
                 projectUrl='/weathernext' 
               />
               <ProjectItem 
-                title='Quotes App' 
+                title='Random Quotes App' 
                 backgroundImg={quotesImg}
                 technology='ReactJS / Axios / API' 
                 projectUrl='/quotes' 
