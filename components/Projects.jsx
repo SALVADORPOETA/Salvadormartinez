@@ -164,7 +164,7 @@ const Projects = () => {
                 projectUrl='/amazon' 
               />
               <ProjectItem 
-                title='Weather App' 
+                title='Weather App ReactJS' 
                 backgroundImg={weatherImg}
                 technology='ReactJS / Axios / API' 
                 projectUrl='/weather' 
