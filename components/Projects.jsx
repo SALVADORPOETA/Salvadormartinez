@@ -27,6 +27,7 @@ import momentumImg from '../public/assets/projects/momentum.png';
 import foodImg from '../public/assets/projects/food.png';
 import navbarImg from '../public/assets/projects/navbar.png';
 import firebaseemailImg from '../public/assets/projects/firebaseemail.png';
+import weathernextImg from '../public/assets/projects/weathernext.png'
 
 const Projects = () => {
   return (
@@ -39,7 +40,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Portfolio' 
                 backgroundImg={portfolioImg}
-                technology='ReactJS / TailwindCSS / NextJS' 
+                technology='ReactJS / NextJS / TailwindCSS' 
                 projectUrl='/portfolio' 
               />
               <ProjectItem 
@@ -55,10 +56,10 @@ const Projects = () => {
                 projectUrl='/gif' 
               />
               <ProjectItem 
-                title='Weather App' 
-                backgroundImg={weatherImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/weather' 
+                title='Weather App NextJS' 
+                backgroundImg={weathernextImg}
+                technology='NextJS / API / TailwindCSS' 
+                projectUrl='/weathernext' 
               />
               <ProjectItem 
                 title='Quotes App' 
@@ -161,6 +162,12 @@ const Projects = () => {
                 backgroundImg={amazonImg} 
                 technology='JavaScript / RapidAPI'
                 projectUrl='/amazon' 
+              />
+              <ProjectItem 
+                title='Weather App' 
+                backgroundImg={weatherImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/weather' 
               />
             </div>
             <h2 className='py-4 mt-10' >Authentication Projects</h2>
