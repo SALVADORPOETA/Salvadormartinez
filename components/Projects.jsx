@@ -27,7 +27,8 @@ import momentumImg from '../public/assets/projects/momentum.png';
 import foodImg from '../public/assets/projects/food.png';
 import navbarImg from '../public/assets/projects/navbar.png';
 import firebaseemailImg from '../public/assets/projects/firebaseemail.png';
-import weathernextImg from '../public/assets/projects/weathernext.png'
+import weathernextImg from '../public/assets/projects/weathernext.png';
+import todoImg from '../public/assets/projects/todo.png';
 
 const Projects = () => {
   return (
@@ -68,11 +69,11 @@ const Projects = () => {
                 projectUrl='/quotes' 
               />              
               <ProjectItem 
-                title='Food Website' 
-                backgroundImg={foodImg} 
-                technology='ReactJS'
-                projectUrl='/food' 
-              />
+                title='Todo App Firebase' 
+                backgroundImg={todoImg} 
+                technology='ReactJS / Firebase / TailwindCSS'
+                projectUrl='/todo' 
+              />              
             </div>
             <h2 className='py-4 mt-10' >Tailwind & Bootstrap Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
@@ -103,6 +104,12 @@ const Projects = () => {
             </div>
             <h2 className='py-4 mt-10' >React Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Food Website' 
+                backgroundImg={foodImg} 
+                technology='ReactJS'
+                projectUrl='/food' 
+              />
               <ProjectItem 
                 title='Navbar' 
                 backgroundImg={navbarImg} 

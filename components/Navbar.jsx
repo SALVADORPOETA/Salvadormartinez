@@ -44,6 +44,7 @@ const Navbar = () => {
       router.asPath === '/food' ||
       router.asPath === '/firebaseemail' ||
       router.asPath === '/weathernext' ||
+      router.asPath === '/todo' ||
       router.asPath === '/portfolio'
       ) 
       {
