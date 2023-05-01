@@ -21,8 +21,11 @@ const login = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a simple web page with 3 login forms. It was built with ReactJS and TailwindCSS.
-            It is deployed on Vercel. It is responsive for mobile and tablet.
+            This is a simple web page with 3 login forms. 
+            The goal was to practice TailwindCSS.
+            It was built with ReactJS.
+            It is deployed on Vercel. 
+            It is responsive for mobile and tablet.
           </p>
           
           <a href='https://login-react-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

@@ -21,9 +21,11 @@ const horizontal = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a horizontal scroll built in ReactJS. The
-            styles were made with TailwindCSS and the code was written in 
-            JavaScript. I added a video background, a clock and pop-up windows.
+            This is a web page built in ReactJS. 
+            The goal was to practice TailwindCSS and to achieve the integration of 
+            different small projects in a single one.
+            It's a combination of a video background, a clock, 
+            a horizontal scroll and pop-up windows.
             The project was deployed on Vercel.
             It is responsive for mobile and tablet.
           </p>

@@ -21,7 +21,13 @@ const parallax = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This site was built with HTML, CSS, JavaScript and ReactJS. It was deployed on Vercel. It is responsive for mobile and tablet.
+            This is a web page built in ReactJS. 
+            The goal was to achieve the integration of 
+            different small projects in a single one.
+            It's a combination of a parallax scroll, 
+            a clock and pop-up windows.
+            The project was deployed on Vercel.
+            It is responsive for mobile and tablet.
           </p>
           <a href='https://parallax-scrolling-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Parallax-scrolling-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
