@@ -21,8 +21,8 @@ const bmi = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a BMI Calculator built in ReactJS. It uses Bootstrap, CSS and HTML. 
-            It is deployed on Vercel. I added a slider and a simple navbar where you can find the BMI Calculator button.
+            This is a BMI Calculator built in ReactJS and styled with Bootstrap. 
+            It's deployed on Vercel. I added a slider and a simple navbar where you can find the BMI Calculator button.
             I made the Modal for the BMI Calculator with useState hook.
             It is responsive for mobile and tablet.
           </p>
@@ -40,16 +40,13 @@ const bmi = () => {
                 <RiRadioButtonFill className='pr-1' />HTML
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />CSS
+                <RiRadioButtonFill className='pr-1' />Bootstrap
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />JavaScript
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />ReactJS
-              </p>
-              <p className='text-gray-600 py-2 flex items-center' >
-                <RiRadioButtonFill className='pr-1' />Bootstrap
               </p>
             </div>
           </div>
