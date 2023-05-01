@@ -10,10 +10,11 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#5651e5] mt-10' >About</p>
                 <h2 className='py-4' >Who I Am</h2>
                 <p className='py-2 text-gray-600'>
-                    Though I am most proficient in building responsive front-end 
-                    applications using HTML, CSS, Javascript, and React, 
-                    I can also build desktop applications with Python and Tkinter 
-                    as you can see in my Github repositories.
+                    I specialize in building mobile responsive front-end UI applications
+                    that connect with APIs and other backend technologies. 
+                    Though I am most proficient in building front-end applications using 
+                    HTML, CSS, Javascript, and React, I can also use Python and many other
+                    technologies as you will see in my skills section. 
                 </p>
                 <p className='py-2 text-gray-600'>
                     I believe in companionship and team work and I am willing to help my 
