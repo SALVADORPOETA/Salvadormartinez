@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import pythonImg from '../public/assets/projects/python.png';
+import pythonImg from '../public/assets/projects/python.jpg';
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
 
@@ -12,7 +12,7 @@ const python = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={pythonImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
           <h2 className='py-2' >Python Exercises</h2>
-          <h3>Python / Tkinter</h3>
+          <h3>Python</h3>
         </div>
       </div>
 
@@ -21,7 +21,7 @@ const python = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This repository contains all of my desktop projects with Python and Tkinter. 
+            This repository contains all of my desktop projects with Python. 
           </p>
           
           <a href='https://github.com/SALVADORPOETA/Python-projects-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
@@ -35,9 +35,6 @@ const python = () => {
             <div className='grid grid-cols-3 md:grid-cols-1'>
                 <p className='text-gray-600 py-2 flex items-center' >
                     <RiRadioButtonFill className='pr-1' />Python
-                </p>
-                <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tkinter
                 </p>
             </div>
           </div>

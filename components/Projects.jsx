@@ -8,7 +8,7 @@ import parallaxImg from '../public/assets/projects/parallax.png';
 import bmiImg from '../public/assets/projects/bmi.png';
 import animationsImg from '../public/assets/projects/animations.png';
 import elementsImg from '../public/assets/projects/elements.png';
-import pythonImg from '../public/assets/projects/python.png';
+import pythonImg from '../public/assets/projects/python.jpg';
 import ProjectItem from './ProjectItem';
 import darkthemeImg from '../public/assets/projects/darktheme.png';
 import dropdownImg from '../public/assets/projects/dropdown.png';
@@ -223,7 +223,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Python Projects' 
                 backgroundImg={pythonImg} 
-                technology='Python / Tkinter'
+                technology='Python'
                 projectUrl='/python' 
               />
             </div>
