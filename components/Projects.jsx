@@ -29,10 +29,12 @@ import navbarImg from '../public/assets/projects/navbar.png';
 import firebaseemailImg from '../public/assets/projects/firebaseemail.png';
 import weathernextImg from '../public/assets/projects/weathernext.png';
 import todoImg from '../public/assets/projects/todo.png';
+import materialuiImg from '../public/assets/projects/materialui.png';
+import pwaImg from '../public/assets/projects/pwa.png';
 
 const Projects = () => {
   return (
-    <div id='projects' className='w-full md:mt-60' >
+    <div id='projects' className='w-full md:mt-20' >
         <div className='max-w-[1240px] mx-auto px-2 py-16' >
             <p className='text-xl tracking-widest uppercase text-[#5651e5] pt-8' >Projects</p>
             <h2 className='py-4' >Main Projects</h2>
@@ -75,7 +77,7 @@ const Projects = () => {
                 projectUrl='/todo' 
               />              
             </div>
-            <h2 className='py-4 mt-10' >Tailwind & Bootstrap Projects</h2>
+            <h2 className='py-4 mt-10' >Tailwind, Bootstrap & MaterialUI Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='3 Login Forms' 
@@ -90,16 +92,16 @@ const Projects = () => {
                 projectUrl='/horizontal' 
               />
               <ProjectItem 
-                title='Dropdown Menu' 
-                backgroundImg={dropdownImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/dropdown'
-              />              
-              <ProjectItem 
                 title='BMI Calculator' 
                 backgroundImg={bmiImg} 
                 technology='ReactJS / Bootstrap'
                 projectUrl='/bmi' 
+              />              
+              <ProjectItem 
+                title='Material UI Demo' 
+                backgroundImg={materialuiImg} 
+                technology='ReactJS / MaterialUI'
+                projectUrl='/materialui' 
               />              
             </div>
             <h2 className='py-4 mt-10' >React Projects</h2>
@@ -116,12 +118,6 @@ const Projects = () => {
                 technology='ReactJS'
                 projectUrl='/navbar' 
               />       
-              <ProjectItem 
-                title='Parallax Scrolling' 
-                backgroundImg={parallaxImg} 
-                technology='ReactJS'
-                projectUrl='/parallax' 
-              />
               <ProjectItem 
                 title='Dark Theme Toggle' 
                 backgroundImg={darkthemeImg} 
@@ -171,10 +167,10 @@ const Projects = () => {
                 projectUrl='/amazon' 
               />
               <ProjectItem 
-                title='Weather App ReactJS' 
-                backgroundImg={weatherImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/weather' 
+                title='Weather PWA' 
+                backgroundImg={pwaImg}
+                technology='ReactJS / PWA' 
+                projectUrl='/pwa' 
               />
             </div>
             <h2 className='py-4 mt-10' >Authentication Projects</h2>
@@ -229,6 +225,27 @@ const Projects = () => {
                 backgroundImg={pythonImg} 
                 technology='Python / Tkinter'
                 projectUrl='/python' 
+              />
+            </div>
+            <h2 className='py-4 mt-10' >Other Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Weather App ReactJS' 
+                backgroundImg={weatherImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/weather' 
+              />            
+              <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />                            
+              <ProjectItem 
+                title='Parallax Scrolling' 
+                backgroundImg={parallaxImg} 
+                technology='ReactJS'
+                projectUrl='/parallax' 
               />
             </div>
         </div>
