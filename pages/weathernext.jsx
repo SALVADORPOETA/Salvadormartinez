@@ -25,8 +25,8 @@ const weathernext = () => {
             You can search for a city and get the temperature, 
             the feels like and the humidity. 
             It uses an API called by Axios and it's styled by Tailwind. 
-            It is responsive for mobile and tablet. 
             It is deployed on Vercel.
+            It's responsive for mobile and tablet. 
           </p>
           
           <a href='https://weather-app-next-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

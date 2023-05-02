@@ -25,7 +25,7 @@ const login = () => {
             The goal was to practice TailwindCSS.
             It was built with ReactJS.
             It's deployed on Vercel. 
-            It's responsive for mobile and tablet.
+            It is responsive for mobile and tablet.
           </p>
           
           <a href='https://login-react-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
