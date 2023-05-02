@@ -20,7 +20,7 @@ import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png';
 import loginImg from '../public/assets/projects/login.png';
 import powerlistImg from '../public/assets/projects/powerlist.png';
 import weatherImg from '../public/assets/projects/weather.png';
-import sidebarImg from '../public/assets/projects/sidebar.png';
+// import sidebarImg from '../public/assets/projects/sidebar.png';
 import calculatorImg from '../public/assets/projects/calculator.png';
 import quotesImg from '../public/assets/projects/quotes.png';
 import momentumImg from '../public/assets/projects/momentum.png';
@@ -203,16 +203,16 @@ const Projects = () => {
             <h2 className='py-4 mt-10' >Desktop Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
+                title='Weather App ReactJS' 
+                backgroundImg={weatherImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/weather' 
+              />            
+              <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
                 technology='ReactJS / Bootstrap'
                 projectUrl='/filter' 
-              />
-              <ProjectItem 
-                title='Sidebar Menu' 
-                backgroundImg={sidebarImg}
-                technology='JavaScript' 
-                projectUrl='/sidebar' 
               />
               <ProjectItem 
                 title='CSS Elements' 
@@ -229,12 +229,6 @@ const Projects = () => {
             </div>
             <h2 className='py-4 mt-10' >Other Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Weather App ReactJS' 
-                backgroundImg={weatherImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/weather' 
-              />            
               <ProjectItem 
                 title='Dropdown Menu' 
                 backgroundImg={dropdownImg} 

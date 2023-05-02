@@ -22,7 +22,13 @@ const weather = () => {
           <h2>Overview</h2>
           <p>
             This is a weather app built with ReactJS. It gets the API with Axios.
-            It is deployed on Vercel. It is responsive for mobile and tablet.
+            I added a sidebar that was originally built with vanilla JavaScript 
+            but I used ChatGPT to translate it into ReactJS, 
+            then I fixed all the bugs manually. 
+            You can open the sidebar clicking on the menu icon.
+            The content of the sidebar is not related to the weather app 
+            but I let it as in the original so I could practice the react-icons integration.
+            It is deployed on Vercel and it's better displayed on desktop.
           </p>
           
           <a href='https://weather-app-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
