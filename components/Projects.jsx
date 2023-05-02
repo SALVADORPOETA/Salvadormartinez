@@ -53,16 +53,16 @@ const Projects = () => {
                 projectUrl='/momentum' 
               />
               <ProjectItem 
-                title='Random Gif App' 
-                backgroundImg={gifImg} 
-                technology='ReactJS / Axios / API'
-                projectUrl='/gif' 
-              />
-              <ProjectItem 
                 title='Weather App NextJS' 
                 backgroundImg={weathernextImg}
                 technology='NextJS / API / TailwindCSS' 
                 projectUrl='/weathernext' 
+              />
+              <ProjectItem 
+                title='Random Gif App' 
+                backgroundImg={gifImg} 
+                technology='ReactJS / Axios / API'
+                projectUrl='/gif' 
               />
               <ProjectItem 
                 title='Random Quotes App' 
