@@ -22,8 +22,8 @@ const quotes = () => {
           <h2>Overview</h2>
           <p>
             This app will give you a random quote every time you click the button. 
-            It was built with ReactJS, it uses Axios and it is deployed on Vercel. 
-            It is responsive for mobile and tablet.
+            It was built with ReactJS, it uses Axios and it's deployed on Vercel. 
+            It's responsive for mobile and tablet.
           </p>
           
           <a href='https://quotes-app-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

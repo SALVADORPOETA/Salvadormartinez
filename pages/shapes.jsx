@@ -22,7 +22,7 @@ const shapes = () => {
           <h2>Overview</h2>
           <p>
             This is a web page with shapes that I built only with HTML and CSS. 
-            It was deployed on Vercel. It is responsive for mobile and tablet.
+            It was deployed on Vercel. It's responsive for mobile and tablet.
           </p>
           <a href='https://shapes-css-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Shapes-css-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
