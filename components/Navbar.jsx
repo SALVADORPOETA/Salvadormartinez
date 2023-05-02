@@ -37,7 +37,7 @@ const Navbar = () => {
       router.asPath === '/login' ||
       router.asPath === '/powerlist' ||
       router.asPath === '/weather' ||
-      router.asPath === '/sidebar' ||
+      // router.asPath === '/sidebar' ||
       router.asPath === '/calculator' ||
       router.asPath === '/quotes' ||
       router.asPath === '/momentum' ||
