@@ -1,9 +1,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
-import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
-import { BsFillPersonLinesFill } from 'react-icons/bs';
 import { useRouter } from 'next/router';
 import NavLogo from '../public/assets/navLogo.png'
 
@@ -37,7 +36,6 @@ const Navbar = () => {
       router.asPath === '/login' ||
       router.asPath === '/powerlist' ||
       router.asPath === '/weather' ||
-      // router.asPath === '/sidebar' ||
       router.asPath === '/calculator' ||
       router.asPath === '/quotes' ||
       router.asPath === '/momentum' ||

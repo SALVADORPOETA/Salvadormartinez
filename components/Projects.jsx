@@ -20,7 +20,6 @@ import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png';
 import loginImg from '../public/assets/projects/login.png';
 import powerlistImg from '../public/assets/projects/powerlist.png';
 import weatherImg from '../public/assets/projects/weather.png';
-// import sidebarImg from '../public/assets/projects/sidebar.png';
 import calculatorImg from '../public/assets/projects/calculator.png';
 import quotesImg from '../public/assets/projects/quotes.png';
 import momentumImg from '../public/assets/projects/momentum.png';
