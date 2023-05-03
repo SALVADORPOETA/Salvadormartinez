@@ -21,7 +21,7 @@ const githubauth = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is an authentication page in ReactJS and NextJS. It is deployed on Vercel.
+            This is an authentication page in ReactJS and NextJS. You can sign in with your Github account. It is deployed on Vercel.
           </p>
           <a href='https://github-auth-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/Github-auth-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>

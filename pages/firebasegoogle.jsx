@@ -21,7 +21,7 @@ const firebasegoogle = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is an authentication page in ReactJS and Firebase. You can sign up and sign in with your Goole account. It is deployed on Vercel.
+            This is an authentication page in ReactJS and Firebase. You can sign in with your Goole account. It is deployed on Vercel.
           </p>
           
           <a href='https://firebase-google-sm.vercel.app/signin' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
