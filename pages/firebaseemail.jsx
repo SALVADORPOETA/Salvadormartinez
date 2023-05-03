@@ -21,7 +21,7 @@ const firebaseemail = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is an authentication page in ReactJS and Firebase. 
+            This is an authentication page built with ReactJS and Firebase. 
             You can sign up and sign in with any email and password.
             The account page is protected. It is deployed on Vercel.
           </p>
