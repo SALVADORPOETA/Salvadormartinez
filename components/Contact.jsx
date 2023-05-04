@@ -100,7 +100,7 @@ const Contact = () => {
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="email" 
                                     name='email'
-                                    id='phone'
+                                    id='email'
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
