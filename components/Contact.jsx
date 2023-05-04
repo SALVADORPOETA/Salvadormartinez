@@ -95,27 +95,31 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col py-2' >
-                                <label className='uppercase text-sm py-2' >Email</label>
+                                <label for='email' className='uppercase text-sm py-2' >Email</label>
                                 <input 
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="email" 
                                     name='email'
+                                    id='phone'
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
-                                <label className='uppercase text-sm py-2' >Subject</label>
+                                <label for='subject' className='uppercase text-sm py-2' >Subject</label>
                                 <input 
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="text"
                                     name='subject' 
+                                    id='subject'
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
-                                <label className='uppercase text-sm py-2' >Message</label>
+                                <label for='message' className='uppercase text-sm py-2' >Message</label>
                                 <textarea 
                                     className='border-2 rounded-lg p-3 border-gray-300' 
                                     rows='10'
-                                    name='message' />
+                                    name='message' 
+                                    id='message'
+                                />
                             </div>
                             <div>
                                 <button 
