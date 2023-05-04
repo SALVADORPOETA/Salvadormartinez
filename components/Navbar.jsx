@@ -164,27 +164,37 @@ const Navbar = () => {
             <ul className='uppercase' >
               <li>
                 <Link href='/' >
-                  <li onClick={()=> setNav(false)} className='py-4 text-sm' >Home</li>
+                  <ul>
+                    <li onClick={()=> setNav(false)} className='py-4 text-sm' >Home</li>
+                  </ul>
                 </Link>
               </li>
               <li>
                 <Link href='/#about' >
-                  <li onClick={()=> setNav(false)} className='py-4 text-sm' >About</li>
+                  <ul>
+                    <li onClick={()=> setNav(false)} className='py-4 text-sm' >About</li>
+                  </ul>
                 </Link>
               </li>  
               <li>
                 <Link href='/#skills' >
-                  <li onClick={()=> setNav(false)} className='py-4 text-sm' >Skills</li>
+                  <ul>
+                    <li onClick={()=> setNav(false)} className='py-4 text-sm' >Skills</li>
+                  </ul>
                 </Link>
               </li>
               <li>
                 <Link href='/#projects' >
-                  <li onClick={()=> setNav(false)} className='py-4 text-sm' >Projects</li>
+                  <ul>
+                    <li onClick={()=> setNav(false)} className='py-4 text-sm' >Projects</li>
+                  </ul>
                 </Link>
               </li>
               <li>
                 <Link href='/#contact' >
-                  <li onClick={()=> setNav(false)} className='py-4 text-sm' >Contact</li>
+                  <ul>
+                    <li onClick={()=> setNav(false)} className='py-4 text-sm' >Contact</li>
+                  </ul>
                 </Link>
               </li>
             </ul>
