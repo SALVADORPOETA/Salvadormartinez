@@ -76,7 +76,7 @@ const Contact = () => {
                         >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
                                 <div className='flex flex-col' >
-                                    <label className='uppercase text-sm py-2' >Name</label>
+                                    <label for='name' className='uppercase text-sm py-2' >Name</label>
                                     <input 
                                         className='border-2 rounded-lg p-3 flex border-gray-300' 
                                         type="text" 
@@ -90,7 +90,6 @@ const Contact = () => {
                                         className='border-2 rounded-lg p-3 flex border-gray-300' 
                                         type="text"
                                         name='phone' 
-                                        id='phone'
                                     />
                                 </div>
                             </div>
@@ -100,7 +99,6 @@ const Contact = () => {
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="email" 
                                     name='email'
-                                    id='email'
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
@@ -109,7 +107,6 @@ const Contact = () => {
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="text"
                                     name='subject' 
-                                    id='subject'
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
@@ -117,9 +114,7 @@ const Contact = () => {
                                 <textarea 
                                     className='border-2 rounded-lg p-3 border-gray-300' 
                                     rows='10'
-                                    name='message' 
-                                    id='message'
-                                />
+                                    name='message' />
                             </div>
                             <div>
                                 <button 
