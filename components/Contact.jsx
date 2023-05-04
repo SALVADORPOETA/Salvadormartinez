@@ -49,7 +49,7 @@ const Contact = () => {
                         <div>
                             <p className='uppercase pt-8' >Connect With Me</p>
                             <div className='flex items-center justify-center py-4 mt-5'>
-                                <a aria-label='Go to my Linked In page' href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-sm/' target='_blank'>
+                                <a aria-label='Go to my Linked In page' href='https://www.linkedin.com/in/salvador-martinez-sm/' target='_blank'>
                                     <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-4'>
                                         <FaLinkedinIn />
                                     </div>
