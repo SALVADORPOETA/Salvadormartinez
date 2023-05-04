@@ -90,27 +90,37 @@ const Navbar = () => {
           <ul style={{color: `${linkColor}`}} className='hidden md:flex' >
             <li>  
               <Link href='/'>
-                <li className='ml-10 text-sm uppercase hover:border-b' >Home</li>
+                <ul>
+                  <li className='ml-10 text-sm uppercase hover:border-b' >Home</li>
+                </ul>
               </Link>
             </li>
             <li>
               <Link href='/#about'>
-                <li className='ml-10 text-sm uppercase hover:border-b' >About</li>
+                <ul>
+                  <li className='ml-10 text-sm uppercase hover:border-b' >About</li>
+                </ul>
               </Link>
             </li>
             <li>
               <Link href='/#skills'>
-                <li className='ml-10 text-sm uppercase hover:border-b' >Skills</li>
+                <ul>
+                  <li className='ml-10 text-sm uppercase hover:border-b' >Skills</li>
+                </ul>
               </Link>
             </li>
             <li>
               <Link href='/#projects'>
-                <li className='ml-10 text-sm uppercase hover:border-b' >Projects</li>
+                <ul>
+                  <li className='ml-10 text-sm uppercase hover:border-b' >Projects</li>
+                </ul>
               </Link>
             </li>
             <li>
               <Link href='/#contact'>
-                <li className='ml-10 text-sm uppercase hover:border-b' >Contact</li>
+                <ul>
+                  <li className='ml-10 text-sm uppercase hover:border-b' >Contact</li>
+                </ul>
               </Link>
             </li>
           </ul>
