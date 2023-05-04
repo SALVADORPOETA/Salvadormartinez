@@ -32,7 +32,7 @@ const About = () => {
                 <a href='#skills' ><p className='py-2 text-gray-600 underline cursor-pointer'>Check out my skills and some of my latest projects.</p></a>
             </div>
             <div className='w-fit h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300' >
-                <Image src={AboutImg} className='rounded-xl max-md:w-[200px] max-sm:w-[150px]' width={250} alt='/' />
+                <Image src={AboutImg} className='rounded-xl max-md:w-[200px]' width={250} alt='/' />
             </div>
         </div>
     </div>
