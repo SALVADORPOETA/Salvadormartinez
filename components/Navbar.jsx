@@ -161,12 +161,12 @@ const Navbar = () => {
             <div className='pt-10' >
               <p className='uppercase tracking-widest text-[#5651e5]' >Let's connect</p>
                 <div className='flex items-center justify-center py-4 mt-5 w-full sm:w-[80%]' >
-                <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-sm/' target='_blank'>
+                <a aria-label='Go to my Linked In page' href='https://www.linkedin.com/in/salvador-martinez-sm/' target='_blank'>
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300 mr-4' >
                     <FaLinkedinIn />
                   </div>
                 </a>
-                <a href='https://github.com/SALVADORPOETA' target='_blank' >
+                <a aria-label='Go to my Linked In page' href='https://github.com/SALVADORPOETA' target='_blank' >
                   <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300' >
                     <FaGithub />
                   </div>
