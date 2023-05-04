@@ -157,7 +157,7 @@ const Projects = () => {
                 projectUrl='/shapes' 
               />
             </div>
-            <h2 className='py-4 mt-10' >API Projects</h2>
+            <h2 className='py-4 mt-10' >API, PWA & Other Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Amazon Scraper' 
@@ -170,6 +170,18 @@ const Projects = () => {
                 backgroundImg={pwaImg}
                 technology='ReactJS / PWA' 
                 projectUrl='/pwa' 
+              />
+              <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />                            
+              <ProjectItem 
+                title='Parallax Scrolling' 
+                backgroundImg={parallaxImg} 
+                technology='ReactJS'
+                projectUrl='/parallax' 
               />
             </div>
             <h2 className='py-4 mt-10' >Authentication Projects</h2>
@@ -224,21 +236,6 @@ const Projects = () => {
                 backgroundImg={pythonImg} 
                 technology='Python'
                 projectUrl='/python' 
-              />
-            </div>
-            <h2 className='py-4 mt-10' >Other Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Dropdown Menu' 
-                backgroundImg={dropdownImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/dropdown'
-              />                            
-              <ProjectItem 
-                title='Parallax Scrolling' 
-                backgroundImg={parallaxImg} 
-                technology='ReactJS'
-                projectUrl='/parallax' 
               />
             </div>
         </div>
