@@ -17,12 +17,12 @@ const Main = () => {
                         I’m focused on building responsive front-end web applications.
                     </p>
                     <div className='flex items-center justify-center max-w-[330px] m-auto py-4' >
-                        <a href='https://www.linkedin.com/in/salvador-mart%C3%ADnez-sm/' target='_blank' >
+                        <a aria-label='Go to my Linked In page' href='https://www.linkedin.com/in/salvador-martinez-sm/' target='_blank'>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300 mr-4' >
                                 <FaLinkedinIn />
                             </div>
                         </a>
-                        <a href='https://github.com/SALVADORPOETA' target='_blank' >
+                        <a aria-label='Go to my Github page' href='https://github.com/SALVADORPOETA' target='_blank' >
                             <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300' >
                                 <FaGithub />
                             </div>
