@@ -172,17 +172,17 @@ const Projects = () => {
                 projectUrl='/pwa' 
               />
               <ProjectItem 
-                title='Dropdown Menu' 
-                backgroundImg={dropdownImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/dropdown'
-              />                            
-              <ProjectItem 
                 title='Parallax Scrolling' 
                 backgroundImg={parallaxImg} 
                 technology='ReactJS'
                 projectUrl='/parallax' 
               />
+              <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />                            
             </div>
             <h2 className='py-4 mt-10' >Authentication Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
