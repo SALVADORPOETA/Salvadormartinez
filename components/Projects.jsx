@@ -32,7 +32,6 @@ import materialuiImg from '../public/assets/projects/materialui.png';
 import pwaImg from '../public/assets/projects/pwa.png';
 import airtravelImg from '../public/assets/projects/airtravel.png';
 import dashboardImg from '../public/assets/projects/dashboard.png';
-import movielandImg from '../public/assets/projects/movieland.png';
 
 const Projects = () => {
   return (
