@@ -30,6 +30,9 @@ import weathernextImg from '../public/assets/projects/weathernext.png';
 import todoImg from '../public/assets/projects/todo.png';
 import materialuiImg from '../public/assets/projects/materialui.png';
 import pwaImg from '../public/assets/projects/pwa.png';
+import airtravelImg from '../public/assets/projects/airtravel.png';
+import dashboardImg from '../public/assets/projects/dashboard.png';
+import movielandImg from '../public/assets/projects/movieland.png';
 
 const Projects = () => {
   return (
@@ -45,6 +48,18 @@ const Projects = () => {
                 technology='ReactJS / NextJS / TailwindCSS' 
                 projectUrl='/portfolio' 
               />
+              <ProjectItem 
+                title='Dashboard' 
+                backgroundImg={dashboardImg} 
+                technology='ReactJS / NextJS / TailwindCSS'
+                projectUrl='/dashboard' 
+              />              
+              <ProjectItem 
+                title='Air Travel App' 
+                backgroundImg={airtravelImg} 
+                technology='HTML / CSS / JavaScript'
+                projectUrl='/airtravel' 
+              />              
               <ProjectItem 
                 title='Momentum App' 
                 backgroundImg={momentumImg} 
@@ -63,18 +78,6 @@ const Projects = () => {
                 technology='ReactJS / Axios / API'
                 projectUrl='/gif' 
               />
-              <ProjectItem 
-                title='Random Quotes App' 
-                backgroundImg={quotesImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/quotes' 
-              />              
-              <ProjectItem 
-                title='Todo App Firebase' 
-                backgroundImg={todoImg} 
-                technology='ReactJS / Firebase / TailwindCSS'
-                projectUrl='/todo' 
-              />              
             </div>
             <h2 className='py-4 mt-10' >Tailwind, Bootstrap & MaterialUI Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
@@ -105,6 +108,18 @@ const Projects = () => {
             </div>
             <h2 className='py-4 mt-10' >React Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Random Quotes App' 
+                backgroundImg={quotesImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/quotes' 
+              />              
+              <ProjectItem 
+                title='Todo App Firebase' 
+                backgroundImg={todoImg} 
+                technology='ReactJS / Firebase / TailwindCSS'
+                projectUrl='/todo' 
+              />              
               <ProjectItem 
                 title='Food Website' 
                 backgroundImg={foodImg} 

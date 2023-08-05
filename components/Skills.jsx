@@ -24,6 +24,7 @@ import Axios from '../public/assets/skills/axios.png';
 import SEO from '../public/assets/skills/seo.png';
 import PWA from '../public/assets/skills/pwa.png';
 import MaterialUI from '../public/assets/skills/materialui.png';
+// import Postman from '../public/assets/skills/postman.png';
 
 
 const Skills = () => {
