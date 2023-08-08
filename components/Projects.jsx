@@ -32,6 +32,7 @@ import materialuiImg from '../public/assets/projects/materialui.png';
 import pwaImg from '../public/assets/projects/pwa.png';
 import airtravelImg from '../public/assets/projects/airtravel.png';
 import dashboardImg from '../public/assets/projects/dashboard.png';
+import financialImg from '../public/assets/projects/financial.png';
 
 const Projects = () => {
   return (
@@ -48,6 +49,12 @@ const Projects = () => {
                 projectUrl='/portfolio' 
               />
               <ProjectItem 
+                title='Financial Advisor' 
+                backgroundImg={financialImg}
+                technology='ReactJS'
+                projectUrl='/financial' 
+              />              
+              <ProjectItem 
                 title='Dashboard' 
                 backgroundImg={dashboardImg} 
                 technology='ReactJS / NextJS / TailwindCSS'
@@ -59,12 +66,6 @@ const Projects = () => {
                 technology='HTML / CSS / JavaScript'
                 projectUrl='/airtravel' 
               />              
-              <ProjectItem 
-                title='Momentum App' 
-                backgroundImg={momentumImg} 
-                technology='ReactJS / Axios / API'
-                projectUrl='/momentum' 
-              />
               <ProjectItem 
                 title='Weather App NextJS' 
                 backgroundImg={weathernextImg}
@@ -78,8 +79,41 @@ const Projects = () => {
                 projectUrl='/gif' 
               />
             </div>
-            <h2 className='py-4 mt-10' >Tailwind, Bootstrap & MaterialUI Projects</h2>
+            <h2 className='py-4 mt-10' >API Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Momentum App' 
+                backgroundImg={momentumImg} 
+                technology='ReactJS / Axios / API'
+                projectUrl='/momentum' 
+              />
+              <ProjectItem 
+                title='Random Quotes App' 
+                backgroundImg={quotesImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/quotes' 
+              />              
+              <ProjectItem 
+                title='Weather PWA' 
+                backgroundImg={pwaImg}
+                technology='ReactJS / PWA' 
+                projectUrl='/pwa' 
+              />
+              <ProjectItem 
+                title='Amazon Scraper' 
+                backgroundImg={amazonImg} 
+                technology='JavaScript / RapidAPI'
+                projectUrl='/amazon' 
+              />
+            </div>
+            <h2 className='py-4 mt-10' >Tailwind, Bootstrap</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Todo App Firebase' 
+                backgroundImg={todoImg} 
+                technology='ReactJS / Firebase / TailwindCSS'
+                projectUrl='/todo' 
+              />              
               <ProjectItem 
                 title='3 Login Forms' 
                 backgroundImg={loginImg} 
@@ -98,26 +132,14 @@ const Projects = () => {
                 technology='ReactJS / Bootstrap'
                 projectUrl='/bmi' 
               />              
+            </div>
+            <h2 className='py-4 mt-10' >React Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Material UI Demo' 
                 backgroundImg={materialuiImg} 
                 technology='ReactJS / MaterialUI'
                 projectUrl='/materialui' 
-              />              
-            </div>
-            <h2 className='py-4 mt-10' >React Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Random Quotes App' 
-                backgroundImg={quotesImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/quotes' 
-              />              
-              <ProjectItem 
-                title='Todo App Firebase' 
-                backgroundImg={todoImg} 
-                technology='ReactJS / Firebase / TailwindCSS'
-                projectUrl='/todo' 
               />              
               <ProjectItem 
                 title='Food Website' 
@@ -142,6 +164,12 @@ const Projects = () => {
                 backgroundImg={powerlistImg} 
                 technology='ReactJS'
                 projectUrl='/powerlist' 
+              />
+              <ProjectItem 
+                title='Parallax Scrolling' 
+                backgroundImg={parallaxImg} 
+                technology='ReactJS'
+                projectUrl='/parallax' 
               />
             </div>
             <h2 className='py-4 mt-10' >HTML, CSS & JavaScript Projects</h2>
@@ -170,33 +198,6 @@ const Projects = () => {
                 technology='HTML / CSS'
                 projectUrl='/shapes' 
               />
-            </div>
-            <h2 className='py-4 mt-10' >API, PWA & Other Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Amazon Scraper' 
-                backgroundImg={amazonImg} 
-                technology='JavaScript / RapidAPI'
-                projectUrl='/amazon' 
-              />
-              <ProjectItem 
-                title='Weather PWA' 
-                backgroundImg={pwaImg}
-                technology='ReactJS / PWA' 
-                projectUrl='/pwa' 
-              />
-              <ProjectItem 
-                title='Parallax Scrolling' 
-                backgroundImg={parallaxImg} 
-                technology='ReactJS'
-                projectUrl='/parallax' 
-              />
-              <ProjectItem 
-                title='Dropdown Menu' 
-                backgroundImg={dropdownImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/dropdown'
-              />                            
             </div>
             <h2 className='py-4 mt-10' >Authentication Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
@@ -233,6 +234,12 @@ const Projects = () => {
                 technology='ReactJS / Axios / API' 
                 projectUrl='/weather' 
               />            
+              <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />                            
               <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
