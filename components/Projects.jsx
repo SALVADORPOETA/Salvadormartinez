@@ -106,7 +106,7 @@ const Projects = () => {
                 projectUrl='/amazon' 
               />
             </div>
-            <h2 className='py-4 mt-10' >Tailwind, Bootstrap</h2>
+            <h2 className='py-4 mt-10' >Tailwind & Bootstrap Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Todo App Firebase' 
