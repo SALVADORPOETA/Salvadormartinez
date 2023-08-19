@@ -49,7 +49,13 @@ const Navbar = () => {
       router.asPath === '/airtravel' ||
       router.asPath === '/dashboard' ||
       router.asPath === '/movieland' ||
-      router.asPath === '/financial'
+      router.asPath === '/financial' ||
+      router.asPath === '/realestate' ||
+      router.asPath === '/driver' ||
+      router.asPath === '/weekaway' ||
+      router.asPath === '/besteats' ||
+      router.asPath === '/drive' ||
+      router.asPath === '/datafinance' 
       ) 
       {
         setNavBg('transparent')

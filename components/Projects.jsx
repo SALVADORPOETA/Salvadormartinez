@@ -33,6 +33,13 @@ import pwaImg from '../public/assets/projects/pwa.png';
 import airtravelImg from '../public/assets/projects/airtravel.png';
 import dashboardImg from '../public/assets/projects/dashboard.png';
 import financialImg from '../public/assets/projects/financial.png';
+import realestateImg from '../public/assets/projects/realestate.png';
+import driverImg from '../public/assets/projects/driver.png';
+import weekawayImg from '../public/assets/projects/weekaway.png';
+import besteatsImg from '../public/assets/projects/besteats.png';
+import driveImg from '../public/assets/projects/drive.png';
+import datafinanceImg from '../public/assets/projects/datafinance.png';
+
 
 const Projects = () => {
   return (
@@ -49,38 +56,74 @@ const Projects = () => {
                 projectUrl='/portfolio' 
               />
               <ProjectItem 
-                title='Financial Advisor' 
-                backgroundImg={financialImg}
-                technology='ReactJS'
-                projectUrl='/financial' 
-              />              
-              <ProjectItem 
                 title='Dashboard' 
                 backgroundImg={dashboardImg} 
                 technology='ReactJS / NextJS / TailwindCSS'
                 projectUrl='/dashboard' 
               />              
               <ProjectItem 
-                title='Air Travel App' 
+                title='Weekaway Landing Page' 
+                backgroundImg={weekawayImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/weekaway' 
+              />
+              <ProjectItem 
+                title='Best Eats Landing Page' 
+                backgroundImg={besteatsImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/besteats' 
+              />
+              <ProjectItem 
+                title='Data Finance Landing Page' 
+                backgroundImg={datafinanceImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/datafinance' 
+              />              
+              <ProjectItem 
+                title='Real Estate Landing Page' 
+                backgroundImg={realestateImg} 
+                technology='ReactJS'
+                projectUrl='/realestate' 
+              />
+              <ProjectItem 
+                title='Driver Landing Page' 
+                backgroundImg={driverImg} 
+                technology='ReactJS'
+                projectUrl='/driver' 
+              />
+              <ProjectItem 
+                title='Drive Landing Page' 
+                backgroundImg={driveImg} 
+                technology='ReactJS'
+                projectUrl='/drive' 
+              />
+              <ProjectItem 
+                title='Financial Advisor Landing Page' 
+                backgroundImg={financialImg}
+                technology='ReactJS'
+                projectUrl='/financial' 
+              />              
+              <ProjectItem 
+                title='AirTravel App Landing Page' 
                 backgroundImg={airtravelImg} 
                 technology='HTML / CSS / JavaScript'
                 projectUrl='/airtravel' 
               />              
-              <ProjectItem 
-                title='Weather App NextJS' 
-                backgroundImg={weathernextImg}
-                technology='NextJS / API / TailwindCSS' 
-                projectUrl='/weathernext' 
-              />
+            </div>
+            <h2 className='py-4 mt-10' >API Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Random Gif App' 
                 backgroundImg={gifImg} 
                 technology='ReactJS / Axios / API'
                 projectUrl='/gif' 
               />
-            </div>
-            <h2 className='py-4 mt-10' >API Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Weather App NextJS' 
+                backgroundImg={weathernextImg}
+                technology='NextJS / API / TailwindCSS' 
+                projectUrl='/weathernext' 
+              />
               <ProjectItem 
                 title='Momentum App' 
                 backgroundImg={momentumImg} 
@@ -233,13 +276,13 @@ const Projects = () => {
                 backgroundImg={weatherImg}
                 technology='ReactJS / Axios / API' 
                 projectUrl='/weather' 
-              />            
+              />
               <ProjectItem 
                 title='Dropdown Menu' 
                 backgroundImg={dropdownImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/dropdown'
-              />                            
+              />                                        
               <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
