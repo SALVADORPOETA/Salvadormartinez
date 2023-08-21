@@ -21,7 +21,7 @@ const realestate = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a landing page about a real estate agency built with ReactJS and deployed in Vercel.
+            This is a landing page about a real estate agency built with ReactJS and deployed on Vercel.
           </p>
           
           <a href='https://real-estate-app-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

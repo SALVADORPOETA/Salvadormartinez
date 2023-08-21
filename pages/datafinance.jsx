@@ -21,7 +21,7 @@ const datafinance = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This is a landing page about a Financial agency built with ReactJS, styled with TailwindCSS and deployed in Vercel.
+            This is a landing page about a Financial agency built with ReactJS, styled with TailwindCSS and deployed on Vercel.
           </p>
           
           <a href='https://data-finance-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>

@@ -22,7 +22,7 @@ const besteats = () => {
           <h2>Overview</h2>
           <p>
             This is a landing page about a food app built with ReactJS, 
-            styled with TailwindCSS and deployed in Vercel. 
+            styled with TailwindCSS and deployed on Vercel. 
             You can filter the food by type and price.
           </p>
           
