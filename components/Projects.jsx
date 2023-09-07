@@ -4,7 +4,7 @@ import stopwatchImg from '../public/assets/projects/stopwatch.png';
 import filterImg from '../public/assets/projects/filter.png';
 import shapesImg from '../public/assets/projects/shapes.png';
 import horizontalImg from '../public/assets/projects/horizontal.png';
-import parallaxImg from '../public/assets/projects/parallax.png';
+import popupImg from '../public/assets/projects/popup.png';
 import bmiImg from '../public/assets/projects/bmi.png';
 import animationsImg from '../public/assets/projects/animations.png';
 import elementsImg from '../public/assets/projects/elements.png';
@@ -39,6 +39,12 @@ import weekawayImg from '../public/assets/projects/weekaway.png';
 import besteatsImg from '../public/assets/projects/besteats.png';
 import driveImg from '../public/assets/projects/drive.png';
 import datafinanceImg from '../public/assets/projects/datafinance.png';
+import capturImg from '../public/assets/projects/captur.png';
+import experiencesImg from '../public/assets/projects/experiences.png';
+import portfolioviteImg from '../public/assets/projects/portfoliovite.png';
+import defiImg from '../public/assets/projects/defi.png';
+import defitwImg from '../public/assets/projects/defitw.png';
+import coinImg from '../public/assets/projects/coin.png';
 
 
 const Projects = () => {
@@ -56,10 +62,34 @@ const Projects = () => {
                 projectUrl='/portfolio' 
               />
               <ProjectItem 
+                title='Coin Search Multi-Page App' 
+                backgroundImg={coinImg} 
+                technology='ReactJS / Axios / API'
+                projectUrl='/coin' 
+              />              
+              <ProjectItem 
                 title='Dashboard' 
                 backgroundImg={dashboardImg} 
                 technology='ReactJS / NextJS / TailwindCSS'
                 projectUrl='/dashboard' 
+              />              
+              <ProjectItem 
+                title='Captur Photography Multiple-Page App' 
+                backgroundImg={capturImg} 
+                technology='ReactJS / NextJS / TailwindCSS'
+                projectUrl='/captur' 
+              />              
+              <ProjectItem 
+                title='Defi Tailwind Landing Page' 
+                backgroundImg={defitwImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/defitw' 
+              />              
+              <ProjectItem 
+                title='Experiences Landing Page' 
+                backgroundImg={experiencesImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/experiences' 
               />              
               <ProjectItem 
                 title='Weekaway Landing Page' 
@@ -78,30 +108,6 @@ const Projects = () => {
                 backgroundImg={datafinanceImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/datafinance' 
-              />              
-              <ProjectItem 
-                title='Real Estate Landing Page' 
-                backgroundImg={realestateImg} 
-                technology='ReactJS'
-                projectUrl='/realestate' 
-              />
-              <ProjectItem 
-                title='Driver Landing Page' 
-                backgroundImg={driverImg} 
-                technology='ReactJS'
-                projectUrl='/driver' 
-              />
-              <ProjectItem 
-                title='Drive Landing Page' 
-                backgroundImg={driveImg} 
-                technology='ReactJS'
-                projectUrl='/drive' 
-              />
-              <ProjectItem 
-                title='Financial Advisor Landing Page' 
-                backgroundImg={financialImg}
-                technology='ReactJS'
-                projectUrl='/financial' 
               />              
               <ProjectItem 
                 title='AirTravel App Landing Page' 
@@ -179,6 +185,30 @@ const Projects = () => {
             <h2 className='py-4 mt-10' >React Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
+                title='Real Estate Landing Page' 
+                backgroundImg={realestateImg} 
+                technology='ReactJS'
+                projectUrl='/realestate' 
+              />
+              <ProjectItem 
+                title='Driver Landing Page' 
+                backgroundImg={driverImg} 
+                technology='ReactJS'
+                projectUrl='/driver' 
+              />
+              <ProjectItem 
+                title='Drive Landing Page' 
+                backgroundImg={driveImg} 
+                technology='ReactJS'
+                projectUrl='/drive' 
+              />
+              <ProjectItem 
+                title='Financial Advisor Landing Page' 
+                backgroundImg={financialImg}
+                technology='ReactJS'
+                projectUrl='/financial' 
+              />              
+              <ProjectItem 
                 title='Material UI Demo' 
                 backgroundImg={materialuiImg} 
                 technology='ReactJS / MaterialUI'
@@ -209,10 +239,10 @@ const Projects = () => {
                 projectUrl='/powerlist' 
               />
               <ProjectItem 
-                title='Parallax Scrolling' 
-                backgroundImg={parallaxImg} 
+                title='Pop-Up Windows' 
+                backgroundImg={popupImg} 
                 technology='ReactJS'
-                projectUrl='/parallax' 
+                projectUrl='/popup' 
               />
             </div>
             <h2 className='py-4 mt-10' >HTML, CSS & JavaScript Projects</h2>
@@ -269,26 +299,38 @@ const Projects = () => {
                 projectUrl='/googleauth' 
               />
             </div>
-            <h2 className='py-4 mt-10' >Desktop Projects</h2>
+            <h2 className='py-4 mt-10' >Other Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
+                title='Portfolio ViteJS' 
+                backgroundImg={portfolioviteImg} 
+                technology='ViteJS / TailwindCSS'
+                projectUrl='/portfoliovite' 
+              />              
+              {/* <ProjectItem 
+                title='Defi Landing Page' 
+                backgroundImg={defiImg} 
+                technology='ReactJS'
+                projectUrl='/defi' 
+              />               */}
+              {/* <ProjectItem 
                 title='Weather App ReactJS' 
                 backgroundImg={weatherImg}
                 technology='ReactJS / Axios / API' 
                 projectUrl='/weather' 
-              />
+              /> */}
               <ProjectItem 
                 title='Dropdown Menu' 
                 backgroundImg={dropdownImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/dropdown'
               />                                        
-              <ProjectItem 
+              {/* <ProjectItem 
                 title='Search Filter' 
                 backgroundImg={filterImg} 
                 technology='ReactJS / Bootstrap'
                 projectUrl='/filter' 
-              />
+              /> */}
               <ProjectItem 
                 title='CSS Elements' 
                 backgroundImg={elementsImg} 

@@ -55,7 +55,8 @@ const Navbar = () => {
       router.asPath === '/weekaway' ||
       router.asPath === '/besteats' ||
       router.asPath === '/drive' ||
-      router.asPath === '/datafinance' 
+      router.asPath === '/datafinance' ||
+      router.asPath === '/captur'
       ) 
       {
         setNavBg('transparent')
