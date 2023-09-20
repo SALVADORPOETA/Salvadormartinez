@@ -73,7 +73,7 @@ const Projects = () => {
                 projectUrl='/coin' 
               />              
               <ProjectItem 
-                title='Data Secured Multi-Page' 
+                title='Data Secured Multi-Page App' 
                 backgroundImg={datasecuredImg} 
                 technology='ReactJS / React Router DOM'
                 projectUrl='/datasecured' 
@@ -91,7 +91,7 @@ const Projects = () => {
                 projectUrl='/glxy' 
               />              
               <ProjectItem 
-                title='Dashboard' 
+                title='Dashboard Multi-Page App' 
                 backgroundImg={dashboardImg} 
                 technology='ReactJS / NextJS / TailwindCSS'
                 projectUrl='/dashboard' 
@@ -102,6 +102,15 @@ const Projects = () => {
                 technology='ReactJS / NextJS / TailwindCSS '
                 projectUrl='/captur' 
               />              
+              <ProjectItem 
+                title='Best Eats Landing Page' 
+                backgroundImg={besteatsImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/besteats' 
+              />
+            </div>
+            <h2 className='py-4 mt-10' >Frontend Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Defi Tailwind Landing Page' 
                 backgroundImg={defitwImg} 
@@ -127,12 +136,6 @@ const Projects = () => {
                 projectUrl='/weekaway' 
               />
               <ProjectItem 
-                title='Best Eats Landing Page' 
-                backgroundImg={besteatsImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/besteats' 
-              />
-              <ProjectItem 
                 title='Data Finance Landing Page' 
                 backgroundImg={datafinanceImg} 
                 technology='ReactJS / TailwindCSS'
@@ -144,9 +147,6 @@ const Projects = () => {
                 technology='HTML / CSS / JavaScript'
                 projectUrl='/airtravel' 
               />              
-            </div>
-            <h2 className='py-4 mt-10' >Frontend Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Real Estate Landing Page' 
                 backgroundImg={realestateImg} 
