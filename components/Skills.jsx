@@ -83,6 +83,21 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
+                                src={Python} 
+                                width='64' 
+                                height='64' 
+                                alt='/' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+                        <div className='m-auto' >
+                            <Image 
                                 src={ReactImg} 
                                 width='64' 
                                 height='64' 
@@ -188,21 +203,6 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
-                                src={Linux} 
-                                width='64' 
-                                height='64' 
-                                alt='/' 
-                            />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Linux</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
-                        <div className='m-auto' >
-                            <Image 
                                 src={Postman} 
                                 width='64' 
                                 height='64' 
@@ -236,14 +236,14 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
-                                src={Python} 
+                                src={Linux} 
                                 width='64' 
                                 height='64' 
                                 alt='/' 
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Python</h3>
+                            <h3>Linux</h3>
                         </div>
                     </div>
                 </div>
