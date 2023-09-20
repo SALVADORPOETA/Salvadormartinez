@@ -42,9 +42,14 @@ import datafinanceImg from '../public/assets/projects/datafinance.png';
 import capturImg from '../public/assets/projects/captur.png';
 import experiencesImg from '../public/assets/projects/experiences.png';
 import portfolioviteImg from '../public/assets/projects/portfoliovite.png';
-import defiImg from '../public/assets/projects/defi.png';
+// import defiImg from '../public/assets/projects/defi.png';
 import defitwImg from '../public/assets/projects/defitw.png';
 import coinImg from '../public/assets/projects/coin.png';
+import glxyImg from '../public/assets/projects/glxy.png';
+import defigeckoImg from '../public/assets/projects/defigecko.png';
+import datasecuredImg from '../public/assets/projects/datasecured.png';
+import beachesImg from '../public/assets/projects/beaches.png';
+import portfolioreactImg from '../public/assets/projects/portfolioreact.png';
 
 
 const Projects = () => {
@@ -64,8 +69,26 @@ const Projects = () => {
               <ProjectItem 
                 title='Coin Search Multi-Page App' 
                 backgroundImg={coinImg} 
-                technology='ReactJS / Axios / API'
+                technology='ReactJS / API / React Router DOM'
                 projectUrl='/coin' 
+              />              
+              <ProjectItem 
+                title='Data Secured Multi-Page' 
+                backgroundImg={datasecuredImg} 
+                technology='ReactJS / React Router DOM'
+                projectUrl='/datasecured' 
+              />              
+              <ProjectItem 
+                title='Defi Gecko Landing Page API' 
+                backgroundImg={defigeckoImg} 
+                technology='ReactJS / Axios / API'
+                projectUrl='/defigecko' 
+              />              
+              <ProjectItem 
+                title='Galaxy Travel Multi-Page App' 
+                backgroundImg={glxyImg} 
+                technology='ReactJS / React Router DOM'
+                projectUrl='/glxy' 
               />              
               <ProjectItem 
                 title='Dashboard' 
@@ -76,7 +99,7 @@ const Projects = () => {
               <ProjectItem 
                 title='Captur Photography Multiple-Page App' 
                 backgroundImg={capturImg} 
-                technology='ReactJS / NextJS / TailwindCSS'
+                technology='ReactJS / NextJS / TailwindCSS '
                 projectUrl='/captur' 
               />              
               <ProjectItem 
@@ -84,6 +107,12 @@ const Projects = () => {
                 backgroundImg={defitwImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/defitw' 
+              />              
+              <ProjectItem 
+                title='Beaches Landing Page' 
+                backgroundImg={beachesImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/beaches' 
               />              
               <ProjectItem 
                 title='Experiences Landing Page' 
@@ -116,7 +145,172 @@ const Projects = () => {
                 projectUrl='/airtravel' 
               />              
             </div>
-            <h2 className='py-4 mt-10' >API Projects</h2>
+            <h2 className='py-4 mt-10' >Frontend Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Real Estate Landing Page' 
+                backgroundImg={realestateImg} 
+                technology='ReactJS'
+                projectUrl='/realestate' 
+              />
+              <ProjectItem 
+                title='Driver Landing Page' 
+                backgroundImg={driverImg} 
+                technology='ReactJS'
+                projectUrl='/driver' 
+              />
+              <ProjectItem 
+                title='Drive Landing Page' 
+                backgroundImg={driveImg} 
+                technology='ReactJS'
+                projectUrl='/drive' 
+              />
+              <ProjectItem 
+                title='Financial Advisor Landing Page' 
+                backgroundImg={financialImg}
+                technology='ReactJS'
+                projectUrl='/financial' 
+              />              
+              <ProjectItem 
+                title='CSS Animations' 
+                backgroundImg={animationsImg} 
+                technology='HTML / CSS'
+                projectUrl='/animations' 
+              />
+              <ProjectItem 
+                title='CSS Shapes' 
+                backgroundImg={shapesImg} 
+                technology='HTML / CSS'
+                projectUrl='/shapes' 
+              />
+            </div>
+            <h2 className='py-4 mt-10' >Backend Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Firebase Google Authentication' 
+                backgroundImg={firebasegoogleImg}
+                technology='ReactJS / Firebase / API' 
+                projectUrl='/firebasegoogle' 
+              />
+              <ProjectItem 
+                title='Firebase Email Authentication' 
+                backgroundImg={firebaseemailImg}
+                technology='ReactJS / Firebase / API' 
+                projectUrl='/firebaseemail' 
+              />
+              <ProjectItem 
+                title='Github Authentication' 
+                backgroundImg={githubauthImg} 
+                technology='ReactJS / NextJS / API'
+                projectUrl='/githubauth' 
+              />
+              <ProjectItem 
+                title='Google Authentication' 
+                backgroundImg={googleauthImg} 
+                technology='ReactJS / NextJS / API'
+                projectUrl='/googleauth' 
+              />
+            </div>
+            {/* <h2 className='py-4 mt-10' >Other Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='Portfolio ViteJS' 
+                backgroundImg={portfolioviteImg} 
+                technology='ViteJS / TailwindCSS'
+                projectUrl='/portfoliovite' 
+              />              
+              <ProjectItem 
+                title='Portfolio with other projects' 
+                backgroundImg={portfolioreactImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/portfolioreact' 
+              />               */}
+              {/* <ProjectItem 
+                title='Defi Landing Page' 
+                backgroundImg={defiImg} 
+                technology='ReactJS'
+                projectUrl='/defi' 
+              />               */}
+              {/* <ProjectItem 
+                title='Weather App ReactJS' 
+                backgroundImg={weatherImg}
+                technology='ReactJS / Axios / API' 
+                projectUrl='/weather' 
+              /> */}
+              {/* <ProjectItem 
+                title='Dropdown Menu' 
+                backgroundImg={dropdownImg} 
+                technology='ReactJS / TailwindCSS'
+                projectUrl='/dropdown'
+              />                                         */}
+              {/* <ProjectItem 
+                title='Search Filter' 
+                backgroundImg={filterImg} 
+                technology='ReactJS / Bootstrap'
+                projectUrl='/filter' 
+              /> */}
+              {/* <ProjectItem 
+                title='CSS Elements' 
+                backgroundImg={elementsImg} 
+                technology='HTML / CSS'
+                projectUrl='/elements' 
+              /> */}
+              {/* <ProjectItem 
+                title='Python Projects' 
+                backgroundImg={pythonImg} 
+                technology='Python'
+                projectUrl='/python' 
+              /> */}
+            {/* <ProjectItem 
+                title='Material UI Demo' 
+                backgroundImg={materialuiImg} 
+                technology='ReactJS / MaterialUI'
+                projectUrl='/materialui' 
+              />               */}
+              {/* <ProjectItem 
+                title='Food Website' 
+                backgroundImg={foodImg} 
+                technology='ReactJS'
+                projectUrl='/food' 
+              /> */}
+              {/* <ProjectItem 
+                title='Navbar' 
+                backgroundImg={navbarImg} 
+                technology='ReactJS'
+                projectUrl='/navbar' 
+              />        */}
+              {/* <ProjectItem 
+                title='Dark Theme Toggle' 
+                backgroundImg={darkthemeImg} 
+                technology='ReactJS'
+                projectUrl='/darktheme' 
+              /> */}
+              {/* <ProjectItem 
+                title='Powerlist' 
+                backgroundImg={powerlistImg} 
+                technology='ReactJS'
+                projectUrl='/powerlist' 
+              /> */}
+              {/* <ProjectItem 
+                title='Pop-Up Windows' 
+                backgroundImg={popupImg} 
+                technology='ReactJS'
+                projectUrl='/popup' 
+              /> */}
+              {/* <ProjectItem 
+                title='Simple Calculator' 
+                backgroundImg={calculatorImg} 
+                technology='JavaScript'
+                projectUrl='/calculator' 
+              /> */}
+              {/* <ProjectItem 
+                title='Stopwatch' 
+                backgroundImg={stopwatchImg} 
+                technology='JavaScript'
+                projectUrl='/stopwatch' 
+              /> */}
+            {/* </div> */}
+            {/* <h2 className='py-4 mt-10' >API Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Random Gif App' 
@@ -181,169 +375,7 @@ const Projects = () => {
                 technology='ReactJS / Bootstrap'
                 projectUrl='/bmi' 
               />              
-            </div>
-            <h2 className='py-4 mt-10' >React Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Real Estate Landing Page' 
-                backgroundImg={realestateImg} 
-                technology='ReactJS'
-                projectUrl='/realestate' 
-              />
-              <ProjectItem 
-                title='Driver Landing Page' 
-                backgroundImg={driverImg} 
-                technology='ReactJS'
-                projectUrl='/driver' 
-              />
-              <ProjectItem 
-                title='Drive Landing Page' 
-                backgroundImg={driveImg} 
-                technology='ReactJS'
-                projectUrl='/drive' 
-              />
-              <ProjectItem 
-                title='Financial Advisor Landing Page' 
-                backgroundImg={financialImg}
-                technology='ReactJS'
-                projectUrl='/financial' 
-              />              
-              <ProjectItem 
-                title='Material UI Demo' 
-                backgroundImg={materialuiImg} 
-                technology='ReactJS / MaterialUI'
-                projectUrl='/materialui' 
-              />              
-              <ProjectItem 
-                title='Food Website' 
-                backgroundImg={foodImg} 
-                technology='ReactJS'
-                projectUrl='/food' 
-              />
-              <ProjectItem 
-                title='Navbar' 
-                backgroundImg={navbarImg} 
-                technology='ReactJS'
-                projectUrl='/navbar' 
-              />       
-              <ProjectItem 
-                title='Dark Theme Toggle' 
-                backgroundImg={darkthemeImg} 
-                technology='ReactJS'
-                projectUrl='/darktheme' 
-              />
-              <ProjectItem 
-                title='Powerlist' 
-                backgroundImg={powerlistImg} 
-                technology='ReactJS'
-                projectUrl='/powerlist' 
-              />
-              <ProjectItem 
-                title='Pop-Up Windows' 
-                backgroundImg={popupImg} 
-                technology='ReactJS'
-                projectUrl='/popup' 
-              />
-            </div>
-            <h2 className='py-4 mt-10' >HTML, CSS & JavaScript Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Simple Calculator' 
-                backgroundImg={calculatorImg} 
-                technology='JavaScript'
-                projectUrl='/calculator' 
-              />
-              <ProjectItem 
-                title='Stopwatch' 
-                backgroundImg={stopwatchImg} 
-                technology='JavaScript'
-                projectUrl='/stopwatch' 
-              />
-              <ProjectItem 
-                title='CSS Animations' 
-                backgroundImg={animationsImg} 
-                technology='HTML / CSS'
-                projectUrl='/animations' 
-              />
-              <ProjectItem 
-                title='CSS Shapes' 
-                backgroundImg={shapesImg} 
-                technology='HTML / CSS'
-                projectUrl='/shapes' 
-              />
-            </div>
-            <h2 className='py-4 mt-10' >Authentication Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Firebase Google Authentication' 
-                backgroundImg={firebasegoogleImg}
-                technology='ReactJS / Firebase / API' 
-                projectUrl='/firebasegoogle' 
-              />
-              <ProjectItem 
-                title='Firebase Email Authentication' 
-                backgroundImg={firebaseemailImg}
-                technology='ReactJS / Firebase / API' 
-                projectUrl='/firebaseemail' 
-              />
-              <ProjectItem 
-                title='Github Authentication' 
-                backgroundImg={githubauthImg} 
-                technology='ReactJS / NextJS / API'
-                projectUrl='/githubauth' 
-              />
-              <ProjectItem 
-                title='Google Authentication' 
-                backgroundImg={googleauthImg} 
-                technology='ReactJS / NextJS / API'
-                projectUrl='/googleauth' 
-              />
-            </div>
-            <h2 className='py-4 mt-10' >Other Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
-              <ProjectItem 
-                title='Portfolio ViteJS' 
-                backgroundImg={portfolioviteImg} 
-                technology='ViteJS / TailwindCSS'
-                projectUrl='/portfoliovite' 
-              />              
-              {/* <ProjectItem 
-                title='Defi Landing Page' 
-                backgroundImg={defiImg} 
-                technology='ReactJS'
-                projectUrl='/defi' 
-              />               */}
-              {/* <ProjectItem 
-                title='Weather App ReactJS' 
-                backgroundImg={weatherImg}
-                technology='ReactJS / Axios / API' 
-                projectUrl='/weather' 
-              /> */}
-              <ProjectItem 
-                title='Dropdown Menu' 
-                backgroundImg={dropdownImg} 
-                technology='ReactJS / TailwindCSS'
-                projectUrl='/dropdown'
-              />                                        
-              {/* <ProjectItem 
-                title='Search Filter' 
-                backgroundImg={filterImg} 
-                technology='ReactJS / Bootstrap'
-                projectUrl='/filter' 
-              /> */}
-              <ProjectItem 
-                title='CSS Elements' 
-                backgroundImg={elementsImg} 
-                technology='HTML / CSS'
-                projectUrl='/elements' 
-              />
-              <ProjectItem 
-                title='Python Projects' 
-                backgroundImg={pythonImg} 
-                technology='Python'
-                projectUrl='/python' 
-              />
-            </div>
+            </div> */}
         </div>
     </div>
   )
