@@ -24,7 +24,7 @@ import Axios from '../public/assets/skills/axios.png';
 import SEO from '../public/assets/skills/seo.png';
 import PWA from '../public/assets/skills/pwa.png';
 import MaterialUI from '../public/assets/skills/materialui.png';
-// import Postman from '../public/assets/skills/postman.png';
+import Postman from '../public/assets/skills/postman.png';
 
 
 const Skills = () => {
@@ -83,21 +83,6 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
-                                src={Python} 
-                                width='64' 
-                                height='64' 
-                                alt='/' 
-                            />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Python</h3>
-                        </div>
-                    </div>
-                </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
-                        <div className='m-auto' >
-                            <Image 
                                 src={ReactImg} 
                                 width='64' 
                                 height='64' 
@@ -109,6 +94,21 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+                        <div className='m-auto' >
+                            <Image 
+                                src={NodeJS} 
+                                width='64' 
+                                height='64' 
+                                alt='/' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>NodeJS</h3>
+                        </div>
+                    </div>
+                </div>    
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
@@ -128,17 +128,17 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
-                                src={Bootstrap} 
+                                src={Firebase} 
                                 width='64' 
                                 height='64' 
                                 alt='/' 
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Bootstrap</h3>
+                            <h3>Firebase</h3>
                         </div>
                     </div>
-                </div>
+                </div>    
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
@@ -203,20 +203,50 @@ const Skills = () => {
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
                             <Image 
-                                src={Ubuntu} 
+                                src={Postman} 
                                 width='64' 
                                 height='64' 
                                 alt='/' 
                             />
                         </div>
                         <div className='flex flex-col items-center justify-center'>
-                            <h3>Ubuntu</h3>
+                            <h3>Postman</h3>
                         </div>
                     </div>
                 </div>
             </div>
-            <h2 className='py-4 ml-10 mt-10' >Secondary Skills</h2>
+            {/* <h2 className='py-4 ml-10 mt-10' >Secondary Skills</h2>
             <div className='grid md:grid-cols-2 lg:grid-cols-4 gap-8' >
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+                        <div className='m-auto' >
+                            <Image 
+                                src={Bootstrap} 
+                                width='64' 
+                                height='64' 
+                                alt='/' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Bootstrap</h3>
+                        </div>
+                    </div>
+                </div>
+                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
+                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
+                        <div className='m-auto' >
+                            <Image 
+                                src={Python} 
+                                width='64' 
+                                height='64' 
+                                alt='/' 
+                            />
+                        </div>
+                        <div className='flex flex-col items-center justify-center'>
+                            <h3>Python</h3>
+                        </div>
+                    </div>
+                </div>
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
@@ -232,21 +262,6 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
-                        <div className='m-auto' >
-                            <Image 
-                                src={NodeJS} 
-                                width='64' 
-                                height='64' 
-                                alt='/' 
-                            />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>NodeJS</h3>
-                        </div>
-                    </div>
-                </div>    
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
@@ -292,21 +307,6 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>
-                <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
-                    <div className='grid grid-cols-2 gap-4 justify-center items-center' >
-                        <div className='m-auto' >
-                            <Image 
-                                src={Firebase} 
-                                width='64' 
-                                height='64' 
-                                alt='/' 
-                            />
-                        </div>
-                        <div className='flex flex-col items-center justify-center'>
-                            <h3>Firebase</h3>
-                        </div>
-                    </div>
-                </div>    
                 <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300' >
                     <div className='grid grid-cols-2 gap-4 justify-center items-center' >
                         <div className='m-auto' >
@@ -397,7 +397,7 @@ const Skills = () => {
                         </div>
                     </div>
                 </div>    
-            </div>
+            </div> */}
             
         </div>
     </div>
