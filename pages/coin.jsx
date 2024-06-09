@@ -12,7 +12,7 @@ const coin = () => {
         <Image className='absolute z-1' layout='fill' objectFit='cover' src={coinImg} alt='/' />
         <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2' >
           <h2 className='py-2' >Coin Search</h2>
-          <h3>ReactJS / Axios / API</h3>
+          <h3>ReactJS / API / React Router DOM</h3>
         </div>
       </div>
 
@@ -23,7 +23,8 @@ const coin = () => {
           <p>
             This is a multi-page web site connected to an api that gives information about 
             the main crypto coins in the world. 
-            It was built in ReactJS, it was styled with CSS and it was deployed on Vercel. 
+            It was built in ReactJS and styled with CSS. It gives the latest values of the main crypto coins
+            in the world using an API. It was deployed on Vercel. 
           </p>
           <a href='https://coin-search-sm.vercel.app/' target='_blank' ><button className='px-8 py-2 mt-4 mr-8' >Demo</button></a>
           <a href='https://github.com/SALVADORPOETA/coin-search-sm' target='_blank' ><button className='px-8 py-2 mt-4' >Code</button></a>
@@ -46,6 +47,15 @@ const coin = () => {
               </p>
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />ReactJS
+              </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />Axios
+              </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />API
+              </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />RouterDOM
               </p>
             </div>
           </div>

@@ -42,7 +42,7 @@ const login = () => {
                     <RiRadioButtonFill className='pr-1' />HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tailwind
+                    <RiRadioButtonFill className='pr-1' />TailwindCSS
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
                     <RiRadioButtonFill className='pr-1' />JavaScript

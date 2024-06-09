@@ -49,7 +49,7 @@ const datasecured = () => {
                     <RiRadioButtonFill className='pr-1' />React JS
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />React Router Dom
+                    <RiRadioButtonFill className='pr-1' />RouterDOM
                 </p>
             </div>
           </div>

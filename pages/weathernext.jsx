@@ -24,7 +24,7 @@ const weathernext = () => {
             This is a weather app built with NextJS. 
             You can search for a city and get the temperature, 
             the feels like and the humidity. 
-            It uses an API called by Axios and it's styled by Tailwind. 
+            It uses an API called by Axios and it's styled by TailwindCSS. 
             It is deployed on Vercel.
             It's responsive for mobile and tablet. 
           </p>
@@ -43,7 +43,7 @@ const weathernext = () => {
                     <RiRadioButtonFill className='pr-1' />HTML
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
-                    <RiRadioButtonFill className='pr-1' />Tailwind
+                    <RiRadioButtonFill className='pr-1' />TailwindCSS
                 </p>
                 <p className='text-gray-600 py-2 flex items-center' >
                     <RiRadioButtonFill className='pr-1' />JavaScript
