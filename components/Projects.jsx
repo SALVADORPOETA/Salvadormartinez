@@ -84,7 +84,7 @@ const Projects = () => {
                 projectUrl='/captur' 
               />              
             </div>
-            <h2 className='py-4 mt-10' >Frontend Projects</h2>
+            <h2 className='py-4 mt-10' >Landing Pages</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='weathernext' 
@@ -171,7 +171,7 @@ const Projects = () => {
                 projectUrl='/shapes' 
               />
             </div>
-            <h2 className='py-4 mt-10' >Backend Projects</h2>
+            <h2 className='py-4 mt-10' >Authentication Methods</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Firebase Google Authentication' 
