@@ -20,7 +20,7 @@ const empire = () => {
         <div className='col-span-4' >
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
+          <p className='mt-2'>
             This is an original ReactJS project about the Roman Empire. 
             I had this idea because I like history. 
             I used Router-DOM to make it multi-page and styled it with TailwindCSS. 
