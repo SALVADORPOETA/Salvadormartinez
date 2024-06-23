@@ -76,7 +76,7 @@ const Contact = () => {
                         >                        
                             <div className='grid md:grid-cols-2 gap-4 w-full py-2' >
                                 <div className='flex flex-col' >
-                                    <label for='name' className='uppercase text-sm py-2' >Name</label>
+                                    <label htmlFor='name' className='uppercase text-sm py-2' >Name</label>
                                     <input 
                                         className='border-2 rounded-lg p-3 flex border-gray-300' 
                                         type="text" 
@@ -85,7 +85,7 @@ const Contact = () => {
                                     />
                                 </div>
                                 <div className='flex flex-col' >
-                                    <label for='phone' className='uppercase text-sm py-2' >Phone Number</label>
+                                    <label htmlFor='phone' className='uppercase text-sm py-2' >Phone Number</label>
                                     <input 
                                         className='border-2 rounded-lg p-3 flex border-gray-300' 
                                         type="text"
@@ -95,7 +95,7 @@ const Contact = () => {
                                 </div>
                             </div>
                             <div className='flex flex-col py-2' >
-                                <label for='email' className='uppercase text-sm py-2' >Email</label>
+                                <label htmlFor='email' className='uppercase text-sm py-2' >Email</label>
                                 <input 
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="email" 
@@ -104,7 +104,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
-                                <label for='subject' className='uppercase text-sm py-2' >Subject</label>
+                                <label htmlFor='subject' className='uppercase text-sm py-2' >Subject</label>
                                 <input 
                                     className='border-2 rounded-lg p-3 flex border-gray-300' 
                                     type="text"
@@ -113,7 +113,7 @@ const Contact = () => {
                                 />
                             </div>
                             <div className='flex flex-col py-2' >
-                                <label for='message' className='uppercase text-sm py-2' >Message</label>
+                                <label htmlFor='message' className='uppercase text-sm py-2' >Message</label>
                                 <textarea 
                                     className='border-2 rounded-lg p-3 border-gray-300' 
                                     rows='10'

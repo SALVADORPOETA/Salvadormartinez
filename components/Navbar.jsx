@@ -61,6 +61,8 @@ const Navbar = () => {
       router.asPath === '/defigecko' ||
       router.asPath === '/datasecured' ||
       router.asPath === '/beaches' ||
+      router.asPath === '/empire' ||
+      router.asPath === '/weathernext' ||
       router.asPath === '/portfolioreact'
       ) 
       {

@@ -1,35 +1,12 @@
 import React from 'react';
 import portfolioImg from '../public/assets/projects/portfolio.png';
-import stopwatchImg from '../public/assets/projects/stopwatch.png';
-import filterImg from '../public/assets/projects/filter.png';
 import shapesImg from '../public/assets/projects/shapes.png';
-import horizontalImg from '../public/assets/projects/horizontal.png';
-import popupImg from '../public/assets/projects/popup.png';
-import bmiImg from '../public/assets/projects/bmi.png';
 import animationsImg from '../public/assets/projects/animations.png';
-import elementsImg from '../public/assets/projects/elements.png';
-import pythonImg from '../public/assets/projects/python.jpg';
 import ProjectItem from './ProjectItem';
-import darkthemeImg from '../public/assets/projects/darktheme.png';
-import dropdownImg from '../public/assets/projects/dropdown.png';
 import githubauthImg from '../public/assets/projects/githubauth.png';
 import googleauthImg from '../public/assets/projects/googleauth.png';
-import amazonImg from '../public/assets/projects/amazon.png';
-import gifImg from '../public/assets/projects/gif.png';
 import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png';
-import loginImg from '../public/assets/projects/login.png';
-import powerlistImg from '../public/assets/projects/powerlist.png';
-import weatherImg from '../public/assets/projects/weather.png';
-import calculatorImg from '../public/assets/projects/calculator.png';
-import quotesImg from '../public/assets/projects/quotes.png';
-import momentumImg from '../public/assets/projects/momentum.png';
-import foodImg from '../public/assets/projects/food.png';
-import navbarImg from '../public/assets/projects/navbar.png';
 import firebaseemailImg from '../public/assets/projects/firebaseemail.png';
-import weathernextImg from '../public/assets/projects/weathernext.png';
-import todoImg from '../public/assets/projects/todo.png';
-import materialuiImg from '../public/assets/projects/materialui.png';
-import pwaImg from '../public/assets/projects/pwa.png';
 import airtravelImg from '../public/assets/projects/airtravel.png';
 import dashboardImg from '../public/assets/projects/dashboard.png';
 import financialImg from '../public/assets/projects/financial.png';
@@ -41,15 +18,14 @@ import driveImg from '../public/assets/projects/drive.png';
 import datafinanceImg from '../public/assets/projects/datafinance.png';
 import capturImg from '../public/assets/projects/captur.png';
 import experiencesImg from '../public/assets/projects/experiences.png';
-import portfolioviteImg from '../public/assets/projects/portfoliovite.png';
-// import defiImg from '../public/assets/projects/defi.png';
 import defitwImg from '../public/assets/projects/defitw.png';
 import coinImg from '../public/assets/projects/coin.png';
 import glxyImg from '../public/assets/projects/glxy.png';
 import defigeckoImg from '../public/assets/projects/defigecko.png';
 import datasecuredImg from '../public/assets/projects/datasecured.png';
 import beachesImg from '../public/assets/projects/beaches.png';
-import portfolioreactImg from '../public/assets/projects/portfolioreact.png';
+import weathernextImg from '../public/assets/projects/weathernext.png'
+import empireImg from '../public/assets/projects/empire.png';
 
 
 const Projects = () => {
@@ -59,13 +35,18 @@ const Projects = () => {
             <p className='text-xl tracking-widest uppercase text-[#5651e5] pt-8' >Projects</p>
             <h2 className='py-4' >Main Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
-
               <ProjectItem 
                 title='Portfolio' 
                 backgroundImg={portfolioImg}
                 technology='ReactJS / NextJS / TailwindCSS' 
                 projectUrl='/portfolio' 
               />
+              <ProjectItem 
+                title='Empire Multi-page App' 
+                backgroundImg={empireImg} 
+                technology='ReactJS / Firebase / API'
+                projectUrl='/empire' 
+              />              
               <ProjectItem 
                 title='Coin Search Multi-Page App' 
                 backgroundImg={coinImg} 
@@ -102,15 +83,21 @@ const Projects = () => {
                 technology='ReactJS / NextJS / TailwindCSS '
                 projectUrl='/captur' 
               />              
+            </div>
+            <h2 className='py-4 mt-10' >Frontend Projects</h2>
+            <div className='grid md:grid-cols-2 gap-8' >
+              <ProjectItem 
+                title='weathernext' 
+                backgroundImg={weathernextImg} 
+                technology='NextJS / API / TailwindCSS'
+                projectUrl='/weathernext' 
+              />
               <ProjectItem 
                 title='Best Eats Landing Page' 
                 backgroundImg={besteatsImg} 
                 technology='ReactJS / TailwindCSS'
                 projectUrl='/besteats' 
               />
-            </div>
-            <h2 className='py-4 mt-10' >Frontend Projects</h2>
-            <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
                 title='Defi Tailwind Landing Page' 
                 backgroundImg={defitwImg} 
@@ -142,12 +129,6 @@ const Projects = () => {
                 projectUrl='/datafinance' 
               />              
               <ProjectItem 
-                title='AirTravel App Landing Page' 
-                backgroundImg={airtravelImg} 
-                technology='HTML / CSS / JavaScript'
-                projectUrl='/airtravel' 
-              />              
-              <ProjectItem 
                 title='Real Estate Landing Page' 
                 backgroundImg={realestateImg} 
                 technology='ReactJS'
@@ -170,6 +151,12 @@ const Projects = () => {
                 backgroundImg={financialImg}
                 technology='ReactJS'
                 projectUrl='/financial' 
+              />              
+              <ProjectItem 
+                title='AirTravel App Landing Page' 
+                backgroundImg={airtravelImg} 
+                technology='HTML / CSS / JavaScript'
+                projectUrl='/airtravel' 
               />              
               <ProjectItem 
                 title='CSS Animations' 
