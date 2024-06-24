@@ -72,6 +72,9 @@ const empire = () => {
               <p className='text-gray-600 py-2 flex items-center' >
                 <RiRadioButtonFill className='pr-1' />API
               </p>
+              <p className='text-gray-600 py-2 flex items-center' >
+                <RiRadioButtonFill className='pr-1' />Axios
+              </p>
             </div>
           </div>
         </div>
