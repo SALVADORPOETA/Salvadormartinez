@@ -47,13 +47,13 @@ const Projects = () => {
             projectUrl="/portfolio"
           />
           <ProjectItem
-            title="Kemet"
+            title="Kemet Original App"
             backgroundImg={kemetImg}
             technology="ReactJS / Firebase / API"
             projectUrl="/kemet"
           />
           <ProjectItem
-            title="Empire Multi-page App"
+            title="Empire Original App"
             backgroundImg={empireImg}
             technology="ReactJS / Firebase / API"
             projectUrl="/empire"
