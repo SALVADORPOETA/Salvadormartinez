@@ -26,6 +26,10 @@ import datasecuredImg from '../public/assets/projects/datasecured.png'
 import beachesImg from '../public/assets/projects/beaches.png'
 import kemetImg from '../public/assets/projects/kemet.png'
 import empireImg from '../public/assets/projects/empire.png'
+import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
+import travelImg from '../public/assets/projects/travel.png'
+import dashtremorImg from '../public/assets/projects/dashtremor.png'
+import cloudImg from '../public/assets/projects/cloud.png'
 
 const Projects = () => {
   return (
@@ -53,6 +57,12 @@ const Projects = () => {
             backgroundImg={empireImg}
             technology="ReactJS / Firebase / API"
             projectUrl="/empire"
+          />
+          <ProjectItem
+            title="3D portfolio"
+            backgroundImg={portfolio3dImg}
+            technology="ThreeJS / ReactJS / TailwindCSS"
+            projectUrl="/portfolio3d"
           />
           <ProjectItem
             title="Coin Search Multi-Page App"
@@ -84,14 +94,32 @@ const Projects = () => {
             technology="ReactJS / NextJS / TailwindCSS "
             projectUrl="/captur"
           />
-        </div>
-        <h2 className="py-4 mt-10">Landing Pages</h2>
-        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Defi Gecko Landing Page API"
             backgroundImg={defigeckoImg}
             technology="ReactJS / Axios / API"
             projectUrl="/defigecko"
+          />
+        </div>
+        <h2 className="py-4 mt-10">Landing Pages</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Travel Landing Page"
+            backgroundImg={travelImg}
+            technology="TypeScript / NextJS / TailwindCSS"
+            projectUrl="/travel"
+          />
+          <ProjectItem
+            title="Dash Tremor Landing Page"
+            backgroundImg={dashtremorImg}
+            technology="ReactJS / TailwindCSS"
+            projectUrl="/dashtremor"
+          />
+          <ProjectItem
+            title="Cloud Landing Page"
+            backgroundImg={cloudImg}
+            technology="ReactJS / TailwindCSS"
+            projectUrl="/cloud"
           />
           <ProjectItem
             title="Best Eats Landing Page"

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import bmiImg from '../public/assets/projects/bmi.png'
+import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const bmi = () => {
+const portfolio3d = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const bmi = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={bmiImg}
+          src={portfolio3dImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">BMI Calculator</h2>
-          <h3>ReactJS / Bootstrap</h3>
+          <h2 className="py-2">Portfolio 3D</h2>
+          <h3>ThreeJS / ReactJS / TailwindCSS</h3>
         </div>
       </div>
 
@@ -27,17 +27,17 @@ const bmi = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a BMI Calculator built in ReactJS and styled with Bootstrap.
-            It's deployed on Vercel. I added a slider and a simple navbar where
-            you can find the BMI Calculator button. I made the Modal for the BMI
-            Calculator with useState hook. It is responsive for mobile and
-            tablet.
+            This is a 3D multi-page Portfolio from a YouTube tutorial
+            (JavaScript Mastery) that I built to practice my ThreeJS skills. It
+            was built with React and it was styled with TailwindCSS. It has four
+            pages: Home, About, Projects and Contact. It's deployed on Vercel.
           </p>
-          <a href="https://bmi-calculator-sm.vercel.app/" target="_blank">
+
+          <a href="https://3d-portfolio-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/SALVADORPOETA/BMI-calculator-sm"
+            href="https://github.com/SALVADORPOETA/3d-portfolio-sm"
             target="_blank"
           >
             <button className="px-8 py-2 mt-4">Code</button>
@@ -56,7 +56,7 @@ const bmi = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Bootstrap
+                TailwindCSS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -66,6 +66,10 @@ const bmi = () => {
                 <RiRadioButtonFill className="pr-1" />
                 ReactJS
               </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" />
+                ThreeJS
+              </p>
             </div>
           </div>
         </div>
@@ -74,4 +78,4 @@ const bmi = () => {
   )
 }
 
-export default bmi
+export default portfolio3d
