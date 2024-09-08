@@ -112,7 +112,7 @@ const Projects = () => {
           <ProjectItem
             title="Dash Tremor Landing Page"
             backgroundImg={dashtremorImg}
-            technology="ReactJS / TailwindCSS"
+            technology="ReactJS / TailwindCSS / Tremor"
             projectUrl="/dashtremor"
           />
           <ProjectItem

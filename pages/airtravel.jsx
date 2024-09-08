@@ -28,8 +28,9 @@ const airtravel = () => {
           <h2>Overview</h2>
           <p className="mt-2">
             This is a frontend app similar to airbnb where you can see pictures
-            of beautiful houses for rent. It was built with HTML, CSS and
-            JavaScript. It's deployed on Vercel.
+            of beautiful houses for rent. From a YouTube tutorial (Code
+            Commerce). I built it with HTML, CSS and JavaScript. It's deployed
+            on Vercel.
           </p>
 
           <a href="https://airtravel-sm.vercel.app" target="_blank">

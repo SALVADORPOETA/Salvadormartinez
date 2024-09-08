@@ -27,9 +27,10 @@ const experiences = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a landing page about a travel agency built with ReactJS,
-            styled with TailwindCSS and deployed on Vercel. It has an image
-            slider, a navbar and other sections.
+            This is a landing page about a travel agency that I built with
+            ReactJS, styled with TailwindCSS and deployed on Vercel. It has an
+            image slider, a navbar and other sections. From a YouTube tutorial
+            (Code Commerce).
           </p>
           <a href="https://experiences-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

@@ -27,8 +27,8 @@ const driver = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a fan page about cars built with ReactJS and deployed on
-            Vercel.
+            This is a fan page about cars that I built with ReactJS and deployed
+            on Vercel. From a YouTube tutorial (Code Commerce).
           </p>
 
           <a href="https://driver-app-sm.vercel.app/" target="_blank">

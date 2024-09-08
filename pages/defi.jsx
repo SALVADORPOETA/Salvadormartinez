@@ -27,8 +27,9 @@ const defi = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a landing page about a traiding company. It was built with
-            ReactJS and deployed on Vercel.
+            This is a landing page about a traiding company. From a YouTube
+            tutorial (Code Commerce). I built it with ReactJS and deployed on
+            Vercel.
           </p>
           <a href="https://defi-web-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

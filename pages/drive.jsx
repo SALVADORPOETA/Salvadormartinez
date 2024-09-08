@@ -27,8 +27,9 @@ const drive = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a landing page about a car rent agency built with ReactJS
-            and deployed on Vercel.
+            This is a landing page about a car rent agency that I built with
+            ReactJS and deployed on Vercel. From a YouTube tutorial (Code
+            Commerce).
           </p>
 
           <a href="https://drive-app-sm.vercel.app/" target="_blank">

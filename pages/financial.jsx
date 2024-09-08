@@ -27,8 +27,9 @@ const financial = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a ReactJS project about a financial advising company. It's
-            deployed on Vercel.
+            This is a ReactJS project about a financial advising company. I
+            built it on ReactJS and deployed it on Vercel. From a YouTube
+            tutorial (Code Commerce).
           </p>
 
           <a href="https://financial-advisor-sm.vercel.app" target="_blank">

@@ -27,8 +27,9 @@ const googleauth = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is an authentication page built with ReactJS and NextJS. You
-            can sign in with your Google account. It is deployed on Vercel.
+            This is an authentication page that I built with ReactJS and NextJS.
+            You can sign in with your Google account. From a YouTube tutorial
+            (Code Commerce). It is deployed on Vercel.
           </p>
           <a href="https://google-auth-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png'
+import dashtremorImg from '../public/assets/projects/dashtremor.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const firebasegoogle = () => {
+const dashtremor = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const firebasegoogle = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={firebasegoogleImg}
+          src={dashtremorImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Firebase Google Authentication</h2>
-          <h3>ReactJS / Firebase / API</h3>
+          <h2 className="py-2">Dash Tremor</h2>
+          <h3>ReactJS / TailwindCSS / Tremor</h3>
         </div>
       </div>
 
@@ -27,19 +27,16 @@ const firebasegoogle = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is an authentication page that I built with ReactJS and
-            Firebase. From a YouTube tutorial (Code Commerce). You can sign in
-            with your Goole account. It is deployed on Vercel.
+            This is a Dash that uses components from Tremor. From a YouTube
+            tutorial (Code Commerce). I built it with ReactJS and styled it with
+            TailwindCSS. It was deployed on Vercel.
           </p>
 
-          <a
-            href="https://firebase-google-sm.vercel.app/signin"
-            target="_blank"
-          >
+          <a href="https://dash-tremor-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/SALVADORPOETA/Firebase-google-sm"
+            href="https://github.com/SALVADORPOETA/Dash-tremor-sm"
             target="_blank"
           >
             <button className="px-8 py-2 mt-4">Code</button>
@@ -70,11 +67,7 @@ const firebasegoogle = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Firebase
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" />
-                API
+                Tremor
               </p>
             </div>
           </div>
@@ -84,4 +77,4 @@ const firebasegoogle = () => {
   )
 }
 
-export default firebasegoogle
+export default dashtremor
