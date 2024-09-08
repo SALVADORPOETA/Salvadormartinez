@@ -28,10 +28,10 @@ const coin = () => {
           <h2>Overview</h2>
           <p className="mt-2">
             This is a multi-page web site connected to an api that gives
-            information about the main crypto coins in the world. It was built
-            in ReactJS and styled with CSS. It gives the latest values of the
-            main crypto coins in the world using an API. It was deployed on
-            Vercel.
+            information about the main crypto coins in the world. From a YouTube
+            tutorial (Code Commerce). I built it in ReactJS and styled it with
+            CSS. It gives the latest values of the main crypto coins in the
+            world using an API. It was deployed on Vercel.
           </p>
           <a href="https://coin-search-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

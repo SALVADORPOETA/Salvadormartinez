@@ -27,9 +27,9 @@ const captur = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a multi-page web about a photography company. It was created
-            with NextJS and it was styled with TailwindCSS and it was deployed
-            on Vercel.
+            This is a multi-page web about a photography company. From a YouTube
+            tutorial (Code Commerce). I built it with NextJS and styled it with
+            TailwindCSS. It was deployed on Vercel.
           </p>
           <a href="https://captur-sm.vercel.app/" target="_blank">
             <button className="px-8 py-2 mt-4 mr-8">Demo</button>

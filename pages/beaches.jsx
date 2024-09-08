@@ -27,8 +27,9 @@ const beaches = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a landing page about a luxury travel agency. It was built
-            with ReactJS and styled with TailwindCSS. It is deployed on Vercel.
+            This is a landing page from a YouTube tutorial (Code Commerce) about
+            a luxury travel agency. I built it with ReactJS and styled it with
+            TailwindCSS. It is deployed on Vercel.
           </p>
 
           <a href="https://beaches-sm.vercel.app" target="_blank">
