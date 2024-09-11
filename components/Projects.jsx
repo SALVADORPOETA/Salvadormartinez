@@ -61,7 +61,7 @@ const Projects = () => {
           <ProjectItem
             title="3D portfolio"
             backgroundImg={portfolio3dImg}
-            technology="ThreeJS / ReactJS / TailwindCSS"
+            technology="ThreeJS / ViteJS / TailwindCSS"
             projectUrl="/portfolio3d"
           />
           <ProjectItem
