@@ -66,7 +66,7 @@ const Projects = () => {
             projectUrl="/empire"
           />
         </div>
-        <h2 className="py-4 mt-10">Multi-pages Projects</h2>
+        <h2 className="py-4 mt-10">Multi-Pages Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="3D portfolio"
