@@ -65,7 +65,8 @@ const Navbar = () => {
       router.asPath === '/portfolio3d' ||
       router.asPath === '/travel' ||
       router.asPath === '/dashtremor' ||
-      router.asPath === '/cloud'
+      router.asPath === '/cloud' ||
+      router.asPath === '/bharat'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')

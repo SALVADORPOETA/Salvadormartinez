@@ -11,7 +11,7 @@ import airtravelImg from '../public/assets/projects/airtravel.png'
 import dashboardImg from '../public/assets/projects/dashboard.png'
 import financialImg from '../public/assets/projects/financial.png'
 import realestateImg from '../public/assets/projects/realestate.png'
-import driverImg from '../public/assets/projects/driver.png'
+// import driverImg from '../public/assets/projects/driver.png'
 import weekawayImg from '../public/assets/projects/weekaway.png'
 import besteatsImg from '../public/assets/projects/besteats.png'
 import driveImg from '../public/assets/projects/drive.png'
@@ -30,6 +30,7 @@ import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
 import travelImg from '../public/assets/projects/travel.png'
 import dashtremorImg from '../public/assets/projects/dashtremor.png'
 import cloudImg from '../public/assets/projects/cloud.png'
+import bharatImg from '../public/assets/projects/bharat.png'
 
 const Projects = () => {
   return (
@@ -47,6 +48,12 @@ const Projects = () => {
             projectUrl="/portfolio"
           />
           <ProjectItem
+            title="Bharat Original App"
+            backgroundImg={bharatImg}
+            technology="NextJS / Firebase / API"
+            projectUrl="/bharat"
+          />
+          <ProjectItem
             title="Kemet Original App"
             backgroundImg={kemetImg}
             technology="ReactJS / Firebase / API"
@@ -58,6 +65,9 @@ const Projects = () => {
             technology="ReactJS / Firebase / API"
             projectUrl="/empire"
           />
+        </div>
+        <h2 className="py-4 mt-10">Multi-pages Projects</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="3D portfolio"
             backgroundImg={portfolio3dImg}
@@ -94,15 +104,15 @@ const Projects = () => {
             technology="ReactJS / NextJS / TailwindCSS "
             projectUrl="/captur"
           />
+        </div>
+        <h2 className="py-4 mt-10">Landing Pages</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Defi Gecko Landing Page API"
             backgroundImg={defigeckoImg}
             technology="ReactJS / Axios / API"
             projectUrl="/defigecko"
           />
-        </div>
-        <h2 className="py-4 mt-10">Landing Pages</h2>
-        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Travel Landing Page"
             backgroundImg={travelImg}
@@ -163,12 +173,12 @@ const Projects = () => {
             technology="ReactJS"
             projectUrl="/realestate"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Driver Landing Page"
             backgroundImg={driverImg}
             technology="ReactJS"
             projectUrl="/driver"
-          />
+          /> */}
           <ProjectItem
             title="Drive Landing Page"
             backgroundImg={driveImg}

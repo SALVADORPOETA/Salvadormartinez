@@ -1,10 +1,10 @@
 import Image from 'next/image'
 import React from 'react'
-import kemetImg from '../public/assets/projects/kemet.png'
+import bharatImg from '../public/assets/projects/bharat.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const kemet = () => {
+const bharat = () => {
   return (
     <div className="w-full">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -13,12 +13,12 @@ const kemet = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={kemetImg}
+          src={bharatImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Kemet</h2>
-          <h3>ReactJS / Firebase / API</h3>
+          <h2 className="py-2">Bharat</h2>
+          <h3>NextJS / Firebase / API</h3>
         </div>
       </div>
 
@@ -27,34 +27,35 @@ const kemet = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is an original ReactJS project about the Ancient Egypt. I had
-            this idea because I like history. I used Router-DOM to make it
-            multi-page and styled it with TailwindCSS. I connected it using
-            Axios to an API made by myself with NodeJS and tested with Postman
-            to get the data of the section "Gods" and I used Firebase to save
-            the user's access information. I deployed it on Vercel.
+            This is an original ReactJS project about India. I had this idea
+            because I like world cultures and history. I used React + NextJS and
+            styled it with TailwindCSS. I connected it to an API made by myself
+            with NodeJS and Axios to get the data of the sections "Home",
+            "History" and "Languages". I tested it with Postman. I used Firebase
+            to store the users information. I deployed it on Vercel.
           </p>
           <p className="mt-2">
             This website is completely interactive, so you can click on any
             image and get to see a window with iformation about it. All the
-            buttons have a function as well, like the ones in the Gods section
-            where you can filter by form. You can sign up using your Google
-            account or with an email and password (since this is a personal
-            project I don't require verification, so you can invent any email
-            and password that you want), then you can sign in with your chosen
-            method to access the protected route of your Account page.{' '}
+            buttons have a function as well, like the ones in the "Languages"
+            section where you can filter by language families. You can sign up
+            using your Google account or with an email and password (since this
+            is a personal project I don't require verification, so you can
+            invent any email and password that you want), then you can sign in
+            with your chosen method to access the protected route of your
+            Account page.
           </p>
-          <a href="https://kemet-sm.vercel.app/" target="_blank">
+          <a href="https://bharat-sm.vercel.app/" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Frontend</button>
           </a>
-          <a href="https://kemet-api-sm.vercel.app/" target="_blank">
+          <a href="https://bharat-api-sm.vercel.app/" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Backend</button>
           </a>
-          <a href="https://github.com/SALVADORPOETA/Kemet-sm" target="_blank">
+          <a href="https://github.com/SALVADORPOETA/Bharat-sm" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Frontend Code</button>
           </a>
           <a
-            href="https://github.com/SALVADORPOETA/Kemet-api-sm"
+            href="https://github.com/SALVADORPOETA/Bharat-api-sm"
             target="_blank"
           >
             <button className="px-4 py-2 mt-4">Backend Code</button>
@@ -85,7 +86,7 @@ const kemet = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                RouterDOM
+                NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -115,4 +116,4 @@ const kemet = () => {
   )
 }
 
-export default kemet
+export default bharat
