@@ -28,11 +28,11 @@ const bharat = () => {
           <h2>Overview</h2>
           <p className="mt-2">
             This is an original ReactJS project about India. I had this idea
-            because I like world cultures and history. I used React + NextJS and
-            styled it with TailwindCSS. I connected it to an API made by myself
-            with NodeJS and Axios to get the data of the sections "Home",
-            "History" and "Languages". I tested it with Postman. I used Firebase
-            to store the users information. I deployed it on Vercel.
+            because I like world cultures and history. I used NextJS and styled
+            it with TailwindCSS. I connected it to an API made by myself with
+            NodeJS and Axios to get the data of the sections "Home", "History"
+            and "Languages". I tested it with Postman. I used Firebase to store
+            the users information. I deployed it on Vercel.
           </p>
           <p className="mt-2">
             This website is completely interactive, so you can click on any
