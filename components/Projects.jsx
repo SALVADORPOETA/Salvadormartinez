@@ -3,10 +3,10 @@ import portfolioImg from '../public/assets/projects/portfolio.png'
 import shapesImg from '../public/assets/projects/shapes.png'
 import animationsImg from '../public/assets/projects/animations.png'
 import ProjectItem from './ProjectItem'
-import githubauthImg from '../public/assets/projects/githubauth.png'
-import googleauthImg from '../public/assets/projects/googleauth.png'
-import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png'
-import firebaseemailImg from '../public/assets/projects/firebaseemail.png'
+// import githubauthImg from '../public/assets/projects/githubauth.png'
+// import googleauthImg from '../public/assets/projects/googleauth.png'
+// import firebasegoogleImg from '../public/assets/projects/firebasegoogle.png'
+// import firebaseemailImg from '../public/assets/projects/firebaseemail.png'
 import airtravelImg from '../public/assets/projects/airtravel.png'
 import dashboardImg from '../public/assets/projects/dashboard.png'
 import financialImg from '../public/assets/projects/financial.png'
@@ -31,6 +31,11 @@ import travelImg from '../public/assets/projects/travel.png'
 import dashtremorImg from '../public/assets/projects/dashtremor.png'
 import cloudImg from '../public/assets/projects/cloud.png'
 import bharatImg from '../public/assets/projects/bharat.png'
+import livedocsImg from '../public/assets/projects/livedocs.png'
+import gpt3Img from '../public/assets/projects/gpt3.png'
+import gerichtImg from '../public/assets/projects/gericht.png'
+import brainwaveImg from '../public/assets/projects/brainwave.png'
+import appleImg from '../public/assets/projects/apple.png'
 
 const Projects = () => {
   return (
@@ -39,14 +44,8 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5] pt-8">
           Projects
         </p>
-        <h2 className="py-4">Main Projects</h2>
+        <h2 className="py-4">Original Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Portfolio"
-            backgroundImg={portfolioImg}
-            technology="ReactJS / NextJS / TailwindCSS"
-            projectUrl="/portfolio"
-          />
           <ProjectItem
             title="Bharat Original App"
             backgroundImg={bharatImg}
@@ -66,8 +65,47 @@ const Projects = () => {
             projectUrl="/empire"
           />
         </div>
+        <h2 className="py-4 mt-10">UI/UX Projects</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Apple Web"
+            backgroundImg={appleImg}
+            technology="ThreeJS / GSAP / ViteJS"
+            projectUrl="/apple"
+          />
+          <ProjectItem
+            title="Brainwave"
+            backgroundImg={brainwaveImg}
+            technology="ViteJS / ReactJS / TailwindCSS"
+            projectUrl="/brainwave"
+          />
+          <ProjectItem
+            title="Gericht Restaurant"
+            backgroundImg={gerichtImg}
+            technology="ReactJS"
+            projectUrl="/gericht"
+          />
+          <ProjectItem
+            title="GPT 3"
+            backgroundImg={gpt3Img}
+            technology="ReactJS"
+            projectUrl="/gpt3"
+          />
+        </div>
         <h2 className="py-4 mt-10">Multi-Pages Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Portfolio"
+            backgroundImg={portfolioImg}
+            technology="ReactJS / NextJS / TailwindCSS"
+            projectUrl="/portfolio"
+          />
+          <ProjectItem
+            title="Live Docs"
+            backgroundImg={livedocsImg}
+            technology="NextJS / Liveblocks / TypeScript"
+            projectUrl="/livedocs"
+          />
           <ProjectItem
             title="3D portfolio"
             backgroundImg={portfolio3dImg}
@@ -210,7 +248,7 @@ const Projects = () => {
             projectUrl="/shapes"
           />
         </div>
-        <h2 className="py-4 mt-10">Authentication Methods</h2>
+        {/* <h2 className="py-4 mt-10">Authentication Methods</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Firebase Google Authentication"
@@ -236,7 +274,7 @@ const Projects = () => {
             technology="ReactJS / NextJS / API"
             projectUrl="/googleauth"
           />
-        </div>
+        </div> */}
         {/* <h2 className='py-4 mt-10' >Other Projects</h2>
             <div className='grid md:grid-cols-2 gap-8' >
               <ProjectItem 
