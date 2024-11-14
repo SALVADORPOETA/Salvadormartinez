@@ -11,7 +11,7 @@ import airtravelImg from '../public/assets/projects/airtravel.png'
 import dashboardImg from '../public/assets/projects/dashboard.png'
 import financialImg from '../public/assets/projects/financial.png'
 import realestateImg from '../public/assets/projects/realestate.png'
-// import driverImg from '../public/assets/projects/driver.png'
+import driverImg from '../public/assets/projects/driver.png'
 import weekawayImg from '../public/assets/projects/weekaway.png'
 import besteatsImg from '../public/assets/projects/besteats.png'
 import driveImg from '../public/assets/projects/drive.png'
@@ -44,8 +44,14 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5] pt-8">
           Projects
         </p>
-        <h2 className="py-4">Original Projects</h2>
+        <h2 className="py-4">Main Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Portfolio"
+            backgroundImg={portfolioImg}
+            technology="ReactJS / NextJS / TailwindCSS"
+            projectUrl="/portfolio"
+          />
           <ProjectItem
             title="Bharat Original App"
             backgroundImg={bharatImg}
@@ -92,14 +98,23 @@ const Projects = () => {
             projectUrl="/gpt3"
           />
         </div>
-        <h2 className="py-4 mt-10">Multi-Pages Projects</h2>
+        <h2 className="py-4 mt-10">API Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Portfolio"
-            backgroundImg={portfolioImg}
-            technology="ReactJS / NextJS / TailwindCSS"
-            projectUrl="/portfolio"
+            title="Coin Search Multi-Page App"
+            backgroundImg={coinImg}
+            technology="ReactJS / API / React Router DOM"
+            projectUrl="/coin"
           />
+          <ProjectItem
+            title="Defi Gecko Landing Page API"
+            backgroundImg={defigeckoImg}
+            technology="ReactJS / Axios / API"
+            projectUrl="/defigecko"
+          />
+        </div>
+        <h2 className="py-4 mt-10">Multi-Page Projects</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Live Docs"
             backgroundImg={livedocsImg}
@@ -111,12 +126,6 @@ const Projects = () => {
             backgroundImg={portfolio3dImg}
             technology="ThreeJS / ViteJS / TailwindCSS"
             projectUrl="/portfolio3d"
-          />
-          <ProjectItem
-            title="Coin Search Multi-Page App"
-            backgroundImg={coinImg}
-            technology="ReactJS / API / React Router DOM"
-            projectUrl="/coin"
           />
           <ProjectItem
             title="Data Secured Multi-Page App"
@@ -145,12 +154,6 @@ const Projects = () => {
         </div>
         <h2 className="py-4 mt-10">Landing Pages</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Defi Gecko Landing Page API"
-            backgroundImg={defigeckoImg}
-            technology="ReactJS / Axios / API"
-            projectUrl="/defigecko"
-          />
           <ProjectItem
             title="Travel Landing Page"
             backgroundImg={travelImg}
@@ -211,12 +214,12 @@ const Projects = () => {
             technology="ReactJS"
             projectUrl="/realestate"
           />
-          {/* <ProjectItem
+          <ProjectItem
             title="Driver Landing Page"
             backgroundImg={driverImg}
             technology="ReactJS"
             projectUrl="/driver"
-          /> */}
+          />
           <ProjectItem
             title="Drive Landing Page"
             backgroundImg={driveImg}
@@ -235,6 +238,9 @@ const Projects = () => {
             technology="HTML / CSS / JavaScript"
             projectUrl="/airtravel"
           />
+        </div>
+        <h2 className="py-4 mt-10">Exercises</h2>
+        <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="CSS Animations"
             backgroundImg={animationsImg}
