@@ -29,10 +29,10 @@ const empire = () => {
           <p className="mt-2">
             This is an original ReactJS project about the Roman Empire. I had
             this idea because I like history. I used Router-DOM to make it
-            multi-page and styled it with TailwindCSS. I connected it by Axios
-            to an API made by myself with NodeJS to get the data of the section
-            "Products" and I tested it with Postman. I used Firebase to save the
-            user's access information. I deployed it on Vercel.
+            multi-page and styled it with TailwindCSS. I connected it to an API
+            made by myself with NodeJS and fetched the data of the section
+            "Products" through Axios. I tested it with Postman. I used Firebase
+            to save the user's access information. I deployed it on Vercel.
           </p>
           <p className="mt-2">
             This website is completely interactive, so you can click on all the

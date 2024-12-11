@@ -29,10 +29,10 @@ const kemet = () => {
           <p className="mt-2">
             This is an original ReactJS project about the Ancient Egypt. I had
             this idea because I like history. I used Router-DOM to make it
-            multi-page and styled it with TailwindCSS. I connected it using
-            Axios to an API made by myself with NodeJS and tested with Postman
-            to get the data of the section "Gods" and I used Firebase to save
-            the user's access information. I deployed it on Vercel.
+            multi-page and styled it with TailwindCSS. I connected it to an API
+            made by myself with NodeJS and fetched the data of the section
+            "Gods" through Axios. I used Firebase to save the user's access
+            information. I deployed it on Vercel.
           </p>
           <p className="mt-2">
             This website is completely interactive, so you can click on any

@@ -36,6 +36,7 @@ import gpt3Img from '../public/assets/projects/gpt3.png'
 import gerichtImg from '../public/assets/projects/gericht.png'
 import brainwaveImg from '../public/assets/projects/brainwave.png'
 import appleImg from '../public/assets/projects/apple.png'
+import mayapanImg from '../public/assets/projects/mayapan.png'
 
 const Projects = () => {
   return (
@@ -44,13 +45,13 @@ const Projects = () => {
         <p className="text-xl tracking-widest uppercase text-[#5651e5] pt-8">
           Projects
         </p>
-        <h2 className="py-4">Main Projects</h2>
+        <h2 className="py-4">Original Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Portfolio"
-            backgroundImg={portfolioImg}
-            technology="ReactJS / NextJS / TailwindCSS"
-            projectUrl="/portfolio"
+            title="Mayapan Original App"
+            backgroundImg={mayapanImg}
+            technology="NextJS / Firebase / API"
+            projectUrl="/mayapan"
           />
           <ProjectItem
             title="Bharat Original App"
@@ -70,6 +71,57 @@ const Projects = () => {
             technology="ReactJS / Firebase / API"
             projectUrl="/empire"
           />
+        </div>
+        <h2 className="py-4 mt-10">Multi-Page Projects</h2>
+        <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Portfolio"
+            backgroundImg={portfolioImg}
+            technology="ReactJS / NextJS / TailwindCSS"
+            projectUrl="/portfolio"
+          />
+          <ProjectItem
+            title="Live Docs"
+            backgroundImg={livedocsImg}
+            technology="NextJS / Liveblocks / TypeScript"
+            projectUrl="/livedocs"
+          />
+          <ProjectItem
+            title="3D portfolio"
+            backgroundImg={portfolio3dImg}
+            technology="ThreeJS / ViteJS / TailwindCSS"
+            projectUrl="/portfolio3d"
+          />
+          <ProjectItem
+            title="Coin Search Multi-Page App"
+            backgroundImg={coinImg}
+            technology="ReactJS / API / React Router DOM"
+            projectUrl="/coin"
+          />
+          {/* <ProjectItem
+            title="Data Secured Multi-Page App"
+            backgroundImg={datasecuredImg}
+            technology="ReactJS / React Router DOM"
+            projectUrl="/datasecured"
+          /> */}
+          {/* <ProjectItem
+            title="Galaxy Travel Multi-Page App"
+            backgroundImg={glxyImg}
+            technology="ReactJS / React Router DOM"
+            projectUrl="/glxy"
+          />
+          <ProjectItem
+            title="Dashboard Multi-Page App"
+            backgroundImg={dashboardImg}
+            technology="ReactJS / NextJS / TailwindCSS"
+            projectUrl="/dashboard"
+          />
+          <ProjectItem
+            title="Captur Photography Multiple-Page App"
+            backgroundImg={capturImg}
+            technology="ReactJS / NextJS / TailwindCSS "
+            projectUrl="/captur"
+          /> */}
         </div>
         <h2 className="py-4 mt-10">UI/UX Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
@@ -98,61 +150,16 @@ const Projects = () => {
             projectUrl="/gpt3"
           />
         </div>
-        <h2 className="py-4 mt-10">API Projects</h2>
+        {/* <h2 className="py-4 mt-10">API Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Coin Search Multi-Page App"
-            backgroundImg={coinImg}
-            technology="ReactJS / API / React Router DOM"
-            projectUrl="/coin"
-          />
           <ProjectItem
             title="Defi Gecko Landing Page API"
             backgroundImg={defigeckoImg}
             technology="ReactJS / Axios / API"
             projectUrl="/defigecko"
           />
-        </div>
-        <h2 className="py-4 mt-10">Multi-Page Projects</h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Live Docs"
-            backgroundImg={livedocsImg}
-            technology="NextJS / Liveblocks / TypeScript"
-            projectUrl="/livedocs"
-          />
-          <ProjectItem
-            title="3D portfolio"
-            backgroundImg={portfolio3dImg}
-            technology="ThreeJS / ViteJS / TailwindCSS"
-            projectUrl="/portfolio3d"
-          />
-          <ProjectItem
-            title="Data Secured Multi-Page App"
-            backgroundImg={datasecuredImg}
-            technology="ReactJS / React Router DOM"
-            projectUrl="/datasecured"
-          />
-          <ProjectItem
-            title="Galaxy Travel Multi-Page App"
-            backgroundImg={glxyImg}
-            technology="ReactJS / React Router DOM"
-            projectUrl="/glxy"
-          />
-          <ProjectItem
-            title="Dashboard Multi-Page App"
-            backgroundImg={dashboardImg}
-            technology="ReactJS / NextJS / TailwindCSS"
-            projectUrl="/dashboard"
-          />
-          <ProjectItem
-            title="Captur Photography Multiple-Page App"
-            backgroundImg={capturImg}
-            technology="ReactJS / NextJS / TailwindCSS "
-            projectUrl="/captur"
-          />
-        </div>
-        <h2 className="py-4 mt-10">Landing Pages</h2>
+        </div> */}
+        {/* <h2 className="py-4 mt-10">Landing Pages</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="Travel Landing Page"
@@ -238,8 +245,8 @@ const Projects = () => {
             technology="HTML / CSS / JavaScript"
             projectUrl="/airtravel"
           />
-        </div>
-        <h2 className="py-4 mt-10">Exercises</h2>
+        </div> */}
+        {/* <h2 className="py-4 mt-10">Exercises</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="CSS Animations"
@@ -253,7 +260,7 @@ const Projects = () => {
             technology="HTML / CSS"
             projectUrl="/shapes"
           />
-        </div>
+        </div> */}
         {/* <h2 className="py-4 mt-10">Authentication Methods</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
