@@ -17,7 +17,7 @@ const livedocs = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Kemet</h2>
+          <h2 className="py-2">Live Docs</h2>
           <h3>NextJS / Liveblocks / TypeScript</h3>
         </div>
       </div>

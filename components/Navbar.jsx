@@ -66,6 +66,7 @@ const Navbar = () => {
       router.asPath === '/travel' ||
       router.asPath === '/dashtremor' ||
       router.asPath === '/cloud' ||
+      router.asPath === '/livedocs' ||
       router.asPath === '/bharat' ||
       router.asPath === '/mayapan'
     ) {
