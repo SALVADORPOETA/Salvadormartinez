@@ -37,6 +37,7 @@ import gerichtImg from '../public/assets/projects/gericht.png'
 import brainwaveImg from '../public/assets/projects/brainwave.png'
 import appleImg from '../public/assets/projects/apple.png'
 import mayapanImg from '../public/assets/projects/mayapan.png'
+import imaginifyImg from '../public/assets/projects/imaginify.png'
 
 const Projects = () => {
   return (
@@ -81,6 +82,12 @@ const Projects = () => {
             projectUrl="/portfolio"
           />
           <ProjectItem
+            title="Imaginify AI Image Transformation"
+            backgroundImg={imaginifyImg}
+            technology="TypeScript / Clerk / MongoDB"
+            projectUrl="/imaginify"
+          />
+          <ProjectItem
             title="Live Docs"
             backgroundImg={livedocsImg}
             technology="NextJS / Liveblocks / TypeScript"
@@ -92,12 +99,12 @@ const Projects = () => {
             technology="ThreeJS / ViteJS / TailwindCSS"
             projectUrl="/portfolio3d"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="Coin Search Multi-Page App"
             backgroundImg={coinImg}
             technology="ReactJS / API / React Router DOM"
             projectUrl="/coin"
-          />
+          /> */}
           {/* <ProjectItem
             title="Data Secured Multi-Page App"
             backgroundImg={datasecuredImg}
