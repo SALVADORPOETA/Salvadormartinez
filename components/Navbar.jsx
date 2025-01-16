@@ -69,6 +69,7 @@ const Navbar = () => {
       router.asPath === '/livedocs' ||
       router.asPath === '/imaginify' ||
       router.asPath === '/bharat' ||
+      router.asPath === '/awards' ||
       router.asPath === '/mayapan'
     ) {
       setNavBg('transparent')

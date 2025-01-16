@@ -19,7 +19,7 @@ import ProjectItem from './ProjectItem'
 // import capturImg from '../public/assets/projects/captur.png'
 // import experiencesImg from '../public/assets/projects/experiences.png'
 // import defitwImg from '../public/assets/projects/defitw.png'
-import coinImg from '../public/assets/projects/coin.png'
+// import coinImg from '../public/assets/projects/coin.png'
 // import glxyImg from '../public/assets/projects/glxy.png'
 // import defigeckoImg from '../public/assets/projects/defigecko.png'
 // import datasecuredImg from '../public/assets/projects/datasecured.png'
@@ -32,12 +32,13 @@ import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
 // import cloudImg from '../public/assets/projects/cloud.png'
 import bharatImg from '../public/assets/projects/bharat.png'
 import livedocsImg from '../public/assets/projects/livedocs.png'
-import gpt3Img from '../public/assets/projects/gpt3.png'
+// import gpt3Img from '../public/assets/projects/gpt3.png'
 import gerichtImg from '../public/assets/projects/gericht.png'
 import brainwaveImg from '../public/assets/projects/brainwave.png'
 import appleImg from '../public/assets/projects/apple.png'
 import mayapanImg from '../public/assets/projects/mayapan.png'
 import imaginifyImg from '../public/assets/projects/imaginify.png'
+import awardsImg from '../public/assets/projects/awards.png'
 
 const Projects = () => {
   return (
@@ -133,6 +134,12 @@ const Projects = () => {
         <h2 className="py-4 mt-10">UI/UX Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="Awards"
+            backgroundImg={awardsImg}
+            technology="GSAP / ViteJS / ReactJS"
+            projectUrl="/awards"
+          />
+          <ProjectItem
             title="Apple Web"
             backgroundImg={appleImg}
             technology="ThreeJS / GSAP / ViteJS"
@@ -150,12 +157,12 @@ const Projects = () => {
             technology="ReactJS"
             projectUrl="/gericht"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="GPT 3"
             backgroundImg={gpt3Img}
             technology="ReactJS"
             projectUrl="/gpt3"
-          />
+          /> */}
         </div>
         {/* <h2 className="py-4 mt-10">API Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
