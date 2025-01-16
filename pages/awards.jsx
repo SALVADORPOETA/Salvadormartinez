@@ -27,18 +27,26 @@ const awards = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This project is built with Vite.js, React.js, TailwindCSS and GSAP
-            inspired by the award-winning "Site of the Month" zentry website. It
-            features an animated floating navbar with music controls, allowing
-            users to click and start the music. The hero section displays a
-            full-screen video with smooth transitions that switch to the next
-            video. The About section includes animated text and image
-            transitions that occur as you scroll. Below that, there's a trendy
-            Bento grid design with a card tilt effect that responds to cursor
-            movement. Another section showcases animated text and images in
-            unique shapes, complete with a stylish hover effect. The project
-            concludes with a compelling call-to-action section, featuring images
-            in various shapes, and a minimalist footer.
+            This project is built with Vite.js, React.js, TailwindCSS, and GSAP,
+            inspired by the award-winning "Site of the Month" Zentry website.
+            Created while following a tutorial from JavaScript Mastery, it
+            features a floating navbar with animated music controls, allowing
+            users to start music playback with a click. The hero section
+            showcases a full-screen video background with smooth transitions
+            that switch to the next video. The About section includes animated
+            text and image transitions triggered by scrolling, creating a
+            visually engaging experience. Below that, a trendy Bento grid design
+            with a card tilt effect reacts dynamically to cursor movement,
+            adding interactivity.
+          </p>
+          <p className="mt-2">
+            Another section highlights animated text and images in unique
+            shapes, complete with stylish hover effects. The project concludes
+            with a compelling call-to-action section that features images in
+            various shapes, followed by a minimalist footer. This project serves
+            as both a practice piece and a creative showcase of modern web
+            design techniques, blending cutting-edge frameworks with interactive
+            animations.
           </p>
 
           <a href="https://awards-sm.vercel.app" target="_blank">
