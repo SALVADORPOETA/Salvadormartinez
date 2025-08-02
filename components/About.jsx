@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import React from 'react'
 import AboutImg from '../public/assets/aztec5.jpg'
 
 const About = () => {
@@ -37,7 +36,7 @@ const About = () => {
             </p>
           </a>
         </div>
-        <div className="w-fit h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+        <div className="w-fit h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4">
           <Image
             src={AboutImg}
             className="rounded-xl max-md:w-[200px]"

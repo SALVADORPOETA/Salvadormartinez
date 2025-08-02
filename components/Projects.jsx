@@ -1,5 +1,4 @@
-import React from 'react'
-import portfolioImg from '../public/assets/projects/portfolio.png'
+// import portfolioImg from '../public/assets/projects/portfolio.png'
 // import shapesImg from '../public/assets/projects/shapes.png'
 // import animationsImg from '../public/assets/projects/animations.png'
 import ProjectItem from './ProjectItem'
@@ -26,12 +25,12 @@ import ProjectItem from './ProjectItem'
 // import beachesImg from '../public/assets/projects/beaches.png'
 import kemetImg from '../public/assets/projects/kemet.png'
 import empireImg from '../public/assets/projects/empire.png'
-import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
+// import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
 // import travelImg from '../public/assets/projects/travel.png'
 // import dashtremorImg from '../public/assets/projects/dashtremor.png'
 // import cloudImg from '../public/assets/projects/cloud.png'
 import bharatImg from '../public/assets/projects/bharat.png'
-import livedocsImg from '../public/assets/projects/livedocs.png'
+// import livedocsImg from '../public/assets/projects/livedocs.png'
 // import gpt3Img from '../public/assets/projects/gpt3.png'
 import gerichtImg from '../public/assets/projects/gericht.png'
 import brainwaveImg from '../public/assets/projects/brainwave.png'
@@ -39,6 +38,9 @@ import appleImg from '../public/assets/projects/apple.png'
 import mayapanImg from '../public/assets/projects/mayapan.png'
 import imaginifyImg from '../public/assets/projects/imaginify.png'
 import awardsImg from '../public/assets/projects/awards.png'
+import storeitImg from '../public/assets/projects/storeit.png'
+import carepulseImg from '../public/assets/projects/carepulse.png'
+import podcastrImg from '../public/assets/projects/podcastr.png'
 
 const Projects = () => {
   return (
@@ -50,55 +52,55 @@ const Projects = () => {
         <h2 className="py-4">Original Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Mayapan Original App"
+            title="Mayapan - Original App"
             backgroundImg={mayapanImg}
             technology="NextJS / Firebase / API"
             projectUrl="/mayapan"
           />
           <ProjectItem
-            title="Bharat Original App"
+            title="Bharat - Original App"
             backgroundImg={bharatImg}
             technology="NextJS / Firebase / API"
             projectUrl="/bharat"
           />
           <ProjectItem
-            title="Kemet Original App"
+            title="Kemet - Original App"
             backgroundImg={kemetImg}
             technology="ReactJS / Firebase / API"
             projectUrl="/kemet"
           />
           <ProjectItem
-            title="Empire Original App"
+            title="Empire - Original App"
             backgroundImg={empireImg}
             technology="ReactJS / Firebase / API"
             projectUrl="/empire"
           />
         </div>
-        <h2 className="py-4 mt-10">Multi-Page Projects</h2>
+        <h2 className="py-4 mt-10">Full Stack Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Portfolio"
-            backgroundImg={portfolioImg}
-            technology="ReactJS / NextJS / TailwindCSS"
-            projectUrl="/portfolio"
+            title="Podcastr - Podcast Software As A Service"
+            backgroundImg={podcastrImg}
+            technology="NextJS / Open AI / Clerk / Convex"
+            projectUrl="/podcastr"
           />
           <ProjectItem
-            title="Imaginify AI Image Transformation"
+            title="Carepulse - Healthcare Management System"
+            backgroundImg={carepulseImg}
+            technology="NextJS / TypeScript / Appwrite"
+            projectUrl="/carepulse"
+          />
+          <ProjectItem
+            title="StroreIt - Cloud Storage Management"
+            backgroundImg={storeitImg}
+            technology="NextJS / TypeScript / Appwrite"
+            projectUrl="/storeit"
+          />
+          <ProjectItem
+            title="Imaginify - AI Image Transformation"
             backgroundImg={imaginifyImg}
             technology="TypeScript / Clerk / MongoDB"
             projectUrl="/imaginify"
-          />
-          <ProjectItem
-            title="Live Docs"
-            backgroundImg={livedocsImg}
-            technology="NextJS / Liveblocks / TypeScript"
-            projectUrl="/livedocs"
-          />
-          <ProjectItem
-            title="3D portfolio"
-            backgroundImg={portfolio3dImg}
-            technology="ThreeJS / ViteJS / TailwindCSS"
-            projectUrl="/portfolio3d"
           />
           {/* <ProjectItem
             title="Coin Search Multi-Page App"

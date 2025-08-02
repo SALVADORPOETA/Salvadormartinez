@@ -1,9 +1,9 @@
 import Image from 'next/image'
-import empireImg from '../public/assets/projects/empire.png'
+import carepulseImg from '../public/assets/projects/carepulse.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
-const empire = () => {
+const carepulse = () => {
   return (
     <div className="w-full overflow-hidden pb-10">
       <div className="w-screen h-[30vh] lg:h-[40vh] relative">
@@ -12,12 +12,12 @@ const empire = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={empireImg}
+          src={carepulseImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Empire</h2>
-          <h3>ReactJS / Firebase / API</h3>
+          <h2 className="py-2">CarePulse</h2>
+          <h3>NextJS / TypeScript / Appwrite</h3>
         </div>
       </div>
 
@@ -26,38 +26,36 @@ const empire = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is an original ReactJS project about the Roman Empire. I had
-            this idea because I like history. I used Router-DOM to make it
-            multi-page and styled it with TailwindCSS. I connected it to an API
-            made by myself with NodeJS and fetched the data of the section
-            "Products" through Axios. I tested it with Postman. I used Firebase
-            to save the user's access information. I deployed it on Vercel.
+            This healthcare management system was developed following a tutorial
+            by the YouTube channel JavaScript Mastery. It features real-time SMS
+            notifications to streamline the checkup process, along with secure
+            authentication and patient registration workflows. Users can fill
+            out personal details, medical history, and identification, then
+            schedule appointments with their preferred doctor through a smooth,
+            guided booking experience. The system includes confirmation screens,
+            access permission models, and a comprehensive admin panel to manage,
+            reschedule, or cancel appointments—all with automated SMS alerts.
           </p>
           <p className="mt-2">
-            This website is completely interactive, so you can click on all the
-            cards and you'll be taken to other pages (Wikipedia and Amazon). All
-            the buttons have a function as well, like the ones in the Products
-            section where you can filter by type and price. You can sign up
-            using your Google account or with an email and password (since this
-            is a personal project I don't require verification, so you can
-            invent any email and password that you want), then you can sign in
-            with your chosen method to access the protected route of your
-            Account page.
+            The project leverages Next.js with server-side rendering, nested
+            layouts, server actions, and revalidation for optimal performance
+            and scalability. It includes advanced and reusable form components
+            such as date pickers, international phone inputs, and OTP
+            verification, built using TypeScript, React Hook Form, and Zod. The
+            UI is fully responsive and built with TailwindCSS and ShadCN/UI,
+            while backend functionality is powered by Appwrite, including file
+            storage and Twilio-based SMS notifications. Monitoring and error
+            tracking are handled via Sentry, making this a full-featured and
+            production-ready solution.
           </p>
-          <a href="https://empire-sm.vercel.app/" target="_blank">
-            <button className="px-4 py-2 mt-4 mr-8">Frontend</button>
-          </a>
-          <a href="https://empire-api-sm.vercel.app/" target="_blank">
-            <button className="px-4 py-2 mt-4 mr-8">Backend</button>
-          </a>
-          <a href="https://github.com/SALVADORPOETA/Empire-sm" target="_blank">
-            <button className="px-4 py-2 mt-4 mr-8">Frontend Code</button>
+          <a href="https://carepulse-sm.vercel.app/" target="_blank">
+            <button className="px-4 py-2 mt-4 mr-8">Demo</button>
           </a>
           <a
-            href="https://github.com/SALVADORPOETA/Empire-api-sm"
+            href="https://github.com/SALVADORPOETA/Carepulse-sm"
             target="_blank"
           >
-            <button className="px-4 py-2 mt-4">Backend Code</button>
+            <button className="px-4 py-2 mt-4 mr-8">Code</button>
           </a>
           <Link href="/#projects">
             <p className="underline cursor-pointer mt-20">Back</p>
@@ -77,7 +75,7 @@ const empire = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                JavaScript
+                TypeScript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
@@ -85,27 +83,27 @@ const empire = () => {
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                RouterDOM
+                NextJS
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Firebase
+                ShadCN
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                NodeJS
+                Clerk
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                API
+                Appwrite
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Axios
+                Twilio
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" />
-                Postman
+                Sentry
               </p>
             </div>
           </div>
@@ -115,4 +113,4 @@ const empire = () => {
   )
 }
 
-export default empire
+export default carepulse

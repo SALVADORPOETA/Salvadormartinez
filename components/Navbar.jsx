@@ -70,7 +70,10 @@ const Navbar = () => {
       router.asPath === '/imaginify' ||
       router.asPath === '/bharat' ||
       router.asPath === '/awards' ||
-      router.asPath === '/mayapan'
+      router.asPath === '/mayapan' ||
+      router.asPath === '/storeit' ||
+      router.asPath === '/carepulse' ||
+      router.asPath === '/podcastr'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
