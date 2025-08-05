@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { useRouter } from 'next/router'
@@ -150,6 +150,24 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link href="/#experience">
+                <ul>
+                  <li className="ml-10 text-sm uppercase hover:border-b">
+                    Experience
+                  </li>
+                </ul>
+              </Link>
+            </li>
+            <li>
+              <Link href="/#education">
+                <ul>
+                  <li className="ml-10 text-sm uppercase hover:border-b">
+                    Education
+                  </li>
+                </ul>
+              </Link>
+            </li>
+            <li>
               <Link href="/#contact">
                 <ul>
                   <li className="ml-10 text-sm uppercase hover:border-b">
@@ -159,7 +177,7 @@ const Navbar = () => {
               </Link>
             </li>
           </ul>
-          <div onClick={handleNav} className="md:hidden">
+          <div onClick={handleNav} className="md:hidden cursor-pointer">
             <AiOutlineMenu size={25} />
           </div>
         </div>
@@ -234,6 +252,24 @@ const Navbar = () => {
                   <ul>
                     <li onClick={() => setNav(false)} className="py-4 text-sm">
                       Projects
+                    </li>
+                  </ul>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#experience">
+                  <ul>
+                    <li onClick={() => setNav(false)} className="py-4 text-sm">
+                      Experience
+                    </li>
+                  </ul>
+                </Link>
+              </li>
+              <li>
+                <Link href="/#education">
+                  <ul>
+                    <li onClick={() => setNav(false)} className="py-4 text-sm">
+                      Education
                     </li>
                   </ul>
                 </Link>

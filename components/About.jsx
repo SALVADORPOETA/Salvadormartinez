@@ -11,10 +11,10 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I specialize in building mobile-responsive front-end applications
-            using HTML, CSS, JavaScript, TypeScript, ReactJS, and Next.js. I
-            integrate these with APIs and back-end technologies such as Node.js
-            and Firebase.
+            I build responsive, high-performance web applications from front to
+            back. On the front end, I work with React.js, Next.js, TypeScript,
+            TailwindCSS, and more. On the back end, I integrate APIs and manage
+            services using Node.js, Firebase, MongoDB, Appwrite, and Convex.
           </p>
           <p className="py-2 text-gray-600">
             I believe in companionship and team work and I am willing to help my
