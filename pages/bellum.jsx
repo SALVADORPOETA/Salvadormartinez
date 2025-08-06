@@ -39,48 +39,48 @@ const bellum = () => {
           <h3 className="mt-4">My Contributions at Bellum Politics</h3>
           <h4 className="mt-2">Technical Contributions (One-Person Team):</h4>
           <ul className="list-disc list-inside space-y-1 pl-5 pt-2">
-            <li>
+            <li className="cursor-default">
               Independently designed and implemented all technical aspects of
-              the project as a one-person team, including data scraping,
-              processing, messaging automation, and engagement tracking.
-              Demonstrated full ownership of an end-to-end workflow from raw
-              data collection to actionable insights.
+              the project ScraperPJ as a one-person team, including data
+              scraping, processing, messaging automation, and engagement
+              tracking. Demonstrated full ownership of an end-to-end workflow
+              from raw data collection to actionable insights.
             </li>
-            <li>
+            <li className="cursor-default">
               Developed Node.js scripts to scrape judicial candidate information
               from Mexico’s INE “Conóceles” website
               (https://candidaturaspoderjudicial.ine.mx/), automatically
               expanding panels, handling pagination, removing duplicates, and
               organizing structured JSON datasets.
             </li>
-            <li>
+            <li className="cursor-default">
               Built secondary scripts to parse individual candidate profiles,
               extracting key information (name, email, phone, gender) into
               categorized JSON files.
             </li>
-            <li>
+            <li className="cursor-default">
               Created tools to convert JSON data into Excel and VCF formats,
               enabling efficient analysis and seamless import into mobile
               devices for large-scale messaging.
             </li>
-            <li>
+            <li className="cursor-default">
               Implemented a personalized messaging system, generating
               candidate-specific strategic messages and HTML email templates,
               optimized by name complexity to improve targeting.
             </li>
-            <li>
+            <li className="cursor-default">
               Built an automated email-sending system using Nodemailer, capable
               of dispatching hundreds of personalized emails daily. Integrated
               an email tracking system using invisible pixels linked to a remote
               API, storing engagement results in JSON and Excel for performance
               evaluation and strategic follow-up.
             </li>
-            <li>
+            <li className="cursor-default">
               Developed a WhatsApp automation tool with Puppeteer, sending
               personalized messages at scale while tracking progress, handling
               errors, and ensuring delivery reliability.
             </li>
-            <li>
+            <li className="cursor-default">
               Managed end-to-end data pipelines, connecting scraping,
               processing, messaging, and tracking, demonstrating advanced
               backend workflow design and automation capabilities.
@@ -88,11 +88,11 @@ const bellum = () => {
           </ul>
           <h4 className="mt-4">Marketing & Strategic Contributions:</h4>
           <ul className="list-disc list-inside space-y-1 pl-5 pt-2">
-            <li>
+            <li className="cursor-default">
               Collaborated in writing tailored 1-minute political ad scripts for
               individual candidates.
             </li>
-            <li>
+            <li className="cursor-default">
               Contributed to sales closure strategies and prospect follow-up
               processes, advising on manual contact collection and planning of
               new digital services.
@@ -100,6 +100,12 @@ const bellum = () => {
           </ul>
           <a href="https://bellumpolitics.com/" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
+          </a>
+          <a
+            href="https://github.com/SALVADORPOETA/ScraperPJ-sm"
+            target="_blank"
+          >
+            <button className="px-4 py-2 mt-4 mr-8">Code</button>
           </a>
           <Link href="/#projects">
             <p className="underline cursor-pointer mt-20">Back</p>

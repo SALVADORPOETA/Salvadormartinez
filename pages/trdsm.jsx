@@ -32,15 +32,27 @@ const trdsm = () => {
             responsibilities included:
           </p>
           <ul className="list-disc list-inside space-y-1 pl-5 pt-2">
-            <li>Managed inventory by quantity and size</li>
-            <li>Photographed and edited product images</li>
-            <li>
+            <li className="cursor-default">
+              Managed inventory by quantity and size
+            </li>
+            <li className="cursor-default">
+              Photographed and edited product images
+            </li>
+            <li className="cursor-default">
               Published listings on Facebook Marketplace and Mercado Libre
             </li>
-            <li>Provided prompt and friendly customer service</li>
-            <li>Packed and delivered orders to the shipping center</li>
-            <li>Tracked shipments and resolved delivery issues</li>
-            <li>Handled in-person sales and managed financial records</li>
+            <li className="cursor-default">
+              Provided prompt and friendly customer service
+            </li>
+            <li className="cursor-default">
+              Packed and delivered orders to the shipping center
+            </li>
+            <li className="cursor-default">
+              Tracked shipments and resolved delivery issues
+            </li>
+            <li className="cursor-default">
+              Handled in-person sales and managed financial records
+            </li>
           </ul>
           <p className="mt-2">
             This experience strengthened my skills in sales, customer

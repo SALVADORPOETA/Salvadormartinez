@@ -31,23 +31,23 @@ const guayro = () => {
             responsibilities included:
           </p>
           <ul className="list-disc list-inside space-y-1 pl-5 pt-2">
-            <li>
+            <li className="cursor-default">
               Creating engaging content for the store’s Facebook page to
               increase brand awareness and customer engagement.
             </li>
-            <li>
+            <li className="cursor-default">
               Designing and managing targeted Facebook ad campaigns to drive
               foot traffic and sales.
             </li>
-            <li>
+            <li className="cursor-default">
               Developing and executing marketing strategies tailored to the
               local market.
             </li>
-            <li>
+            <li className="cursor-default">
               Preparing financial statements and overseeing reporting to support
               business decision-making.
             </li>
-            <li>
+            <li className="cursor-default">
               Leading and managing a small on-site team of 3 people to ensure
               efficient store operations.
             </li>
