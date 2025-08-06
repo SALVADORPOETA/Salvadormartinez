@@ -33,8 +33,8 @@ const bellum = () => {
             combines public opinion research, voter segmentation, political ads,
             digital content, crisis management, and candidate training for
             interviews and debates. Its mission is to help candidates maximize
-            their votes and reach power through a professional and highly
-            effective propaganda machine.
+            their votes and improve their public positioning through a
+            professional and highly effective propaganda machine.
           </p>
           <h3 className="mt-4">My Contributions at Bellum Politics</h3>
           <h4 className="mt-2">Technical Contributions (One-Person Team):</h4>
