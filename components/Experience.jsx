@@ -1,6 +1,7 @@
 import ExperienceItem from './ExperienceItem'
 import trdsmImg from '../public/assets/general/trdsm.jpg'
 import guayroImg from '../public/assets/general/guayro.jpg'
+import bellumImg from '../public/assets/general/bellum.png'
 
 const Education = () => {
   return (
@@ -11,6 +12,12 @@ const Education = () => {
         </p>
         <h2 className="py-4">I worked here</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <ExperienceItem
+            title="Bellum Politics"
+            backgroundImg={bellumImg}
+            date="Abr 2025 - Present"
+            pageUrl="/bellum"
+          />
           <ExperienceItem
             title="Trajes Regionales de Segunda Mano"
             backgroundImg={trdsmImg}

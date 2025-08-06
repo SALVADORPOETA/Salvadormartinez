@@ -71,9 +71,20 @@ const Navbar = () => {
       router.asPath === '/bharat' ||
       router.asPath === '/awards' ||
       router.asPath === '/mayapan' ||
+      router.asPath === '/podcastr' ||
       router.asPath === '/storeit' ||
       router.asPath === '/carepulse' ||
-      router.asPath === '/podcastr'
+      router.asPath === '/apple' ||
+      router.asPath === '/brainwave' ||
+      router.asPath === '/gericht' ||
+      router.asPath === '/trdsm' ||
+      router.asPath === '/guayro' ||
+      router.asPath === '/jsm' ||
+      router.asPath === '/codecommerce' ||
+      router.asPath === '/parvat' ||
+      router.asPath === '/uv' ||
+      router.asPath === '/bellum' ||
+      router.asPath === '/platzi'
     ) {
       setNavBg('transparent')
       setLinkColor('#ecf0f3')
