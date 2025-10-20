@@ -18,16 +18,16 @@ export default function Home() {
         {/*META EDGE */}
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         {/*TITLE */}
-        <title>Salvador Martinez | Frontend developer</title>
+        <title>Salvador Martinez | Full-Stack Developer</title>
         {/*META DESCRIPTION */}
         <meta
           name="description"
-          content="I build responsive front-end web applications. Let's build something together"
+          content="I am focused on building responsive full-stack applications. Let's build something together"
         />
         {/*META KEYWORDS */}
         <meta
           name="keywords"
-          content="HTML, CSS, JAVASCRIPT, JS, WEB DEVELOPMENT, REACT"
+          content="HTML, CSS, JAVASCRIPT, JS, WEB DEVELOPMENT, REACT, NEXTJS, FIREBASE"
         />
         {/*META AUTHOR */}
         <meta name="author" content="Salvador Martinez" />

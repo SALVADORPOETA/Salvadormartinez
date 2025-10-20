@@ -48,14 +48,14 @@ const mayapan = () => {
           <a href="https://mayapan-sm.vercel.app/" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Frontend</button>
           </a>
-          <a href="https://mayapan-api-sm.vercel.app/" target="_blank">
+          <a href="https://apis-repository-sm.vercel.app/" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Backend</button>
           </a>
           <a href="https://github.com/SALVADORPOETA/Mayapan-sm" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Frontend Code</button>
           </a>
           <a
-            href="https://github.com/SALVADORPOETA/Mayapan-api-sm"
+            href="https://github.com/SALVADORPOETA/Apis-repository-sm"
             target="_blank"
           >
             <button className="px-4 py-2 mt-4">Backend Code</button>
