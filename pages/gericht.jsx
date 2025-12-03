@@ -26,10 +26,27 @@ const gericht = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a fully responsive website with modern UI/UX in ReactJS from
-            a YouTube tutorial (JavaScript Mastery) that I built to practice
-            CSS; it is a restaurant landing page with all the necessary elements
-            to look professional. It is deployed on Vercel.
+            This fully responsive frontend website, built with ReactJS and
+            styled to demonstrate advanced CSS techniques, functions as a
+            high-end restaurant landing page. Developed following a tutorial by
+            JavaScript Mastery and deployed on Vercel, the project features a
+            dynamic structure that includes a collapsing navigation bar for
+            mobile devices, a custom "About Us" section with contextual
+            background elements, and a dedicated menu section for today’s
+            specials, wine, beer, and cocktails. The design incorporates unique
+            visual elements such as a full-screen video background to showcase
+            the establishment's ambiance and a section detailing chef's
+            commentary and industry awards.
+          </p>
+          <p className="mt-2">
+            The site is engineered for a professional presentation, featuring a
+            dedicated, interactive photo gallery linked to the restaurant's
+            social media, and essential business sections like a "Find Us" page
+            and a custom footer for newsletter sign-ups and working hours. The
+            entire application is 100% mobile responsive, ensuring a consistent
+            and high-quality user experience across all devices, successfully
+            validating skills in UI/UX replication and advanced styling within a
+            React environment.
           </p>
 
           <a href="https://gericht-restaurant-sm.vercel.app" target="_blank">

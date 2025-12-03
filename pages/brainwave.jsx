@@ -26,9 +26,26 @@ const brainwave = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="mt-2">
-            This is a fully responsive website with modern UI/UX in ReactJS +
-            ViteJS from a YouTube tutorial (JavaScript Mastery) with
-            TailwindCSS.
+            This fully responsive frontend project is a modern, UI/UX-optimized
+            landing page for an AI application, developed using ReactJS with
+            ViteJS and styled using TailwindCSS, based on a tutorial by
+            JavaScript Mastery. The application features advanced visual
+            interactions, including an interactive hero section where shapes
+            react to the user's cursor and a subtle, smooth-scrolling Parallax
+            effect. The design incorporates a dynamic Navbar with an animated
+            hamburger menu for mobile devices, and leverages key components like
+            service cards with gradient borders and a structured Bento Box
+            layout to effectively present application features.
+          </p>
+          <p className="mt-2">
+            The project serves as a comprehensive demonstration of skills in
+            building high-quality, high-performance interfaces. The complete
+            structure addresses essential sections such as a pricing table and
+            an application roadmap, utilizing a highly stylized aesthetic with
+            grid lines and geometric shapes for a modern finish. This
+            implementation ensures a 100% mobile-responsive design and a
+            professional polish essential for showcasing a modern technological
+            product.
           </p>
 
           <a href="https://brainwave-sm.vercel.app" target="_blank">
