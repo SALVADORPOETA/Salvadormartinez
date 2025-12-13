@@ -4,6 +4,7 @@ import parvatImg from '../public/assets/general/parvat.png'
 import platziImg from '../public/assets/general/platzi.jpg'
 import codecommerceImg from '../public/assets/general/codecommerce.jpg'
 import jsmImg from '../public/assets/general/jsm.png'
+import codewarsImg from '../public/assets/general/codewars.png'
 
 const Education = () => {
   return (
@@ -14,6 +15,12 @@ const Education = () => {
         </p>
         <h2 className="py-4">I studied here</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <EducationItem
+            title="Code Wars"
+            backgroundImg={codewarsImg}
+            date="May 2024 - Dec 2025"
+            pageUrl="/codewars"
+          />
           <EducationItem
             title="Javascript Mastery"
             backgroundImg={jsmImg}

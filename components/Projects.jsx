@@ -41,6 +41,8 @@ import awardsImg from '../public/assets/projects/awards.png'
 import storeitImg from '../public/assets/projects/storeit.png'
 import carepulseImg from '../public/assets/projects/carepulse.png'
 import podcastrImg from '../public/assets/projects/podcastr.png'
+import postgresqlImg from '../public/assets/projects/postgresql.png'
+import pythonImg from '../public/assets/projects/python.jpg'
 
 const Projects = () => {
   return (
@@ -166,15 +168,21 @@ const Projects = () => {
             projectUrl="/gpt3"
           /> */}
         </div>
-        {/* <h2 className="py-4 mt-10">API Projects</h2>
+        <h2 className="py-4 mt-10">Other Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="Defi Gecko Landing Page API"
-            backgroundImg={defigeckoImg}
-            technology="ReactJS / Axios / API"
-            projectUrl="/defigecko"
+            title="SQL Data Job Analysis"
+            backgroundImg={postgresqlImg}
+            technology="SQL / PostgreSQL / Docker"
+            projectUrl="/sqldatajobs"
           />
-        </div> */}
+          <ProjectItem
+            title="Python project"
+            backgroundImg={pythonImg}
+            technology="Python / Tkinter"
+            projectUrl="/whiteboard"
+          />
+        </div>
         {/* <h2 className="py-4 mt-10">Landing Pages</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem

@@ -17,7 +17,7 @@ const Navbar = () => {
     if (
       router.asPath === '/animations' ||
       router.asPath === '/bmi' ||
-      router.asPath === '/python' ||
+      router.asPath === '/whiteboard' ||
       router.asPath === '/shapes' ||
       router.asPath === '/elements' ||
       router.asPath === '/filter' ||
@@ -77,8 +77,10 @@ const Navbar = () => {
       router.asPath === '/apple' ||
       router.asPath === '/brainwave' ||
       router.asPath === '/gericht' ||
+      router.asPath === '/sqldatajobs' ||
       router.asPath === '/trdsm' ||
       router.asPath === '/guayro' ||
+      router.asPath === '/codewars' ||
       router.asPath === '/jsm' ||
       router.asPath === '/codecommerce' ||
       router.asPath === '/parvat' ||
