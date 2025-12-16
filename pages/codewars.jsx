@@ -36,7 +36,7 @@ const jsm = () => {
           <p className="mt-2">
             I actively trained on Codewars and reached{' '}
             <strong>3 kyu in JavaScript</strong>, placing me in the{' '}
-            <strong>top 0.6% of users globally</strong>, with over
+            <strong>top 0.6% of users globally</strong>, with over{' '}
             <strong>900 completed kata</strong>. This consistent practice
             significantly improved my problem-solving speed, code clarity, and
             ability to reason about edge cases and performance. The experience
