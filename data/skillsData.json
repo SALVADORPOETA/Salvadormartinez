@@ -1,0 +1,229 @@
+{
+  "html": {
+    "description": "Standard markup language for structuring and presenting content on the web.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" },
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" },
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" },
+      { "name": "Gericht", "href": "/gericht" }
+    ]
+  },
+
+  "css": {
+    "description": "Style sheet language used to control layout, colors, typography, and visual appearance of web pages.",
+    "projects": [{ "name": "Gericht", "href": "/gericht" }]
+  },
+
+  "tailwind": {
+    "description": "Utility-first CSS framework for building responsive and modern user interfaces quickly.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" },
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" },
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" }
+    ]
+  },
+
+  "javascript": {
+    "description": "Programming language used to add interactivity and dynamic behavior to web applications.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" },
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" },
+      { "name": "Gericht", "href": "/gericht" }
+    ]
+  },
+
+  "typescript": {
+    "description": "Strongly typed superset of JavaScript that improves scalability and maintainability.",
+    "projects": [
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" }
+    ]
+  },
+
+  "react": {
+    "description": "JavaScript library for building component-based user interfaces.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" },
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" },
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" },
+      { "name": "Gericht", "href": "/gericht" }
+    ]
+  },
+
+  "nextjs": {
+    "description": "React framework with routing, SSR, and optimized builds.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" }
+    ]
+  },
+
+  "routerdom": {
+    "description": "Routing library for client-side navigation in React applications.",
+    "projects": [
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" }
+    ]
+  },
+
+  "vite": {
+    "description": "Fast development server and build tool for modern web projects.",
+    "projects": [
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" }
+    ]
+  },
+
+  "firebase": {
+    "description": "Backend-as-a-Service for authentication and databases.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" }
+    ]
+  },
+
+  "node": {
+    "description": "JavaScript runtime for server-side applications.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" }
+    ]
+  },
+
+  "api": {
+    "description": "Interfaces for communication between software systems.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" }
+    ]
+  },
+
+  "postman": {
+    "description": "Tool for API testing and development.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" }
+    ]
+  },
+
+  "gsap": {
+    "description": "High-performance JavaScript animation library.",
+    "projects": [
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" }
+    ]
+  },
+
+  "threejs": {
+    "description": "3D rendering library based on WebGL.",
+    "projects": [{ "name": "Apple Web", "href": "/apple" }]
+  },
+
+  "sql": {
+    "description": "Language for querying relational databases.",
+    "projects": [{ "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }]
+  },
+
+  "postgresql": {
+    "description": "Advanced open-source relational database.",
+    "projects": [{ "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }]
+  },
+
+  "docker": {
+    "description": "Containerization platform for deploying applications.",
+    "projects": [{ "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }]
+  },
+
+  "python": {
+    "description": "High-level programming language focused on productivity.",
+    "projects": [{ "name": "White Board App", "href": "/whiteboard" }]
+  },
+
+  "tkinter": {
+    "description": "GUI toolkit for Python desktop applications.",
+    "projects": [{ "name": "White Board App", "href": "/whiteboard" }]
+  },
+  "git": {
+    "description": "Distributed version control system used to track code changes and collaborate efficiently.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" },
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" },
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" },
+      { "name": "Gericht", "href": "/gericht" },
+      { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" },
+      { "name": "White Board App", "href": "/whiteboard" }
+    ]
+  },
+
+  "github": {
+    "description": "Cloud-based platform for hosting Git repositories, enabling collaboration, CI/CD, and project visibility.",
+    "projects": [
+      { "name": "Mayapan", "href": "/mayapan" },
+      { "name": "Bharat", "href": "/bharat" },
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" },
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" },
+      { "name": "Imaginify", "href": "/imaginify" },
+      { "name": "Awards Web", "href": "/awards" },
+      { "name": "Apple Web", "href": "/apple" },
+      { "name": "Brainwave", "href": "/brainwave" },
+      { "name": "Gericht", "href": "/gericht" },
+      { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" },
+      { "name": "White Board App", "href": "/whiteboard" }
+    ]
+  }
+}

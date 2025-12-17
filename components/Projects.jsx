@@ -177,7 +177,7 @@ const Projects = () => {
             projectUrl="/sqldatajobs"
           />
           <ProjectItem
-            title="Python project"
+            title="White Board App"
             backgroundImg={pythonImg}
             technology="Python / Tkinter"
             projectUrl="/whiteboard"
