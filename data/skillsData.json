@@ -183,10 +183,6 @@
     "projects": [{ "name": "White Board App", "href": "/whiteboard" }]
   },
 
-  "tkinter": {
-    "description": "GUI toolkit for Python desktop applications.",
-    "projects": [{ "name": "White Board App", "href": "/whiteboard" }]
-  },
   "git": {
     "description": "Distributed version control system used to track code changes and collaborate efficiently.",
     "projects": [
@@ -225,5 +221,87 @@
       { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" },
       { "name": "White Board App", "href": "/whiteboard" }
     ]
+  },
+
+  "ai": {
+    "description": "Applied artificial intelligence features integrated into web applications to enhance functionality and user experience.",
+    "projects": [{ "name": "Imaginify", "href": "/imaginify" }]
+  },
+
+  "appwrite": {
+    "description": "Open-source backend-as-a-service providing authentication, databases, and file storage for modern applications.",
+    "projects": [
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" }
+    ]
+  },
+
+  "chartjs": {
+    "description": "JavaScript charting library used to visualize data through interactive and responsive charts.",
+    "projects": [{ "name": "StoreIt", "href": "/storeit" }]
+  },
+
+  "clerk": {
+    "description": "Authentication and user management platform designed for modern React and Next.js applications.",
+    "projects": [
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "Imaginify", "href": "/imaginify" }
+    ]
+  },
+
+  "cloudinary": {
+    "description": "Cloud-based media management service for storing, optimizing, and delivering images and videos.",
+    "projects": [{ "name": "Imaginify", "href": "/imaginify" }]
+  },
+
+  "convex": {
+    "description": "Reactive backend platform enabling real-time data synchronization and serverless functions.",
+    "projects": [{ "name": "Podcastr", "href": "/podcastr" }]
+  },
+
+  "mongodb": {
+    "description": "NoSQL document-oriented database used for scalable and flexible data storage.",
+    "projects": [{ "name": "Imaginify", "href": "/imaginify" }]
+  },
+
+  "openai": {
+    "description": "API for integrating advanced language and AI capabilities into applications.",
+    "projects": [{ "name": "Podcastr", "href": "/podcastr" }]
+  },
+
+  "react-router-dom": {
+    "description": "Client-side routing library for managing navigation and views in React applications.",
+    "projects": [
+      { "name": "Kemet", "href": "/kemet" },
+      { "name": "Empire", "href": "/empire" }
+    ]
+  },
+
+  "sentry": {
+    "description": "Application monitoring and error tracking platform for identifying and resolving runtime issues.",
+    "projects": [
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "Apple Web", "href": "/apple" }
+    ]
+  },
+
+  "shadcn": {
+    "description": "Modern and accessible UI component library built on top of Radix and TailwindCSS.",
+    "projects": [
+      { "name": "Podcastr", "href": "/podcastr" },
+      { "name": "CarePulse", "href": "/carepulse" },
+      { "name": "StoreIt", "href": "/storeit" }
+    ]
+  },
+
+  "tkinter": {
+    "description": "Standard Python GUI library used to build desktop applications with graphical interfaces.",
+    "projects": [{ "name": "White Board App", "href": "/whiteboard" }]
+  },
+
+  "twilio": {
+    "description": "Cloud communications platform for integrating SMS, voice, and messaging features into applications.",
+    "projects": [{ "name": "CarePulse", "href": "/carepulse" }]
   }
 }

@@ -261,3 +261,28 @@ https://salvadormartinez.vercel.app/sqldatajobs
 https://salvadormartinez.vercel.app/whiteboard
 
 
+AI
+
+Appwrite
+
+ChartJS
+
+Clerk
+
+Cloudinary API
+
+Convex
+
+MongoDB
+
+OpenAI API
+
+React Router DOM
+
+Sentry
+
+ShadCN
+
+Tkinter
+
+Twilio
