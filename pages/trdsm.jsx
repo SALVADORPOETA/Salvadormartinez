@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import trdsmImg from '../public/assets/general/trdsm.jpg'
+import trdsmImg from '../public/assets/general/trdsm.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -65,7 +65,7 @@ const trdsm = () => {
           >
             <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
           </a>
-          <Link href="/#projects">
+          <Link href="/#experience">
             <p className="underline cursor-pointer mt-20">Back</p>
           </Link>
         </div>

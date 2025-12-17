@@ -50,7 +50,7 @@ const jsm = () => {
           >
             <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
           </a>
-          <Link href="/#projects">
+          <Link href="/#education">
             <p className="underline cursor-pointer mt-20">Back</p>
           </Link>
         </div>

@@ -1,6 +1,6 @@
 import ExperienceItem from './ExperienceItem'
-import trdsmImg from '../public/assets/general/trdsm.jpg'
-import guayroImg from '../public/assets/general/guayro.jpg'
+import trdsmImg from '../public/assets/general/trdsm.png'
+import guayroImg from '../public/assets/general/guayro.png'
 import bellumImg from '../public/assets/general/bellum.png'
 
 const Education = () => {

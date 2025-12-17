@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import guayroImg from '../public/assets/general/guayro.jpg'
+import guayroImg from '../public/assets/general/guayro.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -55,7 +55,7 @@ const guayro = () => {
           <a href="https://www.facebook.com/GuayroMercadito" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
           </a>
-          <Link href="/#projects">
+          <Link href="/#experience">
             <p className="underline cursor-pointer mt-20">Back</p>
           </Link>
         </div>

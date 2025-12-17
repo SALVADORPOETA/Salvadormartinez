@@ -1,8 +1,8 @@
 import EducationItem from './EducationItem'
 import uvImg from '../public/assets/general/uv.png'
 import parvatImg from '../public/assets/general/parvat.png'
-import platziImg from '../public/assets/general/platzi.jpg'
-import codecommerceImg from '../public/assets/general/codecommerce.jpg'
+import platziImg from '../public/assets/general/platzi.jpeg'
+import codecommerceImg from '../public/assets/general/codecommerce.png'
 import jsmImg from '../public/assets/general/jsm.png'
 import codewarsImg from '../public/assets/general/codewars.png'
 

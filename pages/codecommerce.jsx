@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import codecommerceImg from '../public/assets/general/codecommerce.jpg'
+import codecommerceImg from '../public/assets/general/codecommerce.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -43,7 +43,7 @@ const codecommerce = () => {
           <a href="https://www.youtube.com/@codecommerce" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
           </a>
-          <Link href="/#projects">
+          <Link href="/#education">
             <p className="underline cursor-pointer mt-20">Back</p>
           </Link>
         </div>

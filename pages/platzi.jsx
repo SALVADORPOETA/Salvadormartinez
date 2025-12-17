@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import platziImg from '../public/assets/general/platzi.jpg'
+import platziImg from '../public/assets/general/platzi.jpeg'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 
@@ -46,7 +46,7 @@ const platzi = () => {
           <a href="https://platzi.com/" target="_blank">
             <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
           </a>
-          <Link href="/#projects">
+          <Link href="/#education">
             <p className="underline cursor-pointer mt-20">Back</p>
           </Link>
         </div>
