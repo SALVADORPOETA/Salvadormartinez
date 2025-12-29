@@ -15,7 +15,7 @@ const Education = () => {
           <ExperienceItem
             title="Bellum Politics"
             backgroundImg={bellumImg}
-            date="Abr 2025 - Present"
+            date="Apr 2025 - Present"
             pageUrl="/bellum"
           />
           <ExperienceItem
@@ -27,7 +27,7 @@ const Education = () => {
           <ExperienceItem
             title="Guayro"
             backgroundImg={guayroImg}
-            date="Mar 2018 - Abr 2022"
+            date="Mar 2018 - Apr 2022"
             pageUrl="/guayro"
           />
         </div>
