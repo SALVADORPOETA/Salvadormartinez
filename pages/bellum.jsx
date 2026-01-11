@@ -105,7 +105,7 @@ const bellum = () => {
             href="https://github.com/SALVADORPOETA/ScraperPJ-sm"
             target="_blank"
           >
-            <button className="px-4 py-2 mt-4 mr-8">Code</button>
+            <button className="px-4 py-2 mt-4 mr-8">My Project</button>
           </a>
           <Link href="/#experience">
             <p className="underline cursor-pointer mt-20">Back</p>
