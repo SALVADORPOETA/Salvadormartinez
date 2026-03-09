@@ -38,6 +38,7 @@ import appleImg from '../public/assets/projects/apple.png'
 import mayapanImg from '../public/assets/projects/mayapan.png'
 import imaginifyImg from '../public/assets/projects/imaginify.png'
 import awardsImg from '../public/assets/projects/awards.png'
+import mernImg from '../public/assets/projects/mern.png'
 import storeitImg from '../public/assets/projects/storeit.png'
 import carepulseImg from '../public/assets/projects/carepulse.png'
 import podcastrImg from '../public/assets/projects/podcastr.png'
@@ -171,17 +172,29 @@ const Projects = () => {
         <h2 className="py-4 mt-10">Other Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
+            title="MERN To Do List"
+            backgroundImg={mernImg}
+            technology="MongoDB / ExpressJS / ReactJS / NodeJS"
+            projectUrl="/mern"
+          />
+          <ProjectItem
             title="SQL Data Job Analysis"
             backgroundImg={postgresqlImg}
             technology="SQL / PostgreSQL / Docker"
             projectUrl="/sqldatajobs"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="White Board App"
             backgroundImg={pythonImg}
             technology="Python / Tkinter"
             projectUrl="/whiteboard"
-          />
+          /> */}
+          {/* <ProjectItem
+            title="White Board App"
+            backgroundImg={pythonImg}
+            technology="Python / Tkinter"
+            projectUrl="/whiteboard"
+          /> */}
         </div>
         {/* <h2 className="py-4 mt-10">Landing Pages</h2>
         <div className="grid md:grid-cols-2 gap-8">

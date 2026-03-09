@@ -12,6 +12,7 @@ export const skillsToProjects = {
     'apple',
     'brainwave',
     'gericht',
+    'mern',
   ],
 
   css: ['gericht'],
@@ -28,6 +29,7 @@ export const skillsToProjects = {
     'awards',
     'apple',
     'brainwave',
+    'mern',
   ],
 
   javascript: [
@@ -39,6 +41,7 @@ export const skillsToProjects = {
     'apple',
     'brainwave',
     'gericht',
+    'mern',
   ],
 
   typescript: ['podcastr', 'carepulse', 'storeit', 'imaginify'],
@@ -56,6 +59,7 @@ export const skillsToProjects = {
     'apple',
     'brainwave',
     'gericht',
+    'mern',
   ],
 
   nextjs: [
@@ -69,15 +73,15 @@ export const skillsToProjects = {
 
   routerdom: ['kemet', 'empire'],
 
-  vite: ['awards', 'apple', 'brainwave'],
+  vite: ['awards', 'apple', 'brainwave', 'mern'],
 
   firebase: ['mayapan', 'bharat', 'kemet', 'empire'],
 
-  node: ['mayapan', 'bharat', 'kemet', 'empire'],
+  node: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
 
-  api: ['mayapan', 'bharat', 'kemet', 'empire'],
+  api: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
 
-  postman: ['mayapan', 'bharat', 'kemet', 'empire'],
+  postman: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
 
   shadcn: ['podcastr', 'carepulse', 'storeit'],
 
@@ -95,7 +99,9 @@ export const skillsToProjects = {
 
   chartjs: ['storeit'],
 
-  mongodb: ['imaginify'],
+  mongodb: ['imaginify', 'mern'],
+
+  expressjs: ['mern'],
 
   cloudinary: ['imaginify'],
 

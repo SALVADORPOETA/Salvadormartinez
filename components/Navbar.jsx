@@ -78,6 +78,7 @@ const Navbar = () => {
       router.asPath === '/brainwave' ||
       router.asPath === '/gericht' ||
       router.asPath === '/sqldatajobs' ||
+      router.asPath === '/mern' ||
       router.asPath === '/trdsm' ||
       router.asPath === '/guayro' ||
       router.asPath === '/codewars' ||

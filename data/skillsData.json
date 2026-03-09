@@ -13,13 +13,17 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" }
+      { "name": "Gericht", "href": "/gericht" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
   "css": {
     "description": "Style sheet language used to control layout, colors, typography, and visual appearance of web pages.",
-    "projects": [{ "name": "Gericht", "href": "/gericht" }]
+    "projects": [
+      { "name": "Gericht", "href": "/gericht" },
+      { "name": "MERN Practice", "href": "/mern" }
+    ]
   },
 
   "tailwind": {
@@ -49,7 +53,8 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" }
+      { "name": "Gericht", "href": "/gericht" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
@@ -77,7 +82,8 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" }
+      { "name": "Gericht", "href": "/gericht" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
@@ -106,7 +112,8 @@
     "projects": [
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
-      { "name": "Brainwave", "href": "/brainwave" }
+      { "name": "Brainwave", "href": "/brainwave" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
@@ -126,7 +133,8 @@
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" }
+      { "name": "Empire", "href": "/empire" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
@@ -136,7 +144,8 @@
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" }
+      { "name": "Empire", "href": "/empire" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
@@ -146,7 +155,8 @@
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" }
+      { "name": "Empire", "href": "/empire" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
@@ -198,8 +208,8 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" },
-      { "name": "White Board App", "href": "/whiteboard" }
+      { "name": "MERN Practice", "href": "/mern" },
+      { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }
     ]
   },
 
@@ -218,8 +228,8 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" },
-      { "name": "White Board App", "href": "/whiteboard" }
+      { "name": "MERN Practice", "href": "/mern" },
+      { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }
     ]
   },
 
@@ -262,7 +272,15 @@
 
   "mongodb": {
     "description": "NoSQL document-oriented database used for scalable and flexible data storage.",
-    "projects": [{ "name": "Imaginify", "href": "/imaginify" }]
+    "projects": [
+      { "name": "Imaginify", "href": "/imaginify" },
+      { "name": "MERN Practice", "href": "/mern" }
+    ]
+  },
+
+  "expressjs": {
+    "description": "Minimal and flexible Node.js framework that provides a robust set of features for building web applications and APIs.",
+    "projects": [{ "name": "MERN Practice", "href": "/mern" }]
   },
 
   "openai": {
@@ -274,7 +292,8 @@
     "description": "Client-side routing library for managing navigation and views in React applications.",
     "projects": [
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" }
+      { "name": "Empire", "href": "/empire" },
+      { "name": "MERN Practice", "href": "/mern" }
     ]
   },
 
