@@ -77,6 +77,22 @@ export const skillsToProjects = {
 
   firebase: ['mayapan', 'bharat', 'kemet', 'empire'],
 
+  vercel: [
+    'mayapan',
+    'bharat',
+    'kemet',
+    'empire',
+    'podcastr',
+    'carepulse',
+    'storeit',
+    'imaginify',
+    'awards',
+    'apple',
+    'brainwave',
+    'gericht',
+    'mern',
+  ],
+
   node: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
 
   api: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],

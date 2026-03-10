@@ -20,6 +20,7 @@ import ExpressJS from '../public/assets/skills/expressjs.webp'
 import Convex from '../public/assets/skills/convex.png'
 import SQLImg from '../public/assets/skills/sql.png'
 import PostgreSQL from '../public/assets/skills/postgresql.svg'
+import Vercel from '../public/assets/skills/vercel.png'
 import Python from '../public/assets/skills/python.png'
 import Docker from '../public/assets/skills/docker.svg'
 import ThreeJS from '../public/assets/skills/threejs.png'
@@ -32,18 +33,19 @@ const skillsList1 = [
   { key: 'html', name: 'HTML', logo: Html },
   { key: 'css', name: 'CSS', logo: Css },
   { key: 'javascript', name: 'JavaScript', logo: Javascript },
-  { key: 'typescript', name: 'TypeScript', logo: TypeScript },
+  { key: 'vite', name: 'Vite', logo: Vite },
   { key: 'mongodb', name: 'MongoDB', logo: MongoDB },
   { key: 'expressjs', name: 'ExpressJS', logo: ExpressJS },
   { key: 'react', name: 'ReactJS', logo: ReactImg },
   { key: 'node', name: 'NodeJS', logo: NodeJS },
-  { key: 'vite', name: 'Vite', logo: Vite },
   { key: 'postman', name: 'Postman', logo: Postman },
   { key: 'git', name: 'Git', logo: Git },
   { key: 'github', name: 'GitHub', logo: Github },
+  { key: 'vercel', name: 'Vercel', logo: Vercel },
 ]
 
 const skillsList2 = [
+  { key: 'typescript', name: 'TypeScript', logo: TypeScript },
   { key: 'tailwind', name: 'TailwindCSS', logo: TailwindCSS },
   { key: 'nextjs', name: 'NextJS', logo: NextJS },
   { key: 'firebase', name: 'Firebase', logo: Firebase },
@@ -55,7 +57,7 @@ const skillsList2 = [
   { key: 'postgresql', name: 'PostgreSQL', logo: PostgreSQL },
   // { key: 'python', name: 'Python', logo: Python },
   { key: 'docker', name: 'Docker', logo: Docker },
-  { key: 'threejs', name: 'ThreeJS', logo: ThreeJS },
+  // { key: 'threejs', name: 'ThreeJS', logo: ThreeJS },
   { key: 'openai', name: 'OpenAI', logo: OpenAI },
 ]
 
