@@ -99,10 +99,10 @@ const bellum = () => {
             </li>
           </ul>
           <a href="https://bellumpolitics.com/" target="_blank">
-            <button className="px-4 py-2 mt-4 mr-8">Visit the Page</button>
+            <button className="px-4 py-2 mt-4 mr-8">Company Page</button>
           </a>
           <a
-            href="https://github.com/SALVADORPOETA/ScraperPJ-sm"
+            href="https://github.com/SALVADORPOETA/Poder-judicial-frontend-sm"
             target="_blank"
           >
             <button className="px-4 py-2 mt-4 mr-8">My Project</button>
