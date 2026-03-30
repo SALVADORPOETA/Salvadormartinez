@@ -304,7 +304,7 @@ const Navbar = () => {
               </p>
               <div className="flex items-center justify-center py-4 mt-5 w-full sm:w-[80%]">
                 <a
-                  aria-label="Go to my Linked In page"
+                  aria-label="Go to my LinkedIn page"
                   href="https://www.linkedin.com/in/salvador-martinez-sm/"
                   target="_blank"
                 >
@@ -313,7 +313,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  aria-label="Go to my Linked In page"
+                  aria-label="Go to my Github page"
                   href="https://github.com/SALVADORPOETA"
                   target="_blank"
                 >

@@ -18,7 +18,7 @@ const Main = () => {
           </p>
           <div className="flex items-center justify-center max-w-[330px] m-auto py-4">
             <a
-              aria-label="Go to my Linked In page"
+              aria-label="Go to my LinkedIn page"
               href="https://www.linkedin.com/in/salvador-martinez-sm/"
               target="_blank"
             >
