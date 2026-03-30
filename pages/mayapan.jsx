@@ -2,6 +2,7 @@ import Image from 'next/image'
 import mayapanImg from '../public/assets/projects/mayapan.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
+import Head from 'next/head'
 
 const mayapan = () => {
   return (
@@ -21,7 +22,8 @@ const mayapan = () => {
             layout="fill"
             objectFit="cover"
             src={mayapanImg}
-            alt="/"
+            alt="/Mayapan Project View"
+            priority
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
             <h2 className="py-2">Mayapan</h2>
