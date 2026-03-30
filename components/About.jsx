@@ -41,7 +41,8 @@ const About = () => {
             src={AboutImg}
             className="rounded-xl max-md:w-[200px]"
             width={250}
-            alt="/"
+            alt="/Personal Image"
+            priority
           />
         </div>
       </div>
