@@ -1,33 +1,37 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+import React, { useState } from 'react'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { HiOutlineChevronDoubleUp } from 'react-icons/hi'
 import ContactImg from '../public/assets/contact.jpg'
+import toast from 'react-hot-toast'
 
 const Contact = () => {
-  const handleSubmit = (event) => {
+  const [isSubmitting, setIsSubmitting] = useState(false)
+
+  const handleSubmit = async (event) => {
     event.preventDefault()
+    setIsSubmitting(true)
+    const loadingToast = toast.loading('Enviando mensaje...')
     const form = event.target
     const formData = new FormData(form)
-    fetch(form.action, {
-      method: form.method,
-      body: formData,
-      headers: {
-        Accept: 'application/json',
-      },
-    })
-      .then((response) => {
-        if (response.ok) {
-          form.reset()
-          alert('¡Gracias! Tu mensaje ha sido enviado correctamente.') // Feedback rápido
-        } else {
-          alert('Ups, hubo un problema al enviar el mensaje.')
-        }
+    try {
+      const res = await fetch(form.action, {
+        method: form.method,
+        body: formData,
+        headers: { Accept: 'application/json' },
       })
-      .catch((error) => {
-        console.error(error)
-      })
+
+      if (res.ok) {
+        form.reset()
+        toast.success('¡Mensaje enviado con éxito!', { id: loadingToast }) // Reemplaza el de carga
+      } else {
+        toast.error('Hubo un error al enviar.', { id: loadingToast })
+      }
+    } catch (error) {
+      toast.error('Error de conexión.', { id: loadingToast })
+    }
+    setIsSubmitting(false)
   }
 
   const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ID
@@ -156,10 +160,15 @@ const Contact = () => {
                 </div>
                 <div>
                   <button
-                    className="w-full flex-auto p-4 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white"
+                    disabled={isSubmitting}
+                    className={`w-full flex-auto p-4 mt-4 shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white ${
+                      isSubmitting
+                        ? 'opacity-50 cursor-not-allowed'
+                        : 'hover:scale-105 ease-in duration-300'
+                    }`}
                     type="submit"
                   >
-                    Send Message
+                    {isSubmitting ? 'Sending...' : 'Send Message'}
                   </button>
                 </div>
               </form>

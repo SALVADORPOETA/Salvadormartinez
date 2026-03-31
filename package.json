@@ -13,6 +13,7 @@
     "next": "^13.1.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-hot-toast": "^2.6.0",
     "react-icons": "^4.7.1",
     "sharp": "^0.31.3",
     "yarn": "^1.22.19"
