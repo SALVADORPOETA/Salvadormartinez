@@ -20,6 +20,9 @@ const Contact = () => {
       .then((response) => {
         if (response.ok) {
           form.reset()
+          alert('¡Gracias! Tu mensaje ha sido enviado correctamente.') // Feedback rápido
+        } else {
+          alert('Ups, hubo un problema al enviar el mensaje.')
         }
       })
       .catch((error) => {
@@ -27,8 +30,10 @@ const Contact = () => {
       })
   }
 
+  const endpoint = process.env.NEXT_PUBLIC_FORMSPREE_ID
+
   return (
-    <div id="contact" className="w-full lg:h-screen">
+    <section id="contact" className="w-full lg:h-screen">
       <div className="max-w-[1240px] m-auto px-2 py-16 w-full">
         <p className="text-xl tracking-widest uppercase text-[#5651e5] pt-8">
           Contact
@@ -42,7 +47,7 @@ const Contact = () => {
                 <Image
                   className="rounded-xl hover:scale-105 ease-in duration-300"
                   src={ContactImg}
-                  alt="/"
+                  alt="Illustration of a person using a laptop for contact"
                 />
               </div>
               <div>
@@ -84,11 +89,12 @@ const Contact = () => {
             <div className="p-4">
               <form
                 id="form1"
-                action="https://getform.io/f/70877771-e309-418b-8fb8-d56d4a42203e"
+                action={endpoint}
                 method="POST"
-                encType="multipart/form-data"
+                // encType="multipart/form-data"
                 onSubmit={handleSubmit}
               >
+                <input type="text" name="_gotcha" style={{ display: 'none' }} />
                 <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                   <div className="flex flex-col">
                     <label htmlFor="name" className="uppercase text-sm py-2">
@@ -122,6 +128,7 @@ const Contact = () => {
                     type="email"
                     name="email"
                     id="email"
+                    required
                   />
                 </div>
                 <div className="flex flex-col py-2">
@@ -144,6 +151,7 @@ const Contact = () => {
                     rows="10"
                     name="message"
                     id="message"
+                    required
                   />
                 </div>
                 <div>
@@ -169,7 +177,7 @@ const Contact = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 
