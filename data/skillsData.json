@@ -14,7 +14,7 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -22,7 +22,7 @@
     "description": "Style sheet language used to control layout, colors, typography, and visual appearance of web pages.",
     "projects": [
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -54,7 +54,7 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -83,7 +83,7 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -113,7 +113,7 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -134,7 +134,7 @@
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
       { "name": "Empire", "href": "/empire" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -145,7 +145,7 @@
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
       { "name": "Empire", "href": "/empire" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -156,7 +156,7 @@
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
       { "name": "Empire", "href": "/empire" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
@@ -208,7 +208,7 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" },
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" },
       { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }
     ]
   },
@@ -228,7 +228,7 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" },
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" },
       { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }
     ]
   },
@@ -248,7 +248,7 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
   "ai": {
@@ -292,13 +292,15 @@
     "description": "NoSQL document-oriented database used for scalable and flexible data storage.",
     "projects": [
       { "name": "Imaginify", "href": "/imaginify" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 
   "expressjs": {
     "description": "Minimal and flexible Node.js framework that provides a robust set of features for building web applications and APIs.",
-    "projects": [{ "name": "MERN Practice", "href": "/mern" }]
+    "projects": [
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+    ]
   },
 
   "openai": {
@@ -311,7 +313,7 @@
     "projects": [
       { "name": "Kemet", "href": "/kemet" },
       { "name": "Empire", "href": "/empire" },
-      { "name": "MERN Practice", "href": "/mern" }
+      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
   },
 

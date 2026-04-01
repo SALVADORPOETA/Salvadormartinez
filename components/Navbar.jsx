@@ -87,6 +87,7 @@ const Navbar = () => {
       router.asPath === '/parvat' ||
       router.asPath === '/uv' ||
       router.asPath === '/bellum' ||
+      router.asPath === '/poderjudicial' ||
       router.asPath === '/platzi'
     ) {
       setNavBg('transparent')

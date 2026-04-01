@@ -38,12 +38,13 @@ import appleImg from '../public/assets/projects/apple.png'
 import mayapanImg from '../public/assets/projects/mayapan.png'
 import imaginifyImg from '../public/assets/projects/imaginify.png'
 import awardsImg from '../public/assets/projects/awards.png'
-import mernImg from '../public/assets/projects/mern.png'
+// import mernImg from '../public/assets/projects/mern.png'
 import storeitImg from '../public/assets/projects/storeit.png'
 import carepulseImg from '../public/assets/projects/carepulse.png'
 import podcastrImg from '../public/assets/projects/podcastr.png'
 import postgresqlImg from '../public/assets/projects/postgresql.png'
-import pythonImg from '../public/assets/projects/python.jpg'
+// import pythonImg from '../public/assets/projects/python.jpg'
+import poderjudicialImg from '../public/assets/projects/pj-scraping.png'
 
 const Projects = () => {
   return (
@@ -171,11 +172,17 @@ const Projects = () => {
         </div>
         <h2 className="py-4 mt-10">Other Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          <ProjectItem
+          {/* <ProjectItem
             title="MERN To Do List"
             backgroundImg={mernImg}
             technology="MongoDB / ExpressJS / ReactJS / NodeJS"
             projectUrl="/mern"
+          /> */}
+          <ProjectItem
+            title="PJF Data & Messaging Suite"
+            backgroundImg={poderjudicialImg}
+            technology="ReactJS / TailwindCSS / NodeJS"
+            projectUrl="/poderjudicial"
           />
           <ProjectItem
             title="SQL Data Job Analysis"
@@ -183,12 +190,6 @@ const Projects = () => {
             technology="SQL / PostgreSQL / Docker"
             projectUrl="/sqldatajobs"
           />
-          {/* <ProjectItem
-            title="White Board App"
-            backgroundImg={pythonImg}
-            technology="Python / Tkinter"
-            projectUrl="/whiteboard"
-          /> */}
           {/* <ProjectItem
             title="White Board App"
             backgroundImg={pythonImg}
