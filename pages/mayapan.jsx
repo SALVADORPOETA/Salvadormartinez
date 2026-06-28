@@ -46,7 +46,7 @@ const mayapan = () => {
             </p>
             <p className="mt-2">
               This website is completely interactive, so you can click on any
-              image and get to see a window with iformation about it. All the
+              image and get to see a window with information about it. All the
               buttons have a function as well, like the ones in the "Cities"
               section where you can filter by language families. You can sign up
               using your Google account or with an email and password (since
