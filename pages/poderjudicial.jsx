@@ -11,7 +11,7 @@ const poderjudicial = () => {
         <title>PJF Data & Messaging Suite | Full-Stack Developer</title>
         <meta
           name="description"
-          content="Detailed overview of PJF Data & Messaging Suite, a full-stack podcast project built with NextJS, Open AI, Clerk and Convex."
+          content="Detailed overview of PJF Data & Messaging Suite, a full-stack automation platform for data scraping, personalized messaging, and engagement tracking, built with ReactJS, NodeJS, and ExpressJS."
         />
       </Head>
       <main className="w-full overflow-hidden pb-10">
