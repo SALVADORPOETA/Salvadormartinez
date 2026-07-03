@@ -45,7 +45,7 @@ const skillsList1 = [
 ]
 
 const skillsList2 = [
-  // { key: 'vite', name: 'Vite', logo: Vite },
+  { key: 'vite', name: 'Vite', logo: Vite },
   { key: 'github', name: 'GitHub', logo: Github },
   { key: 'vercel', name: 'Vercel', logo: Vercel },
   { key: 'mongodb', name: 'MongoDB', logo: MongoDB },
