@@ -17,7 +17,8 @@ const About = () => {
             I build responsive, high-performance web applications from front to
             back. On the front end, I work with React.js, Next.js, TypeScript,
             TailwindCSS, and more. On the back end, I integrate APIs and manage
-            services using Node.js, Firebase, MongoDB, Appwrite, and Convex.
+            services using Node.js, PostgreSQL, MongoDB, Firebase, Clerk,
+            Appwrite, and Convex.
           </p>
           <p className="py-2 text-gray-600">
             I believe in companionship and team work and I am willing to help my
