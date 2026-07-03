@@ -45,20 +45,20 @@ const skillsList1 = [
 ]
 
 const skillsList2 = [
-  { key: 'vite', name: 'Vite', logo: Vite },
-  { key: 'github', name: 'GitHub', logo: Github },
+  // { key: 'vite', name: 'Vite', logo: Vite },
+  // { key: 'github', name: 'GitHub', logo: Github },
   { key: 'vercel', name: 'Vercel', logo: Vercel },
   { key: 'mongodb', name: 'MongoDB', logo: MongoDB },
   { key: 'firebase', name: 'Firebase', logo: Firebase },
   { key: 'clerk', name: 'Clerk', logo: Clerk },
   { key: 'appwrite', name: 'Appwrite', logo: Appwrite },
   { key: 'convex', name: 'Convex', logo: Convex },
-  { key: 'sql', name: 'SQL', logo: SQLImg },
-  { key: 'gsap', name: 'GSAP', logo: GSAPImg },
+  // { key: 'sql', name: 'SQL', logo: SQLImg },
+  // { key: 'gsap', name: 'GSAP', logo: GSAPImg },
   // { key: 'python', name: 'Python', logo: Python },
   { key: 'docker', name: 'Docker', logo: Docker },
   // { key: 'threejs', name: 'ThreeJS', logo: ThreeJS },
-  { key: 'openai', name: 'OpenAI', logo: OpenAI },
+  { key: 'openai', name: 'OpenAI API', logo: OpenAI },
 ]
 
 const Skills = () => {
