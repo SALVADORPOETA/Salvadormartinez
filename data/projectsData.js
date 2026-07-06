@@ -2,7 +2,14 @@ export const projectsData = [
   {
     slug: 'federaljudiciary',
     title: 'Federal Judiciary Data Suite',
-    technologies: ['html', 'tailwind', 'javascript', 'react', 'node'],
+    technologies: [
+      'html',
+      'tailwind',
+      'javascript',
+      'express',
+      'react',
+      'node',
+    ],
   },
   {
     slug: 'apisrepo',

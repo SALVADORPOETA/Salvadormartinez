@@ -313,7 +313,10 @@
 
   "expressjs": {
     "description": "Minimal and flexible Node.js framework that provides a robust set of features for building web applications and APIs.",
-    "projects": [{ "name": "MERN To Do List", "href": "/mern" }]
+    "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
+      { "name": "MERN To Do List", "href": "/mern" }
+    ]
   },
 
   "openai": {
