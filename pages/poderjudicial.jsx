@@ -36,16 +36,18 @@ const poderjudicial = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p className="mt-2">
-              PJF Data & Messaging Suite is an advanced automation and data
-              management platform specifically engineered for the Mexican
-              Federal Judiciary (Poder Judicial de la Federación) ecosystem.
-              Built from the ground up using React 18 and TailwindCSS, this data
-              engineering tool enables deep scraping of judicial profiles,
-              database processing with gender-intelligent algorithms, and the
-              management of highly personalized messaging campaigns. Its robust
-              architecture facilitates a seamless transition from technical data
-              collection to the execution of omnichannel communication
-              strategies via Email and WhatsApp.
+              This project was developed for a real client in a political
+              marketing agency, building an automation and data-management
+              platform for the Mexican Federal Judiciary (Poder Judicial de la
+              Federación) — helping the team organize contact data and run
+              outreach messaging at scale. Built from the ground up using React
+              18 and TailwindCSS, this data engineering tool enables deep
+              scraping of judicial profiles, database processing with
+              gender-intelligent algorithms, and the management of highly
+              personalized messaging campaigns. Its robust architecture
+              facilitates a seamless transition from technical data collection
+              to the execution of omnichannel communication strategies via Email
+              and WhatsApp.
             </p>
             <p className="mt-2">
               The application features a fully interactive and tactile interface
