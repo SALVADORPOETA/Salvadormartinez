@@ -2,6 +2,7 @@
   "html": {
     "description": "Standard markup language for structuring and presenting content on the web.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
@@ -14,17 +15,16 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Gericht", "href": "/gericht" }
     ]
   },
 
   "css": {
     "description": "Style sheet language used to control layout, colors, typography, and visual appearance of web pages.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
-      { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Gericht", "href": "/gericht" }
     ]
   },
 
@@ -48,6 +48,7 @@
   "javascript": {
     "description": "Programming language used to add interactivity and dynamic behavior to web applications.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -55,8 +56,7 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Gericht", "href": "/gericht" }
     ]
   },
 
@@ -74,6 +74,7 @@
   "react": {
     "description": "JavaScript library for building component-based user interfaces.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
@@ -86,8 +87,7 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Gericht", "href": "/gericht" }
     ]
   },
 
@@ -115,10 +115,10 @@
   "vite": {
     "description": "Fast development server and build tool for modern web projects.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
-      { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Brainwave", "href": "/brainwave" }
     ]
   },
 
@@ -136,36 +136,36 @@
   "node": {
     "description": "JavaScript runtime for server-side applications.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Empire", "href": "/empire" }
     ]
   },
 
   "api": {
     "description": "Interfaces for communication between software systems.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Empire", "href": "/empire" }
     ]
   },
 
   "postman": {
     "description": "Tool for API testing and development.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Empire", "href": "/empire" }
     ]
   },
 
@@ -205,6 +205,7 @@
   "git": {
     "description": "Distributed version control system used to track code changes and collaborate efficiently.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
@@ -218,7 +219,6 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" },
       { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }
     ]
   },
@@ -226,6 +226,7 @@
   "github": {
     "description": "Cloud-based platform for hosting Git repositories, enabling collaboration, CI/CD, and project visibility.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
@@ -239,7 +240,6 @@
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
       { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" },
       { "name": "SQL Data Job Analysis", "href": "/sqldatajobs" }
     ]
   },
@@ -247,6 +247,7 @@
   "vercel": {
     "description": "High-performance web deployment and hosting, optimized for Next.js with automatic scaling.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
@@ -259,8 +260,7 @@
       { "name": "Awards Web", "href": "/awards" },
       { "name": "Apple Web", "href": "/apple" },
       { "name": "Brainwave", "href": "/brainwave" },
-      { "name": "Gericht", "href": "/gericht" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Gericht", "href": "/gericht" }
     ]
   },
   "ai": {
@@ -324,9 +324,9 @@
   "react-router-dom": {
     "description": "Client-side routing library for managing navigation and views in React applications.",
     "projects": [
+      { "name": "Federal Judiciary Data Suite", "href": "/federaljudiciary" },
       { "name": "Kemet", "href": "/kemet" },
-      { "name": "Empire", "href": "/empire" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "Empire", "href": "/empire" }
     ]
   },
 
