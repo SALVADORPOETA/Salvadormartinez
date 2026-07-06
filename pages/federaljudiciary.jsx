@@ -98,13 +98,13 @@ const federaljudiciary = () => {
               href="https://github.com/SALVADORPOETA/Federal-Judiciary-frontend-sm/"
               target="_blank"
             >
-              <button className="px-4 py-2 mt-4 mr-8">Code Frontend</button>
+              <button className="px-4 py-2 mt-4 mr-8">Frontend Code</button>
             </a>
             <a
               href="https://github.com/SALVADORPOETA/Federal-Judiciary-backend-sm/"
               target="_blank"
             >
-              <button className="px-4 py-2 mt-4 mr-8">Code Backend</button>
+              <button className="px-4 py-2 mt-4 mr-8">Backend Code</button>
             </a>
             <Link href="/#projects">
               <p className="underline cursor-pointer mt-20">Back</p>
