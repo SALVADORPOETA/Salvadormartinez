@@ -45,7 +45,7 @@ import carepulseImg from '../public/assets/projects/carepulse.png'
 import podcastrImg from '../public/assets/projects/podcastr.png'
 import postgresqlImg from '../public/assets/projects/postgresql.png'
 // import pythonImg from '../public/assets/projects/python.jpg'
-import poderjudicialImg from '../public/assets/projects/pj-scraping.png'
+import federaljudiciaryImg from '../public/assets/projects/pj-scraping.png'
 
 const Projects = () => {
   return (
@@ -57,10 +57,10 @@ const Projects = () => {
         <h2 className="py-4">Original Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="PJF Data & Messaging Suite"
-            backgroundImg={poderjudicialImg}
+            title="Federal Judiciary Data Suite"
+            backgroundImg={federaljudiciaryImg}
             technology="ReactJS / TailwindCSS / NodeJS"
-            projectUrl="/poderjudicial"
+            projectUrl="/federaljudiciary"
           />
           <ProjectItem
             title="APIs Repository"

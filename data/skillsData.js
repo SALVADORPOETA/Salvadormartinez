@@ -1,5 +1,7 @@
 export const skillsToProjects = {
   html: [
+    'federaljudiciary',
+    'apisrepo',
     'mayapan',
     'bharat',
     'kemet',
@@ -18,6 +20,8 @@ export const skillsToProjects = {
   css: ['gericht'],
 
   tailwind: [
+    'federaljudiciary',
+    'apisrepo',
     'mayapan',
     'bharat',
     'kemet',
@@ -33,6 +37,7 @@ export const skillsToProjects = {
   ],
 
   javascript: [
+    'federaljudiciary',
     'mayapan',
     'bharat',
     'kemet',
@@ -44,9 +49,11 @@ export const skillsToProjects = {
     'mern',
   ],
 
-  typescript: ['podcastr', 'carepulse', 'storeit', 'imaginify'],
+  typescript: ['apisrepo', 'podcastr', 'carepulse', 'storeit', 'imaginify'],
 
   react: [
+    'federaljudiciary',
+    'apisrepo',
     'mayapan',
     'bharat',
     'kemet',
@@ -63,6 +70,7 @@ export const skillsToProjects = {
   ],
 
   nextjs: [
+    'apisrepo',
     'mayapan',
     'bharat',
     'podcastr',
@@ -75,7 +83,7 @@ export const skillsToProjects = {
 
   vite: ['awards', 'apple', 'brainwave', 'mern'],
 
-  firebase: ['mayapan', 'bharat', 'kemet', 'empire'],
+  firebase: ['apisrepo', 'mayapan', 'bharat', 'kemet', 'empire'],
 
   vercel: [
     'mayapan',
@@ -93,11 +101,19 @@ export const skillsToProjects = {
     'mern',
   ],
 
-  node: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
+  node: [
+    'federaljudiciary',
+    'apisrepo',
+    'mayapan',
+    'bharat',
+    'kemet',
+    'empire',
+    'mern',
+  ],
 
-  api: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
+  api: ['apisrepo', 'mayapan', 'bharat', 'kemet', 'empire', 'mern'],
 
-  postman: ['mayapan', 'bharat', 'kemet', 'empire', 'mern'],
+  postman: ['apisrepo', 'mayapan', 'bharat', 'kemet', 'empire', 'mern'],
 
   shadcn: ['podcastr', 'carepulse', 'storeit'],
 
@@ -117,7 +133,7 @@ export const skillsToProjects = {
 
   mongodb: ['imaginify', 'mern'],
 
-  expressjs: ['mern'],
+  expressjs: ['apisrepo', 'mern'],
 
   cloudinary: ['imaginify'],
 

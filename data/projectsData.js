@@ -1,7 +1,7 @@
 export const projectsData = [
   {
-    slug: 'poderjudicial',
-    title: 'PJF Data & Messaging Suite',
+    slug: 'federaljudiciary',
+    title: 'Federal Judiciary Data Suite',
     technologies: ['html', 'tailwind', 'javascript', 'react', 'node'],
   },
   {

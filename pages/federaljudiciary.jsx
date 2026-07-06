@@ -1,17 +1,17 @@
 import Image from 'next/image'
-import poderjudicialImg from '../public/assets/projects/pj-scraping.png'
+import federaljudiciaryImg from '../public/assets/projects/pj-scraping.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 import Head from 'next/head'
 
-const poderjudicial = () => {
+const federaljudiciary = () => {
   return (
     <>
       <Head>
-        <title>PJF Data & Messaging Suite | Full-Stack Developer</title>
+        <title>Federal Judiciary Data Suite | Full-Stack Developer</title>
         <meta
           name="description"
-          content="Detailed overview of PJF Data & Messaging Suite, a full-stack automation platform for data scraping, personalized messaging, and engagement tracking, built with ReactJS and NodeJS."
+          content="Detailed overview of Federal Judiciary Data Suite, a full-stack automation platform for data scraping, personalized messaging, and engagement tracking, built with ReactJS and NodeJS."
         />
       </Head>
       <main className="w-full overflow-hidden pb-10">
@@ -21,12 +21,12 @@ const poderjudicial = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={poderjudicialImg}
-            alt="PJF Data & Messaging Suit Project View"
+            src={federaljudiciaryImg}
+            alt="Federal Judiciary Data Suite Project View"
             priority
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Poder Judicial</h2>
+            <h2 className="py-2">Federal Judiciary Data Suite</h2>
             <h3>ReactJS / TailwindCSS / NodeJS</h3>
           </div>
         </div>
@@ -35,31 +35,57 @@ const poderjudicial = () => {
           <div className="col-span-4">
             <p>Project</p>
             <h2>Overview</h2>
+            <p className="mt-2 font-black">Frontend:</p>
             <p className="mt-2">
               This project was developed for a real client in a political
               marketing agency, building an automation and data-management
               platform for the Mexican Federal Judiciary (Poder Judicial de la
-              Federación) — helping the team organize contact data and run
+              Federación), helping the team organize contact data and run
               outreach messaging at scale. Built from the ground up using React
               18 and TailwindCSS, this data engineering tool enables deep
-              scraping of judicial profiles, database processing with
-              gender-intelligent algorithms, and the management of highly
-              personalized messaging campaigns. Its robust architecture
-              facilitates a seamless transition from technical data collection
-              to the execution of omnichannel communication strategies via Email
-              and WhatsApp.
+              scraping of judicial profiles, database processing with algorithms
+              that detect gender from name data to personalize greeting and
+              messaging tone, and the management of highly personalized
+              messaging campaigns. Its robust architecture facilitates a
+              seamless transition from technical data collection to the
+              execution of omnichannel communication strategies via Email and
+              WhatsApp.
             </p>
             <p className="mt-2">
               The application features a fully interactive and tactile interface
               designed to prioritize operational efficiency in high-performance
               professional environments. Through a dynamic tagging system and
-              real-time variable detection, users can edit templates with
-              surgical precision, validate data via intelligent dropzones, and
-              export JSON or Excel reports without loss of integrity. With a
-              developer-inspired dark mode design and independently developed
-              processing logic, this project stands as an original and
-              sophisticated solution for optimizing critical workflows within
-              the legal and judicial sectors.
+              real-time variable detection, users can edit templates, validate
+              data via intelligent dropzones, and export JSON or Excel reports
+              without loss of integrity. With a developer-inspired dark mode
+              design and independently developed processing logic, this project
+              stands as an original and sophisticated solution for optimizing
+              critical workflows within the legal and judicial sectors.
+            </p>
+            <p className="mt-2 font-black">Backend:</p>
+            <p className="mt-2">
+              PJF Backend Data Engine is the processing and automation core of
+              the Federal Judiciary Data Suite, built natively with Node.js and
+              Express. This backend engine is specifically engineered to
+              orchestrate complex asynchronous workflows, standing out for its
+              multi-level web scraping capabilities powered by Puppeteer. By
+              programmatically navigating complex judicial portals, the server
+              successfully bypasses bot detection mechanisms and extracts
+              unstructured data, transforming it into clean, structured JSON
+              objects that are immediately ready for frontend consumption.
+            </p>
+            <p className="mt-2">
+              Beyond data extraction, the backend acts as a robust data
+              normalization and file processing engine. It implements custom
+              logic to convert raw data streams into professional,
+              production-ready Excel (.xlsx) reports, handles multi-part JSON
+              file uploads, and features an integrated natural language
+              processing logic for gender detection based on specialized Mexican
+              legal name dictionaries. Optimized to handle long-running RESTful
+              API requests, the system features granular error handling, secure
+              environment management for hybrid environments, and strict thread
+              efficiency, showcasing an advanced mastery of backend architecture
+              and process automation.
             </p>
             <a
               href="https://poder-judicial-frontend-sm.vercel.app/"
@@ -71,7 +97,13 @@ const poderjudicial = () => {
               href="https://github.com/SALVADORPOETA/Poder-judicial-frontend-sm/"
               target="_blank"
             >
-              <button className="px-4 py-2 mt-4 mr-8">Code</button>
+              <button className="px-4 py-2 mt-4 mr-8">Code Frontend</button>
+            </a>
+            <a
+              href="https://github.com/SALVADORPOETA/Poder-judicial-backend-sm/"
+              target="_blank"
+            >
+              <button className="px-4 py-2 mt-4 mr-8">Code Backend</button>
             </a>
             <Link href="/#projects">
               <p className="underline cursor-pointer mt-20">Back</p>
@@ -126,4 +158,4 @@ const poderjudicial = () => {
   )
 }
 
-export default poderjudicial
+export default federaljudiciary
