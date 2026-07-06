@@ -94,13 +94,13 @@ const federaljudiciary = () => {
               <button className="px-4 py-2 mt-4 mr-8">Demo</button>
             </a>
             <a
-              href="https://github.com/SALVADORPOETA/Poder-judicial-frontend-sm/"
+              href="https://github.com/SALVADORPOETA/Federal-Judiciary-frontend-sm/"
               target="_blank"
             >
               <button className="px-4 py-2 mt-4 mr-8">Code Frontend</button>
             </a>
             <a
-              href="https://github.com/SALVADORPOETA/Poder-judicial-backend-sm/"
+              href="https://github.com/SALVADORPOETA/Federal-Judiciary-backend-sm/"
               target="_blank"
             >
               <button className="px-4 py-2 mt-4 mr-8">Code Backend</button>
