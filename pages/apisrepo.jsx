@@ -1,17 +1,17 @@
 import Image from 'next/image'
-import poderjudicialImg from '../public/assets/projects/pj-scraping.png'
+import apisrepoImg from '../public/assets/projects/apisrepo1.png'
 import { RiRadioButtonFill } from 'react-icons/ri'
 import Link from 'next/link'
 import Head from 'next/head'
 
-const poderjudicial = () => {
+const apisrepo = () => {
   return (
     <>
       <Head>
-        <title>PJF Data & Messaging Suite | Full-Stack Developer</title>
+        <title>APIs Repository | Full-Stack Developer</title>
         <meta
           name="description"
-          content="Detailed overview of PJF Data & Messaging Suite, a full-stack automation platform for data scraping, personalized messaging, and engagement tracking, built with ReactJS and NodeJS."
+          content="This is an ORIGINAL project built with Next.js and Firebase Firestore. It is specifically designed to manage structured content organized by projects, sections, and items."
         />
       </Head>
       <main className="w-full overflow-hidden pb-10">
@@ -21,13 +21,13 @@ const poderjudicial = () => {
             className="absolute z-1"
             layout="fill"
             objectFit="cover"
-            src={poderjudicialImg}
-            alt="PJF Data & Messaging Suit Project View"
+            src={apisrepoImg}
+            alt="APIs Repository Project View"
             priority
           />
           <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-            <h2 className="py-2">Poder Judicial</h2>
-            <h3>ReactJS / TailwindCSS / NodeJS</h3>
+            <h2 className="py-2">APIs Repository</h2>
+            <h3>ReactJS / NextJS / Firebase</h3>
           </div>
         </div>
 
@@ -36,37 +36,35 @@ const poderjudicial = () => {
             <p>Project</p>
             <h2>Overview</h2>
             <p className="mt-2">
-              PJF Data & Messaging Suite is an advanced automation and data
-              management platform specifically engineered for the Mexican
-              Federal Judiciary (Poder Judicial de la Federación) ecosystem.
-              Built from the ground up using React 18 and TailwindCSS, this data
-              engineering tool enables deep scraping of judicial profiles,
-              database processing with gender-intelligent algorithms, and the
-              management of highly personalized messaging campaigns. Its robust
-              architecture facilitates a seamless transition from technical data
-              collection to the execution of omnichannel communication
-              strategies via Email and WhatsApp.
+              APIs Repository is an original, centralized and scalable headless
+              CMS built with Next.js and Firebase Firestore, specifically
+              engineered to serve as the unified data layer for multiple
+              independent frontend applications (such as Mayapan, Bharat, Kemet,
+              and Empire). Its architecture stands out for an efficient domain
+              modeling that structures dynamic content through hierarchical
+              collections of projects, sections, and items. Furthermore, it
+              offers high technical flexibility by integrating a
+              dual-persistence strategy: local JSON file storage for rapid
+              development and a cloud database for production, ensuring a
+              seamless migration path and optimal production readiness.
             </p>
             <p className="mt-2">
-              The application features a fully interactive and tactile interface
-              designed to prioritize operational efficiency in high-performance
-              professional environments. Through a dynamic tagging system and
-              real-time variable detection, users can edit templates with
-              surgical precision, validate data via intelligent dropzones, and
-              export JSON or Excel reports without loss of integrity. With a
-              developer-inspired dark mode design and independently developed
-              processing logic, this project stands as an original and
-              sophisticated solution for optimizing critical workflows within
-              the legal and judicial sectors.
+              The backend prioritizes security and robustness in controlled
+              environments, supporting full CRUD capabilities and a secure
+              administrative access control across /admin/* routes. This
+              protection is handled server-side using Next.js Middleware that
+              validates incoming requests via a secure custom header
+              (X-Admin-Key). Thanks to its clean design, lack of
+              over-engineering, and a proven multi-tenant architecture, this
+              project stands as a production-ready solution ideal for
+              educational platforms, structured documentation, and internal
+              content management workflows.
             </p>
-            <a
-              href="https://poder-judicial-frontend-sm.vercel.app/"
-              target="_blank"
-            >
+            <a href="https://apis-repository-sm.vercel.app/" target="_blank">
               <button className="px-4 py-2 mt-4 mr-8">Demo</button>
             </a>
             <a
-              href="https://github.com/SALVADORPOETA/Poder-judicial-frontend-sm/"
+              href="https://github.com/SALVADORPOETA/Apis-repository-sm"
               target="_blank"
             >
               <button className="px-4 py-2 mt-4 mr-8">Code</button>
@@ -85,11 +83,11 @@ const poderjudicial = () => {
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
-                  TailwindCSS
+                  CSS
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
-                  JavaScript
+                  TypeScript
                 </p>
                 <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
@@ -99,22 +97,22 @@ const poderjudicial = () => {
                   <RiRadioButtonFill className="pr-1" />
                   NodeJS
                 </p>
-                {/* <p className="text-gray-600 py-2 flex items-center">
+                <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
-                  ExpressJS
-                </p> */}
-                {/* <p className="text-gray-600 py-2 flex items-center">
+                  NextJS
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
-                  Clerk
-                </p> */}
-                {/* <p className="text-gray-600 py-2 flex items-center">
+                  Firebase
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
-                  Convex
-                </p> */}
-                {/* <p className="text-gray-600 py-2 flex items-center">
+                  API
+                </p>
+                <p className="text-gray-600 py-2 flex items-center">
                   <RiRadioButtonFill className="pr-1" />
-                  OpenAI API
-                </p> */}
+                  Postman
+                </p>
               </div>
             </div>
           </div>
@@ -124,4 +122,4 @@ const poderjudicial = () => {
   )
 }
 
-export default poderjudicial
+export default apisrepo

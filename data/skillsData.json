@@ -2,6 +2,7 @@
   "html": {
     "description": "Standard markup language for structuring and presenting content on the web.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -21,6 +22,7 @@
   "css": {
     "description": "Style sheet language used to control layout, colors, typography, and visual appearance of web pages.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Gericht", "href": "/gericht" },
       { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
     ]
@@ -61,6 +63,7 @@
   "typescript": {
     "description": "Strongly typed superset of JavaScript that improves scalability and maintainability.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Podcastr", "href": "/podcastr" },
       { "name": "CarePulse", "href": "/carepulse" },
       { "name": "StoreIt", "href": "/storeit" },
@@ -71,6 +74,7 @@
   "react": {
     "description": "JavaScript library for building component-based user interfaces.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -90,6 +94,7 @@
   "nextjs": {
     "description": "React framework with routing, SSR, and optimized builds.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Podcastr", "href": "/podcastr" },
@@ -120,6 +125,7 @@
   "firebase": {
     "description": "Backend-as-a-Service for authentication and databases.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -130,6 +136,7 @@
   "node": {
     "description": "JavaScript runtime for server-side applications.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -141,6 +148,7 @@
   "api": {
     "description": "Interfaces for communication between software systems.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -152,6 +160,7 @@
   "postman": {
     "description": "Tool for API testing and development.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -196,6 +205,7 @@
   "git": {
     "description": "Distributed version control system used to track code changes and collaborate efficiently.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -216,6 +226,7 @@
   "github": {
     "description": "Cloud-based platform for hosting Git repositories, enabling collaboration, CI/CD, and project visibility.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -236,6 +247,7 @@
   "vercel": {
     "description": "High-performance web deployment and hosting, optimized for Next.js with automatic scaling.",
     "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
       { "name": "Mayapan", "href": "/mayapan" },
       { "name": "Bharat", "href": "/bharat" },
       { "name": "Kemet", "href": "/kemet" },
@@ -253,7 +265,10 @@
   },
   "ai": {
     "description": "Applied artificial intelligence features integrated into web applications to enhance functionality and user experience.",
-    "projects": [{ "name": "Imaginify", "href": "/imaginify" }]
+    "projects": [
+      { "name": "APIs Repository", "href": "/apisrepo" },
+      { "name": "Imaginify", "href": "/imaginify" }
+    ]
   },
 
   "appwrite": {
@@ -292,15 +307,13 @@
     "description": "NoSQL document-oriented database used for scalable and flexible data storage.",
     "projects": [
       { "name": "Imaginify", "href": "/imaginify" },
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
+      { "name": "MERN To Do List", "href": "/mern" }
     ]
   },
 
   "expressjs": {
     "description": "Minimal and flexible Node.js framework that provides a robust set of features for building web applications and APIs.",
-    "projects": [
-      { "name": "PJF Data & Messaging Suite", "href": "/poderjudicial" }
-    ]
+    "projects": [{ "name": "MERN To Do List", "href": "/mern" }]
   },
 
   "openai": {

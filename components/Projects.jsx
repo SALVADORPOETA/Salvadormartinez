@@ -25,6 +25,7 @@ import ProjectItem from './ProjectItem'
 // import beachesImg from '../public/assets/projects/beaches.png'
 import kemetImg from '../public/assets/projects/kemet.png'
 import empireImg from '../public/assets/projects/empire.png'
+import apisrepoImg from '../public/assets/projects/apisrepo1.png'
 // import portfolio3dImg from '../public/assets/projects/portfolio3d.png'
 // import travelImg from '../public/assets/projects/travel.png'
 // import dashtremorImg from '../public/assets/projects/dashtremor.png'
@@ -38,7 +39,7 @@ import appleImg from '../public/assets/projects/apple.png'
 import mayapanImg from '../public/assets/projects/mayapan.png'
 import imaginifyImg from '../public/assets/projects/imaginify.png'
 import awardsImg from '../public/assets/projects/awards.png'
-// import mernImg from '../public/assets/projects/mern.png'
+import mernImg from '../public/assets/projects/mern.png'
 import storeitImg from '../public/assets/projects/storeit.png'
 import carepulseImg from '../public/assets/projects/carepulse.png'
 import podcastrImg from '../public/assets/projects/podcastr.png'
@@ -55,6 +56,18 @@ const Projects = () => {
         </p>
         <h2 className="py-4">Original Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="PJF Data & Messaging Suite"
+            backgroundImg={poderjudicialImg}
+            technology="ReactJS / TailwindCSS / NodeJS"
+            projectUrl="/poderjudicial"
+          />
+          <ProjectItem
+            title="APIs Repository"
+            backgroundImg={apisrepoImg}
+            technology="ReactJS / NextJS / Firebase"
+            projectUrl="/apisrepo"
+          />
           <ProjectItem
             title="Mayapan - Original App"
             backgroundImg={mayapanImg}
@@ -172,17 +185,11 @@ const Projects = () => {
         </div>
         <h2 className="py-4 mt-10">Other Projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
-          {/* <ProjectItem
+          <ProjectItem
             title="MERN To Do List"
             backgroundImg={mernImg}
             technology="MongoDB / ExpressJS / ReactJS / NodeJS"
             projectUrl="/mern"
-          /> */}
-          <ProjectItem
-            title="PJF Data & Messaging Suite"
-            backgroundImg={poderjudicialImg}
-            technology="ReactJS / TailwindCSS / NodeJS"
-            projectUrl="/poderjudicial"
           />
           <ProjectItem
             title="SQL Data Job Analysis"

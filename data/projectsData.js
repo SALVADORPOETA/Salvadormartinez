@@ -1,5 +1,25 @@
 export const projectsData = [
   {
+    slug: 'poderjudicial',
+    title: 'PJF Data & Messaging Suite',
+    technologies: ['html', 'tailwind', 'javascript', 'react', 'node'],
+  },
+  {
+    slug: 'apisrepo',
+    title: 'APIs Repository',
+    technologies: [
+      'html',
+      'css',
+      'typescript',
+      'react',
+      'nextjs',
+      'node',
+      'firebase',
+      'api',
+      'postman',
+    ],
+  },
+  {
     slug: 'mayapan',
     title: 'Mayapan',
     technologies: [
@@ -152,6 +172,22 @@ export const projectsData = [
     slug: 'sqldatajobs',
     title: 'SQL Data Job Analysis',
     technologies: ['sql', 'postgresql', 'docker'],
+  },
+  {
+    slug: 'mern',
+    title: 'MERN To Do List',
+    technologies: [
+      'html',
+      'css',
+      'javascript',
+      'mongodb',
+      'express',
+      'react',
+      'node',
+      'api',
+      'vite',
+      'postman',
+    ],
   },
   {
     slug: 'whiteboard',
