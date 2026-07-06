@@ -64,15 +64,16 @@ const federaljudiciary = () => {
             </p>
             <p className="mt-2 font-black">Backend:</p>
             <p className="mt-2">
-              PJF Backend Data Engine is the processing and automation core of
-              the Federal Judiciary Data Suite, built natively with Node.js and
-              Express. This backend engine is specifically engineered to
-              orchestrate complex asynchronous workflows, standing out for its
-              multi-level web scraping capabilities powered by Puppeteer. By
-              programmatically navigating complex judicial portals, the server
-              successfully bypasses bot detection mechanisms and extracts
-              unstructured data, transforming it into clean, structured JSON
-              objects that are immediately ready for frontend consumption.
+              Federal Judiciary Data Engine is the processing and automation
+              core of the Federal Judiciary Data Suite, built natively with
+              Node.js and Express. This backend engine is specifically
+              engineered to orchestrate complex asynchronous workflows, standing
+              out for its multi-level web scraping capabilities powered by
+              Puppeteer. By programmatically navigating complex judicial
+              portals, the server successfully bypasses bot detection mechanisms
+              and extracts unstructured data, transforming it into clean,
+              structured JSON objects that are immediately ready for frontend
+              consumption.
             </p>
             <p className="mt-2">
               Beyond data extraction, the backend acts as a robust data
